@@ -3,6 +3,7 @@ import { allowedOrigins } from "./http/origins.ts";
 export const config = z
   .object({
     DATABASE_URL: z.string().min(1),
+    DATABASE_POOL_MAX: z.coerce.number().int().min(1).max(20).default(10),
     BETTER_AUTH_SECRET: z.string().min(32),
     PUBLIC_ORIGIN: z.url().default("http://localhost:3050"),
     API_PORT: z.coerce.number().int().default(3060),

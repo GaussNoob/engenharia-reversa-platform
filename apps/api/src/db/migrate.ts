@@ -1,11 +1,12 @@
 import pg from "pg";
+import { databasePoolConfig } from "./pool-config.ts";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { migrate } from "drizzle-orm/node-postgres/migrator";
 import { fileURLToPath } from "node:url";
 
 const migrationUrl = process.env.MIGRATION_DATABASE_URL;
 if (!migrationUrl) throw new Error("MIGRATION_DATABASE_URL não configurada.");
-const pool = new pg.Pool({ connectionString: migrationUrl, max: 1 });
+const pool = new pg.Pool(databasePoolConfig(migrationUrl, 1));
 const database = drizzle(pool);
 try {
   await migrate(database, {

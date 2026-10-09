@@ -146,3 +146,5 @@ app.onError((error, context) => {
     500,
   );
 });
+
+export default app;

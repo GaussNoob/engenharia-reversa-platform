@@ -1,4 +1,5 @@
 import pg from "pg";
+import { databasePoolConfig } from "../../api/src/db/pool-config.ts";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { and, eq, inArray, sql } from "drizzle-orm";
 import { randomUUID } from "node:crypto";
@@ -8,10 +9,9 @@ import { executionInputSchema } from "@nucleo/core";
 import { executionJobs, artifacts } from "../../api/src/db/schema.ts";
 import { runnerConfig } from "./config.ts";
 import { executeJob } from "./execute.ts";
-const pool = new pg.Pool({
-  connectionString: runnerConfig.RUNNER_DATABASE_URL,
-  max: 4,
-});
+const pool = new pg.Pool(
+  databasePoolConfig(runnerConfig.RUNNER_DATABASE_URL, 4),
+);
 const db = drizzle(pool);
 let stopped = false;
 let running = 0;

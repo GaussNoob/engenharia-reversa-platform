@@ -32,7 +32,8 @@
     "build:aab": "npm run build:aab -w @nucleo/mobile",
     "test:shells": "playwright test --config tests/shells/playwright.config.ts",
     "lint": "node scripts/lint.mjs",
-    "test:web-ui": "playwright test --config tests/web-ui/playwright.config.ts"
+    "test:web-ui": "playwright test --config tests/web-ui/playwright.config.ts",
+    "build:api": "node scripts/prepare-api-content.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",

@@ -1,11 +1,11 @@
 import pg from "pg";
+import { databasePoolConfig } from "./pool-config.ts";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { courses, lessonRevisions } from "./schema.ts";
 import { catalog, publicCatalog } from "@nucleo/content/server";
-const pool = new pg.Pool({
-  connectionString: process.env.MIGRATION_DATABASE_URL,
-  max: 1,
-});
+const pool = new pg.Pool(
+  databasePoolConfig(process.env.MIGRATION_DATABASE_URL!, 1),
+);
 const db = drizzle(pool);
 
 try {
