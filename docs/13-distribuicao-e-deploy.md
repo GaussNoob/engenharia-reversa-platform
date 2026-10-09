@@ -13,7 +13,7 @@ Node 24 é usado no frontend Vercel e nos testes locais; Node 26 permanece nos a
 ## Builds independentes
 
 - npm run build:web: assets e build Next, sem módulos nativos.
-- npm run build:desktop: instalador Tauri no sistema atual. Defina NUCLEO_API_URL como origem HTTPS real. Windows precisa de MSVC e WebView2; Linux precisa de WebKitGTK/GTK e Secret Service; macOS precisa das ferramentas Apple. Os targets de bundle são definidos pelo sistema onde o build roda.
+- npm run build:desktop: instalador Tauri no sistema atual. Defina NUCLEO_API_URL como origem HTTPS real. Windows precisa de MSVC e WebView2; Linux precisa de WebKitGTK/GTK e Secret Service; macOS precisa das ferramentas Apple. Windows gera instalador NSIS .exe; os demais targets são definidos pelo sistema onde o build roda.
 - npm run build:desktop:ui: bundle local desktop, antes da etapa Rust.
 - npm run build:mobile: bundle local Android, com a mesma origem HTTPS da API.
 - npm run build:android: build da interface, cap sync android e Gradle assembleDebug. Gera APK de teste.
@@ -33,7 +33,7 @@ Configure RESEND_API_KEY e EMAIL_FROM juntos para recuperação de senha. Sem o 
 
 ## Vercel
 
-Projeto conectado ao repositório GitHub. Root Directory: apps/web. Node: 24.x. apps/web/vercel.json executa npm ci na raiz e prepara Monaco antes do next build. Os pacotes compartilhados são resolvidos pelo workspace/tsconfig e transpilePackages. Não altere output para export.
+Ao criar o projeto, conecte-o ao repositório GitHub. Root Directory: apps/web. Node: 24.x. apps/web/vercel.json executa npm ci na raiz e prepara Monaco antes do next build. Os pacotes compartilhados são resolvidos pelo workspace/tsconfig e transpilePackages. Não altere output para export.
 
 Variáveis de produção, todas somente no servidor:
 
