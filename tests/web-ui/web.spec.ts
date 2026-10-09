@@ -65,3 +65,28 @@ test("login reaches the server-rendered dashboard", async ({ page }) => {
   ).toBeVisible();
   await expect(page).toHaveURL(/\/dashboard$/);
 });
+
+test("renders the complete landing when the catalog API is unavailable", async ({
+  page,
+  request,
+}) => {
+  const fixture = "http://127.0.0.1:3172";
+  await request.post(`${fixture}/__test/catalog-unavailable`);
+  try {
+    expect((await request.get(`${fixture}/api/catalog`)).status()).toBe(503);
+    await page.route("**/api/me", (route) =>
+      route.fulfill({ status: 503, body: "{}" }),
+    );
+    const response = await page.goto("/");
+    expect(response?.status()).toBe(200);
+    await expect(
+      page.getByRole("heading", { name: /Entenda o software por dentro/ }),
+    ).toBeVisible();
+    await expect(page.locator(".curriculum-story-row")).toHaveCount(9);
+    await expect(page.locator(".foundation-inner")).toContainText("63");
+    await expect(page.locator(".foundation-inner")).toContainText("35");
+    await expect(page.locator(".landing-hero-scene")).toBeVisible();
+  } finally {
+    await request.post(`${fixture}/__test/catalog-available`);
+  }
+});

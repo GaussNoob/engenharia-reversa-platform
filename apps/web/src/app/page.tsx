@@ -14,11 +14,12 @@ import { SoftwareScene } from "@nucleo/features/modules/scene/SoftwareScene";
 import { ByteStory } from "@/modules/landing/ByteStory";
 import { BinaryStory } from "@/modules/landing/BinaryStory";
 import { Reveal } from "@/modules/landing/Reveal";
-import { getCatalog } from "@/lib/server-api";
+import coursePlan from "../../../../analysis/course-plan.json";
 
-export default async function Home() {
-  const catalog = await getCatalog();
-  const lessons = catalog.modules.reduce(
+export default function Home() {
+  const { modules } = coursePlan;
+  const labCount = modules.reduce((sum, module) => sum + module.labCount, 0);
+  const lessons = modules.reduce(
     (sum, module) => sum + module.lessons.length,
     0,
   );
@@ -82,7 +83,7 @@ export default async function Home() {
               <strong>e com prática em cada aula.</strong>
             </p>
             <div>
-              <strong>{String(catalog.modules.length).padStart(2, "0")}</strong>
+              <strong>{String(modules.length).padStart(2, "0")}</strong>
               <span>módulos</span>
             </div>
             <div>
@@ -90,7 +91,7 @@ export default async function Home() {
               <span>aulas</span>
             </div>
             <div>
-              <strong>{catalog.labs.length}</strong>
+              <strong>{labCount}</strong>
               <span>laboratórios</span>
             </div>
             <p className="foundation-source">
@@ -302,14 +303,14 @@ export default async function Home() {
             </div>
           </Reveal>
           <div className="curriculum-story-list">
-            {catalog.modules.map((module, index) => (
+            {modules.map((module, index) => (
               <Reveal key={module.id} delay={(index % 3) * 45}>
                 <Link
                   href={`/aprender/fundamentos#${module.id}`}
                   className="curriculum-story-row"
                 >
                   <span className="mono curriculum-number">
-                    {module.number}
+                    {module.id.slice(0, 2)}
                   </span>
                   <div>
                     <h3>{module.title}</h3>

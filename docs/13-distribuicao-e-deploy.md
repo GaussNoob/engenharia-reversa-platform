@@ -35,6 +35,8 @@ Configure RESEND_API_KEY e EMAIL_FROM juntos para recuperação de senha. Sem o 
 
 Ao criar o projeto, conecte-o ao repositório GitHub. Root Directory: apps/web. Node: 24.x. apps/web/vercel.json executa npm ci na raiz e prepara Monaco antes do next build. Os pacotes compartilhados são resolvidos pelo workspace/tsconfig e transpilePackages. Não altere output para export.
 
+A landing pública lê os títulos e totais do plano versionado em analysis/course-plan.json, no Server Component. Ela é pré-renderizada pelo Next sem consultar a API, preservando os mesmos módulos, aulas, laboratórios e elementos interativos. Mudanças no plano entram no próximo build. Isso permite publicar a apresentação do produto mesmo enquanto o backend está indisponível; login, dados pessoais, aulas completas e execução continuam dependendo da API. Nenhum conteúdo integral ou gabarito privado é embarcado por essa mudança.
+
 Variáveis de produção, todas somente no servidor:
 
 - API_INTERNAL_URL: https://api.seudominio.com, sem barra final ou path.

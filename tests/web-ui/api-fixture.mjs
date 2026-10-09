@@ -30,10 +30,25 @@ const progress = {
   lastLessonId: null,
   activities: [],
 };
+let catalogAvailable = true;
 const server = createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
   const path = req.url.split("?")[0];
-  if (path === "/api/catalog") return res.end(JSON.stringify(catalog));
+  if (req.method === "POST" && path === "/__test/catalog-unavailable") {
+    catalogAvailable = false;
+    return res.end("{}");
+  }
+  if (req.method === "POST" && path === "/__test/catalog-available") {
+    catalogAvailable = true;
+    return res.end("{}");
+  }
+  if (path === "/api/catalog") {
+    if (!catalogAvailable) {
+      res.statusCode = 503;
+      return res.end('{"error":"Catalog unavailable"}');
+    }
+    return res.end(JSON.stringify(catalog));
+  }
   if (path === "/api/me") {
     if (req.headers.cookie?.includes("nucleo_ui_test=1"))
       return res.end(JSON.stringify(user));
