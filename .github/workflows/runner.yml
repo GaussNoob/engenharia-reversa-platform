@@ -45,6 +45,7 @@ jobs:
           git -C references/fundamentos-engenharia-reversa checkout 3d24fc9313560d734d7a27c56c53d695f01163e1
           npm run content:import
           npm run runner:build
+          mkdir -p .runtime
       - name: Install verified gVisor in this ephemeral runner
         run: sudo env GVISOR_RELEASE=20261005.0 bash infrastructure/setup-gvisor.sh
       - name: Build isolated execution images
