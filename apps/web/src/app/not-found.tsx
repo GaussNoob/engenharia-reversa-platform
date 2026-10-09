@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
-import { Brand } from "@/components/Brand";
+import { BrandLabel } from "@nucleo/features/components/Brand";
 import styles from "./not-found.module.css";
 export const metadata: Metadata = {
   title: "Página não encontrada",
@@ -11,10 +10,12 @@ export default function NotFound() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <Brand />
-        <Link className="text-link" href="/entrar">
+        <a className="brand" href="/" aria-label="Núcleo, início">
+          <BrandLabel />
+        </a>
+        <a className="text-link" href="/entrar">
           Entrar no Núcleo <ArrowUpRight size={14} aria-hidden="true" />
-        </Link>
+        </a>
       </header>
       <main id="main" className={styles.main}>
         <div className={styles.copy}>
@@ -31,14 +32,14 @@ export default function NotFound() {
             pode voltar ao início ou encontrar uma nova bancada para explorar.
           </p>
           <div className={styles.actions}>
-            <Link className="button" href="/">
+            <a className="button" href="/">
               <ArrowLeft size={16} aria-hidden="true" />
               Voltar ao início
-            </Link>
-            <Link className="button button-secondary" href="/laboratorios">
+            </a>
+            <a className="button button-secondary" href="/laboratorios">
               Explorar laboratórios
               <ArrowUpRight size={16} aria-hidden="true" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className={styles.diagram} aria-hidden="true">
