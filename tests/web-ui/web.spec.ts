@@ -11,7 +11,7 @@ test("preserves the public landing page and compatible login routes", async ({
   );
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: /Entenda o software por dentro/ }),
+    page.getByRole("heading", { name: /Entenda\s*o software\s*por\s+dentro/ }),
   ).toBeVisible();
   await expect(page.locator(".landing-hero-scene")).toBeVisible();
   await page.goto("/login");
@@ -80,7 +80,9 @@ test("renders the complete landing when the catalog API is unavailable", async (
     const response = await page.goto("/");
     expect(response?.status()).toBe(200);
     await expect(
-      page.getByRole("heading", { name: /Entenda o software por dentro/ }),
+      page.getByRole("heading", {
+        name: /Entenda\s*o software\s*por\s+dentro/,
+      }),
     ).toBeVisible();
     await expect(page.locator(".curriculum-story-row")).toHaveCount(9);
     await expect(page.locator(".foundation-inner")).toContainText("63");
@@ -112,7 +114,8 @@ test("custom 404 preserves status, navigation and mobile layout", async ({
     ),
   ).toBe(true);
   await page.getByRole("link", { name: "Voltar ao início" }).click();
+  await expect(page).toHaveURL(/\/$/);
   await expect(
-    page.getByRole("heading", { name: /Entenda o software por dentro/ }),
+    page.getByRole("heading", { name: /Entenda\s*o software\s*por\s+dentro/ }),
   ).toBeVisible();
 });
