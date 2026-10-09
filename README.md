@@ -116,7 +116,7 @@ Comandos: dev:web, dev:desktop, dev:mobile; build:web, build:desktop, build:mobi
 
 [Site público na Vercel](https://engenharia-reversa-platform.vercel.app/) — landing, conta, dashboard, laboratórios e aulas publicados e verificados em 9 de outubro de 2026. A [API Hono real](https://nucleo-api.vercel.app/api/health) usa PostgreSQL Supabase; execução remota aguarda um runner Linux.
 
-[Downloads no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS. Essa pré-release inicial conserva a origem de teste https://localhost:3060. Os novos instaladores com API pública, tela de conexão e ícones atualizados serão publicados em uma tag versionada após a CI. Consulte as notas da release antes de instalar. Os commits e as execuções aprovadas da CI estão nas notas da pré-release.
+[Downloads v0.1.1 no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/v0.1.1): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS por target. Todos foram compilados e publicados na CI usando https://nucleo-api.vercel.app, com a nova tela de conexão e o ícone Núcleo. São pacotes de teste sem assinatura/notarização de distribuição; o AAB ainda precisa de assinatura para a loja. Consulte as notas antes de instalar.
 
 A publicação por tags vX.Y.Z gera uma pré-release com os instaladores reais e checksums de cada target. As contas e os dados são compartilhados pela API; os aplicativos não carregam credenciais de banco. Consulte [API e Supabase](docs/15-supabase-e-api-vercel.md).
 
