@@ -6,7 +6,7 @@
     "dev": "node --env-file=../../.env --import tsx --watch src/main.ts",
     "start": "node --env-file=../../.env --import tsx src/main.ts",
     "typecheck": "tsc --noEmit",
-    "build": "node ../../scripts/prepare-api-content.mjs"
+    "build": "node ../../scripts/build-api.mjs"
   },
   "dependencies": {
     "@nucleo/core": "*",

@@ -2,9 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "hono",
   "installCommand": "cd ../.. && npm ci --include=dev",
-  "buildCommand": "node ../../scripts/prepare-api-content.mjs",
+  "buildCommand": "node ../../scripts/build-api.mjs",
   "functions": {
-    "src/app.ts": {
+    "index.mjs": {
       "maxDuration": 30,
       "includeFiles": "{../../content/**,../../references/fundamentos-engenharia-reversa/.gitbook/assets/**}"
     }

@@ -4,6 +4,9 @@ import { fileURLToPath } from "node:url";
 import { delimiter } from "node:path";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const source = "references/fundamentos-engenharia-reversa";
+const sourceDirectory = fileURLToPath(
+  new URL("../" + source + "/", import.meta.url),
+);
 const pin = "3d24fc9313560d734d7a27c56c53d695f01163e1";
 function execute(command, args, options = {}) {
   const result = spawnSync(command, args, {
@@ -28,10 +31,21 @@ try {
   ]);
   execute("git", ["-C", source, "checkout", "--detach", pin]);
 }
-const revision = spawnSync("git", ["-C", source, "rev-parse", "HEAD"], {
-  cwd: root,
-  encoding: "utf8",
-});
+const revision = spawnSync(
+  "git",
+  [
+    "-c",
+    "safe.directory=" + sourceDirectory.replace(/\\/g, "/").replace(/\/$/, ""),
+    "-C",
+    source,
+    "rev-parse",
+    "HEAD",
+  ],
+  {
+    cwd: root,
+    encoding: "utf8",
+  },
+);
 if (revision.status !== 0 || revision.stdout.trim() !== pin)
   throw new Error("A fonte deve corresponder ao commit auditado " + pin);
 const python =

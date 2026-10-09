@@ -90,3 +90,29 @@ test("renders the complete landing when the catalog API is unavailable", async (
     await request.post(`${fixture}/__test/catalog-available`);
   }
 });
+
+test("custom 404 preserves status, navigation and mobile layout", async ({
+  page,
+}) => {
+  const response = await page.goto("/um-endereco-que-nao-existe");
+  expect(response?.status()).toBe(404);
+  await expect(
+    page.getByRole("heading", { name: /Este caminho/ }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Voltar ao início" }),
+  ).toHaveAttribute("href", "/");
+  await expect(
+    page.getByRole("link", { name: "Explorar laboratórios" }),
+  ).toHaveAttribute("href", "/laboratorios");
+  await page.setViewportSize({ width: 320, height: 800 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth,
+    ),
+  ).toBe(true);
+  await page.getByRole("link", { name: "Voltar ao início" }).click();
+  await expect(
+    page.getByRole("heading", { name: /Entenda o software por dentro/ }),
+  ).toBeVisible();
+});

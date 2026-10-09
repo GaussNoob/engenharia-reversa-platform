@@ -5,7 +5,7 @@ O usuário não dispõe de VPS e escolheu Supabase para o banco. A API HTTP exis
 ## Distribuição
 
 - Web: projeto engenharia-reversa-platform, root apps/web, Next.js com páginas de servidor.
-- API: projeto nucleo-api, root apps/api, framework Hono, Node 24, região gru1. O export default de app.ts é o mesmo Hono usado pelo servidor Linux.
+- API: projeto nucleo-api, root apps/api, framework Hono, Node 24, região gru1. A entrada index.mjs carrega um bundle do mesmo Hono usado pelo servidor Linux.
 - Banco: projeto EngenhariaReversa, PostgreSQL Supabase. O runtime usa session pooler IPv4, role nucleo_app e pool de uma conexão por instância. Migrations usam conexão administrativa separada.
 - Runner: implantação Linux pendente. RUNNER_ENABLED=false faz o backend recusar novas execuções; nenhum resultado é simulado.
 
@@ -23,7 +23,7 @@ As chaves Supabase publishable/anon/service_role não são necessárias para Bet
 
 ## Build reproduzível
 
-npm run build:api prepara os dados do servidor usando a fonte auditada fixada em 3d24fc9313560d734d7a27c56c53d695f01163e1 e a dependência Python fixada em scripts/requirements-analysis.txt. A configuração Hono inclui JSON e assets privados na função; nenhum gabarito ou texto integral é copiado para public/. O guard de distribuição existente continua aplicado pelo servidor. O deploy Git exige Git, Python 3 e npm Workspaces no ambiente de build.
+npm run build:api compila a API e os módulos compartilhados com esbuild, preservando URLs relativas dos arquivos de dados. Isso evita que o builder da Vercel mantenha exports de workspace apontando para .ts depois de emitir JavaScript. O TypeScript estrito continua validado separadamente na CI. O comando também prepara os dados do servidor usando a fonte auditada fixada em 3d24fc9313560d734d7a27c56c53d695f01163e1 e a dependência Python fixada em scripts/requirements-analysis.txt. A configuração Hono inclui JSON e assets privados na função; nenhum gabarito ou texto integral é copiado para public/. O guard de distribuição existente continua aplicado pelo servidor. O deploy Git exige Git, Python 3 e npm Workspaces no ambiente de build.
 
 ## Limites operacionais
 
