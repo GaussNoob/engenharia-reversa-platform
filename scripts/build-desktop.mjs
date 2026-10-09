@@ -30,7 +30,14 @@ await writeFile(
   config,
   JSON.stringify({
     app: { security: { csp } },
-    bundle: { targets: process.platform === "win32" ? ["nsis"] : "all" },
+    bundle: {
+      targets:
+        process.platform === "win32"
+          ? ["nsis"]
+          : process.platform === "darwin"
+            ? ["app", "dmg"]
+            : ["deb", "appimage"],
+    },
   }),
 );
 const result = spawnSync(
