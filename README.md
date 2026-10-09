@@ -111,3 +111,9 @@ A arquitetura existente foi preservada e ampliada com Tauri 2 e Capacitor 8. A l
 Comandos: dev:web, dev:desktop, dev:mobile; build:web, build:desktop, build:mobile, build:android e build:aab. Builds distribuíveis exigem NUCLEO_API_URL com a API HTTPS real.
 
 [Decisão arquitetural](docs/12-adr-multiplataforma.md), [builds e deploy](docs/13-distribuicao-e-deploy.md), [serviços Linux](infrastructure/production/README.md) e [validação e pendências](docs/14-validacao-multiplataforma.md).
+
+## Site e downloads
+
+[Site público na Vercel](https://engenharia-reversa-platform.vercel.app/) — landing publicada e verificada em 9 de outubro de 2026. Login, progresso e execução ainda aguardam a conexão do backend real.
+
+[Downloads no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS. São builds de teste com origem de API https://localhost:3060, sem assinatura de distribuição; não se conectam ao site publicado. Os commits e as execuções aprovadas da CI estão nas notas da pré-release.

@@ -58,3 +58,11 @@ Configure a Vercel com Root Directory apps/web, Node 24.x e as variáveis server
 A importação integral do livro mantém a trava de distribuição já existente; BOOK_DISTRIBUTION_AUTHORIZED não foi habilitado. A UI local pode consultar conteúdo importado para estudo, mas a publicação integral depende da autorização correspondente.
 
 Consulte [ADR](12-adr-multiplataforma.md), [builds/deploy](13-distribuicao-e-deploy.md) e [runbook Linux](../infrastructure/production/README.md) para decisões, comandos, ambientes, rollback e assinatura.
+
+## Atualização após a publicação web — 9 de outubro de 2026
+
+O usuário criou o projeto Vercel pelo painel, vinculado à main do GitHub. O primeiro deploy retornava HTTP 500 porque a landing fazia uma consulta obrigatória à API ainda não publicada. O commit dbd308213f9f96ea11855a392b95ab9892014ef1 passou a compor a landing com os metadados reais do plano versionado; manteve visual, animações, nove módulos, 63 aulas e 35 laboratórios. A Vercel concluiu o novo deploy, e https://engenharia-reversa-platform.vercel.app/ passou a responder HTTP 200 com a landing. A verificação no navegador publicado confirmou nove módulos, canvas 3D presente e zero exceções JavaScript; a captura visual preserva a identidade original. Apenas a apresentação pública está validada em produção; a API e a execução remota continuam pendentes. A publicação ocorreu por Git Integration, sem conexão do MCP da Vercel.
+
+Validação da correção: build Next de produção, typecheck dos workspaces e lint aprovados. Quatro testes web de navegador aprovados, incluindo a regressão com /api/catalog respondendo 503 e /api/me indisponível. A [CI Quality](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37879161922) também passou. Com a regressão adicional, o total distinto validado nesta entrega é 63: 35 unitários, 10 UI e 18 integrações.
+
+A [pré-release de downloads](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09) foi criada com seis pacotes nativos e SHA256SUMS. Todos os sete assets foram confirmados como uploaded pela API do GitHub. São os builds de teste da CI já documentados; não receberam nova origem de API, assinatura/notarização ou validação instalada.
