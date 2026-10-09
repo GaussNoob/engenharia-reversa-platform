@@ -38,7 +38,7 @@ async function backend(
             ? progress
             : path === "/api/auth-capabilities"
               ? { passwordReset: false }
-              : path === "/api/exercises"
+              : ["/api/exercises", "/api/labs/progress"].includes(path)
                 ? []
                 : {};
     await route.fulfill({
@@ -163,6 +163,8 @@ test("online event reconnects and restores the requested authenticated route", a
   page,
 }) => {
   let available = false;
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
   await backend(page, true);
   await page.route("**/api/me", async (route) => {
     if (available) return route.fallback();
@@ -174,10 +176,18 @@ test("online event reconnects and restores the requested authenticated route", a
   });
   await page.goto("/#/laboratorios");
   await expect(page.getByRole("button", { name: "Reconectar" })).toBeVisible();
+  const labsReady = page.waitForResponse(
+    (response) =>
+      new URL(response.url()).pathname === "/api/labs/progress" &&
+      response.status() === 200,
+  );
   available = true;
   await page.evaluate(() => window.dispatchEvent(new Event("online")));
   await expect(
     page.getByRole("heading", { name: /Aprenda colocando/ }),
   ).toBeVisible();
+  await labsReady;
+  await expect(page.locator(".lab-index-row")).toHaveCount(35);
+  expect(errors).toEqual([]);
   await expect(page).toHaveURL(/#\/laboratorios$/);
 });
