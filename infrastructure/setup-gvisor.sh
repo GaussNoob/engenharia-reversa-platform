@@ -6,7 +6,18 @@ if [[ "${EUID}" -ne 0 ]]; then
 fi
 task_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 bundle_dir="${task_root}/.runtime/bin"
+mkdir -p -- "${bundle_dir}"
 cd -- "${bundle_dir}"
+# A new checkout has no ignored local archive. Fetch the complete official release.
+if [[ ! -s gvisor.tar.zstd || ! -s gvisor.tar.zstd.sha512 ]]; then
+  release="${GVISOR_RELEASE:-20261005.0}"
+  [[ "$release" =~ ^[0-9]{8}\.[0-9]+$ ]] || { echo "Invalid gVisor release." >&2; exit 1; }
+  architecture="$(uname -m)"
+  [[ "$architecture" == x86_64 || "$architecture" == aarch64 ]] || { echo "Unsupported architecture." >&2; exit 1; }
+  source_url="https://storage.googleapis.com/gvisor/releases/release/${release}/${architecture}"
+  curl --fail --location --proto "=https" --tlsv1.2 "$source_url/gvisor.tar.zstd" -o gvisor.tar.zstd
+  curl --fail --location --proto "=https" --tlsv1.2 "$source_url/gvisor.tar.zstd.sha512" -o gvisor.tar.zstd.sha512
+fi
 sha512sum -c gvisor.tar.zstd.sha512
 tar --zstd -xf gvisor.tar.zstd
 install -m 0755 runsc /usr/local/bin/runsc
