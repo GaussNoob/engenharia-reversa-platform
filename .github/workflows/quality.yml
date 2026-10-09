@@ -53,6 +53,7 @@ jobs:
       - run: npm run lint
       - run: npm test
       - run: npm run check:content
+      - run: npm run build:api
       - run: npm run build:web
       - run: node scripts/build-native.mjs desktop --development
       - run: node scripts/build-native.mjs mobile --development

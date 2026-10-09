@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "hono",
-  "installCommand": "cd ../.. && npm ci",
+  "installCommand": "cd ../.. && npm ci --include=dev",
   "buildCommand": "node ../../scripts/prepare-api-content.mjs",
   "functions": {
     "src/app.ts": {

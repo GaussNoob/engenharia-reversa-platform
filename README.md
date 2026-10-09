@@ -1,6 +1,6 @@
 # Núcleo — Engenharia Reversa
 
-Plataforma de estudo em português com trilha, aulas, checkpoints, progresso persistente, editor, execução isolada e laboratórios interativos. O ambiente local está disponível em **http://localhost:3050**. Banco PostgreSQL independente; Supabase não é utilizado.
+Plataforma de estudo em português com trilha, aulas, checkpoints, progresso persistente, editor, execução isolada e laboratórios interativos. O ambiente local está disponível em **http://localhost:3050**. PostgreSQL independente no desenvolvimento; produção preparada com PostgreSQL gerenciado no Supabase e a mesma API Hono.
 
 O livro [Fundamentos de Engenharia Reversa](https://github.com/mentebinaria/fundamentos-engenharia-reversa), de Fernando Mercês / Mente Binária, foi auditado no commit `3d24fc9313560d734d7a27c56c53d695f01163e1` antes da implementação. A importação representa os nove capítulos em **63 aulas, 35 laboratórios, 63 checkpoints e nove documentos de referência**, preservando os 141 blocos de código/dados, as 43 tabelas e as 28 imagens. Os conteúdos possuem proveniência até as linhas da fonte, e os complementos pedagógicos são identificados.
 
@@ -73,7 +73,7 @@ npm run dev
 
 ## Publicar na Vercel
 
-A Vercel hospeda apenas o frontend (`apps/web`). A API, o runner e o PostgreSQL ficam num servidor Linux próprio: o runner precisa de Docker com gVisor, que não existe nas funções da Vercel.
+A web (`apps/web`) está na Vercel. A mesma API Hono pode executar no projeto separado `nucleo-api` com PostgreSQL Supabase; [configuração e limites](docs/15-supabase-e-api-vercel.md). O runner continua exclusivo de Linux com Docker/gVisor. A alternativa abaixo mantém API, banco e runner em uma VPS.
 
 1. **Servidor (VPS):** PostgreSQL, `apps/api` e `apps/runner`, como em "Executar em um novo ambiente". Publique a API com HTTPS atrás do nginx, por exemplo em `https://api.seudominio.com`, com `proxy_set_header X-Forwarded-For $remote_addr;`.
 2. **Variáveis da API:** `PUBLIC_ORIGIN` igual ao domínio do site na Vercel (os cookies de sessão são desse domínio) e `API_PROXY_SECRET` com 64 caracteres aleatórios (`openssl rand -hex 32`).
@@ -117,3 +117,5 @@ Comandos: dev:web, dev:desktop, dev:mobile; build:web, build:desktop, build:mobi
 [Site público na Vercel](https://engenharia-reversa-platform.vercel.app/) — landing publicada e verificada em 9 de outubro de 2026. Login, progresso e execução ainda aguardam a conexão do backend real.
 
 [Downloads no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS. São builds de teste com origem de API https://localhost:3060, sem assinatura de distribuição; não se conectam ao site publicado. Os commits e as execuções aprovadas da CI estão nas notas da pré-release.
+
+A publicação por tags vX.Y.Z gera uma pré-release com os instaladores reais e checksums de cada target. As contas e os dados são compartilhados pela API; os aplicativos não carregam credenciais de banco. Consulte [API e Supabase](docs/15-supabase-e-api-vercel.md).

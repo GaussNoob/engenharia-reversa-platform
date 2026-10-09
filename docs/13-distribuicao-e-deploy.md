@@ -70,3 +70,9 @@ Assinatura desktop: Windows usa certificado/provider de code signing e timestamp
 A interface é embarcada e os dados vêm da API; não há download remoto de JavaScript para trocar a funcionalidade do app. Os laboratórios usam o servidor isolado e simuladores didáticos. Disponibilize política de privacidade, suporte e declaração de coleta de dados coerente com email, sessões, progresso e rascunhos. A exclusão de conta foi implementada. Valide requisitos de exclusão dentro e fora do app, classificação de conteúdo, target SDK, acessibilidade e funcionamento real antes de submeter. Configurar um AAB não comprova aprovação na loja.
 
 Fontes: [Capacitor](https://capacitorjs.com/docs/getting-started/environment-setup), [Google Play: funcionalidade e experiência](https://support.google.com/googleplay/android-developer/answer/9898783), [Tauri: assinatura Windows](https://v2.tauri.app/distribute/sign/windows/), [Tauri: updater](https://v2.tauri.app/plugin/updater/).
+
+## API com Supabase e releases para download
+
+A implantação sem VPS usa Hono em um projeto Vercel separado e PostgreSQL no Supabase. Consulte [ADR 002](15-supabase-e-api-vercel.md) para conexão IPv4, TLS, roles, RLS e limitações de execução/artefatos. O runner não foi movido para funções. A CLI oficial foi autenticada nesta sessão e configurou o projeto; o MCP da Vercel permanece indisponível.
+
+Tags vX.Y.Z também publicam automaticamente os artefatos bem-sucedidos em GitHub Releases. Cada target publica seu SHA256SUMS e mantém a release como pré-release porque assinatura e homologação dos dispositivos ainda são externas. Ambos os workflows precisam concluir para que todos os targets estejam disponíveis. Builds manuais continuam publicando somente artefatos do Actions.
