@@ -50,10 +50,12 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       if (document.visibilityState === "visible") void refresh();
     };
     window.addEventListener("nucleo:resume", resume);
+    window.addEventListener("online", resume);
     document.addEventListener("visibilitychange", resume);
     return () => {
       generation.current++;
       window.removeEventListener("nucleo:resume", resume);
+      window.removeEventListener("online", resume);
       document.removeEventListener("visibilitychange", resume);
     };
   }, [refresh]);

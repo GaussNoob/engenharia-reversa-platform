@@ -63,7 +63,31 @@ export async function apiResponse(
   const headers = new Headers(init.headers);
   if (init.body && !headers.has("Content-Type"))
     headers.set("Content-Type", "application/json");
-  const response = await transport(path, { ...init, headers });
+  const controller = new AbortController();
+  const cancel = () => controller.abort(init.signal?.reason);
+  if (init.signal?.aborted) cancel();
+  else init.signal?.addEventListener("abort", cancel, { once: true });
+  const timeout = setTimeout(
+    () =>
+      controller.abort(
+        new DOMException(
+          "A conexão demorou demais. Tente novamente.",
+          "TimeoutError",
+        ),
+      ),
+    15_000,
+  );
+  let response: Response;
+  try {
+    response = await transport(path, {
+      ...init,
+      headers,
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeout);
+    init.signal?.removeEventListener("abort", cancel);
+  }
   if (!response.ok) {
     const value: unknown = await response.json().catch(() => null);
     const message =

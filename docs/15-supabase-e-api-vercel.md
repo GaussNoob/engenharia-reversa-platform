@@ -13,7 +13,7 @@ A alternativa de reescrever a API para Supabase Edge Functions foi descartada: B
 
 ## Configuração e segurança
 
-Configure na API, somente no servidor: DATABASE_URL, DATABASE_SSL_CA_B64, DATABASE_POOL_MAX=1, BETTER_AUTH_SECRET, PUBLIC_ORIGIN, API_PROXY_SECRET, NATIVE_CLIENTS_ENABLED=true e RUNNER_ENABLED=false. BOOK_DISTRIBUTION_AUTHORIZED permanece false até a autorização do conteúdo. A web recebe API_INTERNAL_URL e o mesmo API_PROXY_SECRET; nenhuma dessas credenciais é NEXT_PUBLIC_. Builds instalados recebem apenas a URL HTTPS pública da API.
+Configure na API, somente no servidor: DATABASE_URL, DATABASE_SSL_CA_B64, DATABASE_POOL_MAX=1, BETTER_AUTH_SECRET, PUBLIC_ORIGIN, API_PROXY_SECRET, NATIVE_CLIENTS_ENABLED=true e RUNNER_ENABLED=false. BOOK_DISTRIBUTION_AUTHORIZED=true foi aplicado na produção após autorização explícita do usuário para publicar o conteúdo. O guard permanece ativo nos demais ambientes conforme sua configuração. A web recebe API_INTERNAL_URL e o mesmo API_PROXY_SECRET; nenhuma dessas credenciais é NEXT_PUBLIC_. Builds instalados recebem apenas a URL HTTPS pública da API.
 
 O helper databasePoolConfig mantém verificação do certificado e hostname com a CA oficial. Ele remove somente os parâmetros TLS da URI que fariam o parser do pg substituir a CA explícita. Não há rejectUnauthorized=false. Os certificados públicos em infrastructure/supabase/production-ca.crt vieram do Supabase CLI no commit 065888b22180b335a545d8027b056d4cd2473da4; as raízes expiram em 2031 e 2035.
 

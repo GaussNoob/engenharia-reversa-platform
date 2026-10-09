@@ -33,7 +33,8 @@
     "test:shells": "playwright test --config tests/shells/playwright.config.ts",
     "lint": "node scripts/lint.mjs",
     "test:web-ui": "playwright test --config tests/web-ui/playwright.config.ts",
-    "build:api": "node scripts/build-api.mjs"
+    "build:api": "node scripts/build-api.mjs",
+    "icons:prepare": "node scripts/prepare-icons.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",

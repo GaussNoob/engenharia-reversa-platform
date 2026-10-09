@@ -41,6 +41,11 @@ export function AuthPage({ signup = false }: { signup?: boolean }) {
           </p>
           <AuthForm signup={signup} />
         </div>
+        {target !== "web" && (
+          <Link href="/explorar" className="text-link">
+            Explorar os simuladores sem conta
+          </Link>
+        )}
         {signup && <small>A senha precisa ter pelo menos 12 caracteres.</small>}
       </section>
     </main>

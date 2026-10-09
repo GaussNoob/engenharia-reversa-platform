@@ -39,6 +39,15 @@ export function installedPath(input: string) {
   const [pathname, fragment] = input.split("#");
   return (aliases[pathname!] ?? pathname!) + (fragment ? "#" + fragment : "");
 }
+export function localInstalledPage(pathname: string, offline = false) {
+  if (pathname === "/explorar") return <ExploreView />;
+  if (pathname.startsWith("/explorar/")) {
+    const item = supplements.find((item) => item.id === pathname.slice(10));
+    if (!item) return null;
+    return <SupplementView item={item} offline={offline} />;
+  }
+  return null;
+}
 export async function loadInstalledPage(
   pathname: string,
   user: UserSummary,
@@ -66,12 +75,8 @@ export async function loadInstalledPage(
       throw new Error("Ambiente não encontrado.");
     return <PlaygroundEnvironmentView environment={environment} />;
   }
-  if (pathname === "/explorar") return <ExploreView />;
-  if (pathname.startsWith("/explorar/")) {
-    const item = supplements.find((item) => item.id === pathname.slice(10));
-    if (!item) throw new Error("Experimento não encontrado.");
-    return <SupplementView item={item} />;
-  }
+  const localPage = localInstalledPage(pathname);
+  if (localPage) return localPage;
   const catalog = await request<PublicCatalog>("/catalog");
   if (pathname === "/dashboard")
     return (

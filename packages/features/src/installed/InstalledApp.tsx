@@ -11,7 +11,10 @@ import { AuthPage } from "../components/AuthPage";
 import { Navigation } from "../components/Navigation";
 import { CommandPalette } from "../components/CommandPalette";
 import { PasswordRecovery } from "../modules/auth/PasswordRecovery";
-import { installedPath, loadInstalledPage } from "./routes";
+import { installedPath, loadInstalledPage, localInstalledPage } from "./routes";
+import { ConnectionScreen } from "./ConnectionScreen";
+import { Brand } from "../components/Brand";
+import { Link } from "@nucleo/platform";
 function readRoute() {
   return installedPath(location.hash.slice(1) || "/");
 }
@@ -113,11 +116,14 @@ function InstalledContent({
   const authRoute = ["/entrar", "/criar-conta", "/recuperar-senha"].includes(
     route,
   );
+  const localPage =
+    !user || accountError ? localInstalledPage(route, true) : null;
+  const localRoute = localPage !== null;
   useEffect(() => {
-    if (loading || accountError) return;
+    if (loading || accountError || localRoute) return;
     if (!user && !authRoute) replace("/entrar");
     else if (user && authRoute) replace("/dashboard");
-  }, [user, loading, accountError, authRoute, replace]);
+  }, [user, loading, accountError, authRoute, localRoute, replace]);
   useEffect(() => {
     if (!user || authRoute) return;
     const controller = new AbortController();
@@ -142,21 +148,31 @@ function InstalledContent({
       });
     return () => controller.abort();
   }, [route, user, authRoute, revision, retry, refresh]);
-  if (loading)
+  if (localPage)
     return (
-      <main id="main" className="page-body" role="status">
-        Retomando sua bancada…
-      </main>
+      <>
+        <header className="offline-header">
+          <Brand />
+          <nav aria-label="Navegação local">
+            <Link href="/explorar">Experimentos</Link>
+            <Link
+              className="button button-secondary"
+              href={user ? "/dashboard" : "/entrar"}
+              onClick={() => void refresh()}
+            >
+              {user ? "Minha bancada" : "Conectar conta"}
+            </Link>
+          </nav>
+        </header>
+        <p className="offline-notice" role="status">
+          Bancada local · os experimentos funcionam sem internet. Para registrar
+          seu progresso, conecte sua conta.
+        </p>
+        {localPage}
+      </>
     );
-  if (accountError && !user)
-    return (
-      <main id="main" className="page-body">
-        <p role="alert">{accountError}</p>
-        <button className="button" onClick={() => void refresh()}>
-          Reconectar
-        </button>
-      </main>
-    );
+  if (loading) return <ConnectionScreen pending />;
+  if (accountError && !user) return <ConnectionScreen onRetry={refresh} />;
   if (!user)
     return route === "/recuperar-senha" ? (
       <PasswordRecovery />
@@ -179,19 +195,15 @@ function InstalledContent({
           </div>
         )}
         {pending ? (
-          <main id="main" className="page-body" role="status">
+          <div className="page-body" role="status">
             Carregando seu espaço…
-          </main>
+          </div>
         ) : error ? (
-          <main id="main" className="page-body">
-            <p role="alert">{error}</p>
-            <button
-              className="button"
-              onClick={() => setRetry((value) => value + 1)}
-            >
-              Tentar novamente
-            </button>
-          </main>
+          <ConnectionScreen
+            title="Não foi possível abrir esta página."
+            description="Tente carregar novamente. Você também pode continuar nos experimentos locais enquanto a conexão é retomada."
+            onRetry={() => setRetry((value) => value + 1)}
+          />
         ) : (
           page
         )}

@@ -13,8 +13,10 @@ import { SupplementBench } from "@nucleo/features/modules/explore/SupplementBenc
 import { SupplementCheck } from "@nucleo/features/modules/explore/SupplementCheck";
 export function SupplementView({
   item,
+  offline = false,
 }: {
   item: (typeof supplements)[number];
+  offline?: boolean;
 }) {
   const next =
     supplements[(supplements.indexOf(item) + 1) % supplements.length]!;
@@ -48,7 +50,17 @@ export function SupplementView({
                 ))}
               </ol>
             </section>
-            <SupplementCheck id={item.id} />
+            {offline ? (
+              <section className="experiment-guide">
+                <span className="overline">BANCADA LOCAL</span>
+                <p>
+                  Explore livremente. A avaliação e o registro de progresso
+                  ficam disponíveis ao conectar sua conta.
+                </p>
+              </section>
+            ) : (
+              <SupplementCheck id={item.id} />
+            )}
             <section className="supplement-sources">
               <span className="overline">PARA INVESTIGAR MAIS</span>
               {item.sources.map((source) => (

@@ -24,6 +24,7 @@ import {
 import { configureApi } from "@nucleo/api-client";
 import { bearerTransport } from "@nucleo/api-client/native";
 import { InstalledApp } from "@nucleo/features/installed/InstalledApp";
+import { ConnectionScreen } from "@nucleo/features/installed/ConnectionScreen";
 import { browserDownload } from "@nucleo/platform";
 declare const __NUCLEO_API_URL__: string;
 async function start() {
@@ -102,6 +103,13 @@ async function start() {
   );
 }
 void start().catch(() => {
-  document.getElementById("root")!.textContent =
-    "Não foi possível acessar o armazenamento seguro. Reinicie o aplicativo.";
+  createRoot(document.getElementById("root")!).render(
+    <ConnectionScreen
+      standalone
+      offline={false}
+      title="Vamos retomar sua bancada."
+      description="Não foi possível acessar o armazenamento seguro do aparelho. Reinicie o aplicativo para tentar novamente. Sua conta não será salva em armazenamento desprotegido."
+      onRetry={() => location.reload()}
+    />,
+  );
 });

@@ -102,7 +102,7 @@ A ampliação de exercícios, o destaque de código e as correções de layout e
 
 ## Limites de publicação
 
-A fonte auditada não declara uma licença para redistribuição integral. A publicação dos textos e imagens em produção permanece protegida pela configuração `BOOK_DISTRIBUTION_AUTHORIZED`; o material integral está disponível no ambiente local de estudo. O link externo do AnalyseMe-00 respondeu HTTP 403 na auditoria; as práticas usam os exemplos disponíveis e um PE próprio, sem afirmar que reproduzem a análise do binário original. O transporte de recuperação de senha por email precisa de credenciais e remetente validado; a execução nativa de Windows continua fora do escopo do runner Linux.
+A fonte auditada não declara uma licença para redistribuição integral. A distribuição continua protegida por `BOOK_DISTRIBUTION_AUTHORIZED`. O usuário confirmou autorização para publicação, e a API de produção está configurada para servir o conteúdo. Outros deploys precisam configurar a autorização correspondente. O link externo do AnalyseMe-00 respondeu HTTP 403 na auditoria; as práticas usam os exemplos disponíveis e um PE próprio, sem afirmar que reproduzem a análise do binário original. O transporte de recuperação de senha por email precisa de credenciais e remetente validado; a execução nativa de Windows continua fora do escopo do runner Linux.
 
 ## Web, Desktop e Android
 
@@ -114,8 +114,10 @@ Comandos: dev:web, dev:desktop, dev:mobile; build:web, build:desktop, build:mobi
 
 ## Site e downloads
 
-[Site público na Vercel](https://engenharia-reversa-platform.vercel.app/) — landing publicada e verificada em 9 de outubro de 2026. Login, progresso e execução ainda aguardam a conexão do backend real.
+[Site público na Vercel](https://engenharia-reversa-platform.vercel.app/) — landing, conta, dashboard, laboratórios e aulas publicados e verificados em 9 de outubro de 2026. A [API Hono real](https://nucleo-api.vercel.app/api/health) usa PostgreSQL Supabase; execução remota aguarda um runner Linux.
 
-[Downloads no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS. São builds de teste com origem de API https://localhost:3060, sem assinatura de distribuição; não se conectam ao site publicado. Os commits e as execuções aprovadas da CI estão nas notas da pré-release.
+[Downloads no GitHub Releases](https://github.com/GaussNoob/engenharia-reversa-platform/releases/tag/builds-teste-2026-10-09): Windows x64 (.exe), Linux x64 (.AppImage/.deb), macOS arm64 (.dmg), Android APK debug e AAB não assinado, com SHA256SUMS. Essa pré-release inicial conserva a origem de teste https://localhost:3060. Os novos instaladores com API pública, tela de conexão e ícones atualizados serão publicados em uma tag versionada após a CI. Consulte as notas da release antes de instalar. Os commits e as execuções aprovadas da CI estão nas notas da pré-release.
 
 A publicação por tags vX.Y.Z gera uma pré-release com os instaladores reais e checksums de cada target. As contas e os dados são compartilhados pela API; os aplicativos não carregam credenciais de banco. Consulte [API e Supabase](docs/15-supabase-e-api-vercel.md).
+
+Os aplicativos incluem quatro simuladores para explorar sem conta ou conexão. Login, progresso, avaliações e execução remota dependem da API. A tela de conexão oferece reconexão e acesso à bancada local; o aplicativo não requer um servidor Next instalado.

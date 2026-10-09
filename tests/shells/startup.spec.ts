@@ -116,3 +116,68 @@ test("an unavailable API offers reconnection without discarding the route", asyn
   await expect(page.getByRole("button", { name: "Reconectar" })).toBeVisible();
   await expect(page).toHaveURL(/#\/laboratorios$/);
 });
+
+test("local experiments remain usable without an API or a session", async ({
+  page,
+}) => {
+  let calls = 0;
+  await page.route("**/api/**", async (route) => {
+    calls++;
+    await route.abort("internetdisconnected");
+  });
+  await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "Seu próximo passo continua aqui." }),
+  ).toBeVisible();
+  await expect(page.getByRole("button", { name: "Reconectar" })).toBeEnabled();
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth + 1,
+    ),
+  ).toBe(true);
+  await page.getByRole("link", { name: "Explorar sem conexão" }).click();
+  await expect(page.locator(".experiment-index-row")).toHaveCount(4);
+  const requestsBefore = calls;
+  await page.locator(".experiment-index-row").last().click();
+  await expect(
+    page.getByRole("heading", { name: "O endereço não conta tudo" }),
+  ).toBeVisible();
+  await expect(page.locator(".supplement-bench")).toBeVisible();
+  await expect(
+    page.getByText(
+      "A avaliação e o registro de progresso ficam disponíveis ao conectar sua conta.",
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("button", { name: "Conferir e registrar" }),
+  ).toHaveCount(0);
+  await page.getByRole("button", { name: "Big-endian", exact: true }).click();
+  await expect(
+    page.getByRole("button", { name: "Offset 0, byte 12" }),
+  ).toBeVisible();
+  expect(calls).toBe(requestsBefore);
+  expect(await page.evaluate(() => Object.keys(localStorage))).toEqual([]);
+  await expect(page.locator(".marketing-main,.marketing-nav")).toHaveCount(0);
+});
+test("online event reconnects and restores the requested authenticated route", async ({
+  page,
+}) => {
+  let available = false;
+  await backend(page, true);
+  await page.route("**/api/me", async (route) => {
+    if (available) return route.fallback();
+    await route.fulfill({
+      status: 503,
+      contentType: "application/json",
+      body: '{"error":"unavailable"}',
+    });
+  });
+  await page.goto("/#/laboratorios");
+  await expect(page.getByRole("button", { name: "Reconectar" })).toBeVisible();
+  available = true;
+  await page.evaluate(() => window.dispatchEvent(new Event("online")));
+  await expect(
+    page.getByRole("heading", { name: /Aprenda colocando/ }),
+  ).toBeVisible();
+  await expect(page).toHaveURL(/#\/laboratorios$/);
+});
