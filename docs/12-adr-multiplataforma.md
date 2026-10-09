@@ -4,7 +4,7 @@ Status: implementado. Targets: Web, Desktop e Android. iOS foi retirado do escop
 
 ## Contexto
 
-A base já separava Next.js, Hono, PostgreSQL e um runner Linux com Docker/gVisor. Essa separação é preservada. A auditoria confirmou Next 16.4.0, React 19.3.0, TypeScript 7.0.2 e Better Auth 1.7.7. O ambiente local usa Node 24.21.0; a web fixa Node 24, suportado pela Vercel, e as imagens do runner continuam com Node 26. Nenhuma dependência existente foi atualizada deliberadamente.
+A base já separava Next.js, Hono, PostgreSQL e um runner Linux com Docker/gVisor. Essa separação é preservada. A auditoria confirmou Next 16.4.0, React 19.3.0, TypeScript 7.0.2 e Better Auth 1.7.7. O ambiente local usa Node 24.21.0; a web fixa Node 24, suportado pela Vercel, e as imagens do runner continuam com Node 26. As dependências existentes foram preservadas. O gVisor local foi identificado como release-20260928.0; a distribuição nova e a CI fixam essa versão e validam o runtime antes de qualquer atualização.
 
 A aplicação usa páginas de servidor, cookies e rotas dinâmicas. A página de aula encontrada vazia foi restaurada. A documentação local instalada do Next estava incompleta, então as decisões também foram conferidas na documentação oficial.
 

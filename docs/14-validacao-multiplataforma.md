@@ -1,6 +1,6 @@
 # Entrega multiplataforma — escopo e validação
 
-Data: 8 de outubro de 2026. iOS foi excluído por solicitação do usuário. Não houve alteração em infraestrutura de produção.
+Data: 9 de outubro de 2026. iOS foi excluído por solicitação do usuário. Não houve alteração em infraestrutura de produção.
 
 ## Estrutura final
 
@@ -8,9 +8,9 @@ apps/web (Next.js), apps/desktop (Tauri 2), apps/mobile (Capacitor/Android), app
 
 ## Objetivos e estado
 
-- **Implementado e validado:** arquitetura React compartilhada; preservação do Next com páginas de servidor; landing exclusiva da web; navegação dos shells em login/dashboard; Monaco desktop e CodeMirror mobile; aliases e proteção das páginas privadas web; typecheck de todos os workspaces; lint; testes unitários e UI descritos abaixo; build Next e bundles JavaScript independentes.
+- **Implementado e validado:** arquitetura React compartilhada; preservação do Next com páginas de servidor; landing exclusiva da web; navegação dos shells em login/dashboard; Monaco desktop e CodeMirror mobile; aliases e proteção das páginas privadas web; typecheck de todos os workspaces; lint; testes unitários, UI e integração real descritos abaixo; build Next e bundles JavaScript independentes.
 - **Implementado e validado (builds):** Tauri Windows tem compilação Rust e geração do instalador NSIS .exe concluídas; a CI também gerou pacotes Linux e macOS. Os testes UI do shell rodam em Chromium, não em uma janela WebView2 instalada. Armazenamento no Credential Manager, diálogo de arquivos e sessão real no aplicativo exigem teste no SO com a API.
-- **Implementado mas não validado no ambiente atual:** teste instalado em aparelhos Android e sistemas desktop; cofre do SO; recuperação de senha por email; fluxos de execução real da API; serviços Linux, nginx/TLS, permissões de artefatos, backups/restore e sandbox gVisor. Os testes existentes de execução real foram preservados, mas dependem desses serviços.
+- **Implementado mas não validado no ambiente atual:** teste instalado em aparelhos Android e sistemas desktop; cofre do SO; recuperação de senha por email; instalação dos serviços Linux/nginx/TLS no servidor de produção; backups/restore operacionais. Execução isolada, permissões de artefatos, progresso, rascunhos e cancelamento foram validados em Linux na CI, sem provisionar produção.
 - **Implementado mas não validado no ambiente atual:** deploy Vercel e publicação de releases assinados. Os workflows desktop e Android foram executados manualmente e produziram artefatos de teste. O workflow de qualidade foi executado com sucesso no GitHub Actions, incluindo npm ci e autenticação real contra PostgreSQL.
 - **Pendente:** publicação real na Vercel e validação do domínio/HTTPS; provisionamento/validação da API e runner Linux; assinatura/notarização de instaladores; APK/AAB de release assinado e submissão Google Play. A Vercel não está conectada via MCP e não foram fornecidos projeto/equipe, domínio/acesso à API ou credenciais de assinatura.
 
@@ -28,16 +28,17 @@ apps/web (Next.js), apps/desktop (Tauri 2), apps/mobile (Capacitor/Android), app
 - GitHub Actions Android: [execução aprovada](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37874264438), incluindo cap sync, plugins nativos, assembleDebug e bundleRelease. APK debug e AAB não assinado disponíveis como artefatos de teste, usando https://localhost:3060.
 - GitHub Actions Desktop: [execução aprovada](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37874064030), com instalador NSIS Windows x64, pacotes Linux x64 e .app/.dmg macOS arm64. Todos usam origem de teste e não receberam assinatura/notarização de distribuição.
 - GitHub Actions Quality: [execução aprovada](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37873676967). npm ci, conteúdo, tipos, lint, testes, builds e um teste de autenticação nativa contra PostgreSQL real aprovados. Total: 35 unitários + 9 UI + 1 integração. O teste real cobre conta compartilhada, tokens sem assinatura, revogação, logout e CORS.
+- GitHub Actions Linux sandbox integration: [execução aprovada](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37877312702), 18 testes reais com PostgreSQL 17, roles distintas, Docker e gVisor release-20260928.0. Cobertura: rede bloqueada, usuário sem privilégios, ausência de credenciais na sandbox, Python/C/modelo Assembly/FASM, oito soluções de programação, tempo/saída, cancelamento monotônico, download exclusivo do dono, rascunhos concorrentes, progresso e sessões. Total distinto nesta entrega: 35 unitários + 9 UI + 18 integrações = 62 testes.
 - cargo check --locked: compilação Tauri/Rust Windows concluída com MSVC. cargo fmt --check: sucesso.
 
-Os testes UI usam dados controlados para verificar composição e navegação; não comprovam autenticação real, entrega de email ou execução isolada. tests/integration/native-auth.test.ts verifica tokens assinados, revogação e origens contra Better Auth/PostgreSQL reais, e está incluído na CI e foi aprovado no GitHub Actions. A suíte completa original exige um runner Linux ativo e não foi executada neste Windows.
+Os testes UI usam dados controlados para verificar composição e navegação; não comprovam autenticação real, entrega de email ou execução isolada. tests/integration/native-auth.test.ts verifica tokens assinados, revogação e origens contra Better Auth/PostgreSQL reais, e está incluído na CI e foi aprovado no GitHub Actions. A suíte completa de integração foi executada e aprovada no Linux da CI; não foi executada neste Windows. A suíte Playwright original completa (test:e2e) não foi executada; a validação de navegador desta entrega compreende as 9 verificações web/shells citadas.
 
 ## Arquivos principais criados e modificados
 
 - packages/api-client/**: cliente HTTP, transporte nativo e testes. packages/platform/**: contrato/adaptação de navegação e lazy loading. packages/design-tokens/**: tokens originais. packages/features/**: componentes, páginas, editores, hooks e estilos extraídos; InstalledApp, rotas, configurações de conta, recuperação e histórico. Os antigos caminhos em apps/web permanecem como reexports compatíveis.
 - apps/desktop/**: entrada React, manifest, Tauri/Cargo.lock, comandos de cofre, capacidades, janela e ícones. apps/mobile/**: entrada React, Capacitor, configuração de plugins e projeto Android.
 - apps/web/src/app/**: composição Next, views compartilhadas, aula restaurada, configurações/histórico/recuperação; apps/web/src/components/WebPlatform.tsx; apps/web/src/lib/server-api.ts; apps/web/next.config.ts; apps/web/vercel.json; apps/web/package.json e tsconfig.
-- apps/api/src/app.ts e main.ts; config.ts; auth; http/origins.ts e testes; módulos de execuções. apps/runner/src/**: configuração de usuário da sandbox e permissões compartilhadas de artefatos. Nenhuma execução de laboratório foi movida para o host do cliente.
+- apps/api/src/app.ts e main.ts; config.ts; auth; http/origins.ts e testes; módulos de execuções. apps/runner/src/**: configuração de usuário da sandbox e permissões compartilhadas de artefatos. Nenhuma execução de laboratório foi movida para o host do cliente. infrastructure/setup-gvisor.sh passou a preparar um checkout novo com download completo e checksum da versão original.
 - scripts/build-native.mjs, build-desktop.mjs, build-mobile.mjs, version-release.mjs, lint.mjs, python.mjs e dev.ts; package.json, package-lock.json, tsconfig.base.json, tsconfig.json, .env.example e arquivos de ignore.
 - tests/shells/**, tests/web-ui/** e tests/integration/native-auth.test.ts; .github/workflows/quality.yml, desktop.yml, mobile.yml, runner.yml e web-deploy.yml.
 - infrastructure/production/**: compose, nginx, systemd, scripts de backup/restore e runbook. README.md e docs/12-adr-multiplataforma.md, 13-distribuicao-e-deploy.md e este relatório.
@@ -47,6 +48,8 @@ O diretório recebido não continha histórico Git. O primeiro commit registra o
 ## Limites e próximos passos externos
 
 Node 24.21.0, npm 11.19.0 e Rust/MSVC foram usados localmente. A cópia original de node_modules estava incompleta; as dependências foram recuperadas respeitando as versões dos manifests. A instalação normal de workspaces foi confirmada por npm ci no GitHub Actions; o filesystem local não permitiu criar os links usuais do npm. A recuperação do cache Rust utilizou fontes oficiais HTTPS e checksums do Cargo.lock; nenhum TLS foi desabilitado.
+
+A auditoria do archive local identificou gVisor release-20260928.0. A tentativa de CI com uma release posterior apresentou falhas ENOMEM em execuções simples; os limites maiores não resolveram. A configuração final fixa a versão original e preserva os limites anteriores: compilação 512 MiB, programas/modelos 128 MiB. A suíte final completa passou nessa configuração. Atualizações futuras do runtime devem passar por esse workflow antes de produção.
 
 Sem Java/JDK/Android SDK local, o Gradle foi executado no GitHub Actions com JDK 21/SDK 36. Builds desktop foram executados nas toolchains Windows/Linux/macOS da CI. A interação com stores seguros e teclado/safe areas reais precisa de teste nos dispositivos. Não existem IPA ou objetivo iOS nesta entrega.
 
