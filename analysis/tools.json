@@ -1,0 +1,1063 @@
+[
+  {
+    "name": "010 Editor",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://www.sweetscape.com/010editor"
+    ],
+    "licenseLabelInBook": "Shareware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "bvi",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://bvi.sourceforge.net/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "dz6",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://github.com/mentebinaria/dz6"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "fhex",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://github.com/echo-devim/fhex"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "GNU poke",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://jemarch.net/poke"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Helium Hex Editor",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://jacquelin.potier.free.fr/HeliumHexEditor/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Hex Workshop",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://www.hexworkshop.com/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HexFiend",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://ridiculousfish.com/hexfiend/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HexPatch",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://etto48.github.io/HexPatch/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Hexinator",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://hexinator.com/"
+    ],
+    "licenseLabelInBook": "Shareware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "hexxed",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://github.com/meme/hexxed"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Hiew (Hacker's View)",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://www.hiew.ru/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HT Editor",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://hte.sourceforge.net/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HxD",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://mh-nexus.de/en/hxd/"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "ImHex",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://github.com/WerWolv/ImHex"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Reverse Engineer's Hex Editor",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://github.com/solemnwarning/rehex"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Synalyze It!",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://www.synalysis.net/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "WinHex",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://www.x-ways.net/winhex/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "wxHexEditor",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "https://sourceforge.net/projects/wxhexeditor/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "XVI32",
+    "category": "Editores Hexadecimais",
+    "urls": [
+      "http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "capa",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://github.com/mandiant/capa"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "CFF Explorer",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://ntcore.com/?page_id=388"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "DIE (Detect It Easy)",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://horsicq.github.io"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "DUMPBIN",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://learn.microsoft.com/en-us/cpp/build/reference/dumpbin-reference/"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Edump",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://hiew.ru/#edump"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Exeinfo PE",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "http://www.exeinfo.o7.pl/"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Malwoverview",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://github.com/alexandreborges/malwoverview"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "objdump",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://www.gnu.org/software/binutils/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PE-Bear",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://hshrzd.wordpress.com/pe-bear/"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PEdump",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://pedump.me"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "pestudio",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://www.winitor.com"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "readelf",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://www.gnu.org/software/binutils/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "readpe",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "https://github.com/mentebinaria/readpe"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Stud_PE",
+    "category": "Analisadores Estáticos de Executáveis",
+    "urls": [
+      "http://www.cgsoftlabs.ro/studpe.html"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "BFD",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://ftp.gnu.org/pub/old-gnu/Manuals/bfd-2.9.1/html_chapter/bfd_1.html"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "libpe",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/mentebinaria/readpe/tree/master/lib/libpe"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "libPeConv",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/hasherezade/libpeconv"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "pefile",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/erocarrera/pefile"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PeNet",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/secana/PeNet"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PeParser",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/dorkbox/PeParser"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "pyelftools",
+    "category": "Bibliotecas para parsear Executáveis",
+    "urls": [
+      "https://github.com/eliben/pyelftools"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "flat assembler (FASM)",
+    "category": "Assemblers",
+    "urls": [
+      "https://flatassembler.net/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "GNU Assembler (GAS)",
+    "category": "Assemblers",
+    "urls": [
+      "https://sourceware.org/binutils/docs/as/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Microsoft Macro Assembler (MASM)",
+    "category": "Assemblers",
+    "urls": [
+      "https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Netwide Assembler (NASM)",
+    "category": "Assemblers",
+    "urls": [
+      "https://www.nasm.us/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Yasm Modular Assembler (YASM)",
+    "category": "Assemblers",
+    "urls": [
+      "https://yasm.tortall.net"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Binary Ninja",
+    "category": "Disassemblers",
+    "urls": [
+      "https://binary.ninja"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Ghidra",
+    "category": "Disassemblers",
+    "urls": [
+      "https://ghidra-sre.org"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Hopper",
+    "category": "Disassemblers",
+    "urls": [
+      "https://www.hopperapp.com"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "IDA",
+    "category": "Disassemblers",
+    "urls": [
+      "https://www.hex-rays.com/ida-pro/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "dnSpy",
+    "category": "Debuggers",
+    "urls": [
+      "https://github.com/0xd4d/dnSpy"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "edb (Evan's Debugger)",
+    "category": "Debuggers",
+    "urls": [
+      "https://github.com/eteran/edb-debugger"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "GDB (GNU Debugger)",
+    "category": "Debuggers",
+    "urls": [
+      "https://sourceware.org/gdb/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "GEF",
+    "category": "Debuggers",
+    "urls": [
+      "https://github.com/hugsy/gef"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HyperDbg",
+    "category": "Debuggers",
+    "urls": [
+      "https://hyperdbg.com"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "OllyDbg",
+    "category": "Debuggers",
+    "urls": [
+      "http://ollydbg.de"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PEDA",
+    "category": "Debuggers",
+    "urls": [
+      "https://github.com/longld/peda"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "rr",
+    "category": "Debuggers",
+    "urls": [
+      "https://rr-project.org/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "WinDbg",
+    "category": "Debuggers",
+    "urls": [
+      "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "x64dbg",
+    "category": "Debuggers",
+    "urls": [
+      "https://x64dbg.com/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "de4dot",
+    "category": "Desofuscadores",
+    "urls": [
+      "https://github.com/0xd4d/de4dot"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Threadtear",
+    "category": "Desofuscadores",
+    "urls": [
+      "https://github.com/GraxCode/threadtear"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "ILSpy",
+    "category": ".NET",
+    "urls": [
+      "https://github.com/icsharpcode/ILSpy"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "IDR (Interactive Delphi Reconstructor)",
+    "category": "Delphi",
+    "urls": [
+      "https://github.com/crypto2011/IDR"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Reko",
+    "category": "Genéricos (C, C++, Delphi, etc)",
+    "urls": [
+      "https://github.com/uxmal/reko"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "RetDec (Retargetable Decompiler)",
+    "category": "Genéricos (C, C++, Delphi, etc)",
+    "urls": [
+      "https://retdec.com/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Snowman",
+    "category": "Genéricos (C, C++, Delphi, etc)",
+    "urls": [
+      "https://derevenets.com/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "CFR",
+    "category": "Java",
+    "urls": [
+      "https://www.benf.org/other/cfr/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "category": "Java",
+    "urls": [
+      "https://www.jetbrains.com/idea/download/other.html"
+    ],
+    "licenseLabelInBook": "Mista",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "JD-GUI",
+    "category": "Java",
+    "urls": [
+      "https://github.com/java-decompiler/jd-gui"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Procyon",
+    "category": "Java",
+    "urls": [
+      "hhttps://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "VB Decompiler",
+    "category": "Visual Basic",
+    "urls": [
+      "https://www.vb-decompiler.org/"
+    ],
+    "licenseLabelInBook": "Comercial",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Qiling",
+    "category": "Emuladores",
+    "urls": [
+      "https://github.com/qilingframework/qiling"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Speakeasy",
+    "category": "Emuladores",
+    "urls": [
+      "https://github.com/mandiant/speakeasy"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "angr",
+    "category": "Frameworks",
+    "urls": [
+      "https://angr.io"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Frida",
+    "category": "Frameworks",
+    "urls": [
+      "https://www.frida.re"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "PANDA",
+    "category": "Frameworks",
+    "urls": [
+      "https://panda.re"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Radare",
+    "category": "Frameworks",
+    "urls": [
+      "https://rada.re/r/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Process Explorer",
+    "category": "Monitores de Processos",
+    "urls": [
+      "https://learn.microsoft.com/en-us/sysinternals/"
+    ],
+    "licenseLabelInBook": "Freeware",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "System Explorer",
+    "category": "Monitores de Processos",
+    "urls": [
+      "https://github.com/zodiacon/SystemExplorer/releases"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "System Informer (antigo Process Hacker)",
+    "category": "Monitores de Processos",
+    "urls": [
+      "https://systeminformer.sourceforge.io/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "LiSa",
+    "category": "Sandboxes (Linux)",
+    "urls": [
+      "https://github.com/danieluhricek/LiSa"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "DRAKVUF Sandbox",
+    "category": "Sandboxes (Windows)",
+    "urls": [
+      "https://github.com/CERT-Polska/drakvuf-sandbox"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "CAPE",
+    "category": "Sandboxes (Windows)",
+    "urls": [
+      "https://github.com/ctxis/CAPE"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Cuckoo",
+    "category": "Sandboxes (Windows)",
+    "urls": [
+      "https://cuckoosandbox.org/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Any.Run",
+    "category": "Sandboxes (Online)",
+    "urls": [
+      "https://app.any.run/submissions"
+    ],
+    "licenseLabelInBook": "Community",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Hybrid Analysis",
+    "category": "Sandboxes (Online)",
+    "urls": [
+      "https://www.hybrid-analysis.com/"
+    ],
+    "licenseLabelInBook": "Community",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Joe Sandbox",
+    "category": "Sandboxes (Online)",
+    "urls": [
+      "https://www.joesandbox.com/#advanced"
+    ],
+    "licenseLabelInBook": "Community",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "hdump",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [
+      "https://github.com/merces/hdump"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "heksa",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [
+      "https://github.com/raspi/heksa"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "HexLasso",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [
+      "https://suszter.com/hexlasso-online/"
+    ],
+    "licenseLabelInBook": "Gratuito",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "hexyl",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [
+      "https://github.com/sharkdp/hexyl"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "hexdump/hd",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "od",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "xxd",
+    "category": "Visualizadores Hexadecimais",
+    "urls": [],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Kaitai Struct",
+    "category": "Outras",
+    "urls": [
+      "https://kaitai.io/"
+    ],
+    "licenseLabelInBook": "Livre",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  },
+  {
+    "name": "Intezer Analyzer",
+    "category": "Outras",
+    "urls": [
+      "https://analyze.intezer.com"
+    ],
+    "licenseLabelInBook": "Community",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "status": "reference-listed-upstream-not-independently-tested"
+  }
+]

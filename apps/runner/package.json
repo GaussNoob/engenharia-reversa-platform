@@ -1,0 +1,16 @@
+{
+  "name": "@nucleo/runner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=../../.env --import tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/core": "*",
+    "@nucleo/models": "*",
+    "drizzle-orm": "0.45.3",
+    "pg": "8.23.1",
+    "zod": "4.6.5"
+  }
+}

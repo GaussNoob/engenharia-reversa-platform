@@ -1,0 +1,95 @@
+/* Distinct hues per role; all pass WCAG AA on the #101518 code surface. */
+.syntax-code {
+  --syntax-text: #d7dddf;
+  --syntax-keyword: #e8ba70;
+  --syntax-type: #6fcfc4;
+  --syntax-function: #8ab4f8;
+  --syntax-string: #a8d08d;
+  --syntax-number: #f2a27a;
+  --syntax-constant: #d6a2f0;
+  --syntax-meta: #ee8fa8;
+  --syntax-register: #f0d27a;
+  --syntax-label: #c5b3f5;
+  --syntax-comment: #7f8c93;
+  --syntax-punctuation: #8d999f;
+  font-family: var(--mono);
+  color: var(--syntax-text);
+}
+.syntax-code .tok-keyword,
+.syntax-code .tok-operatorKeyword,
+.syntax-code .tok-controlKeyword {
+  color: var(--syntax-keyword);
+}
+.syntax-code .tok-string,
+.syntax-code .tok-string2 {
+  color: var(--syntax-string);
+}
+.syntax-code .tok-comment {
+  color: var(--syntax-comment);
+  font-style: italic;
+}
+.syntax-code .tok-number,
+.syntax-code .tok-bool,
+.syntax-code .tok-atom {
+  color: var(--syntax-number);
+}
+.syntax-code .tok-typeName,
+.syntax-code .tok-className {
+  color: var(--syntax-type);
+}
+.syntax-code .tok-register {
+  color: var(--syntax-register);
+}
+.syntax-code .tok-labelName {
+  color: var(--syntax-label);
+}
+.syntax-code .tok-constant {
+  color: var(--syntax-constant);
+}
+.syntax-code .tok-meta,
+.syntax-code .tok-macroName {
+  color: var(--syntax-meta);
+}
+.syntax-code .tok-annotation {
+  color: var(--syntax-comment);
+  font-style: italic;
+}
+.syntax-code .tok-function,
+.syntax-code .tok-propertyName {
+  color: var(--syntax-function);
+}
+.syntax-code .tok-definition.tok-function {
+  font-weight: 600;
+}
+.syntax-code .tok-operator,
+.syntax-code .tok-punctuation {
+  color: var(--syntax-punctuation);
+}
+.code-snippet {
+  overflow: auto;
+  margin: 0;
+  padding: 22px;
+  background: #101518;
+  font: 12px/1.85 var(--mono);
+  tab-size: 4;
+}
+.windows-api-bench > .bench-tabs {
+  margin-bottom: 28px;
+}
+.windows-api-bench > .bench-fields {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.windows-api-bench .bench-fields label {
+  display: grid;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .code-snippet {
+    padding: 16px;
+    font-size: 11px;
+  }
+  .windows-api-bench > .bench-tabs {
+    margin-bottom: 24px;
+  }
+}

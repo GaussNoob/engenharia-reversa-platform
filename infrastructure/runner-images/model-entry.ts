@@ -1,0 +1,3 @@
+import { readFileSync } from 'node:fs';
+import { parseProgram,runCpu,cpuSnapshot } from '../../packages/models/src/index.ts';
+try{const input:unknown=JSON.parse(readFileSync(process.argv[2]??'', 'utf8'));if(typeof input!=='object'||input===null||!('code' in input)||typeof input.code!=='string'||input.code.length>65536)throw new Error('Programa inválido.');const mode='mode' in input&&input.mode==='x86-32'?'x86-32':'x86-64';const state=runCpu(parseProgram(input.code,mode));process.stdout.write(JSON.stringify(cpuSnapshot(state)));}catch(error){process.stderr.write(error instanceof Error?error.message:'Erro no modelo.');process.exitCode=1;}

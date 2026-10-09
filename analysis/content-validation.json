@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-10-09T02:08:08.078530+00:00",
+  "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+  "catalogSha256": "6b886111500261ad2992437e6018cf72427e8dcfc90779fb84713b40cde57d88",
+  "modules": 9,
+  "lessons": 63,
+  "labsWithChallenges": 35,
+  "referenceDocuments": 9,
+  "sourceExamplesRepresented": 141,
+  "tables": 43,
+  "imagesPresent": 28,
+  "checkpoints": 63,
+  "additionalExercises": 45,
+  "executableExerciseChallenges": 8,
+  "checksPassed": true,
+  "scope": "Imported content structure, coverage, references and asset files. Browser and sandbox tests are separate."
+}

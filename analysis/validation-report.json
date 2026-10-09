@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scope": "source-audit-and-plan-only",
+  "checks": [
+    "81 arquivos, 141 blocos e 43 tabelas com hashes e spans conferidos",
+    "51 documentos com destino; 41 páginas particionadas; 63 aulas e 35 laboratórios válidos",
+    "Montadores, blocos indentados, nomes de campos, modo legado e protótipos preservados",
+    "37 combinações propostas de texto, controle e foco com contraste adequado",
+    "Links locais dos documentos válidos e restrição de provider registrada"
+  ],
+  "applicationTestsRun": false,
+  "sandboxVerified": false,
+  "coursePublished": false
+}

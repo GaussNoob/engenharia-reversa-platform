@@ -1,0 +1,42 @@
+{
+  "name": "@nucleo/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3050",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3050",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.20.3",
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/lang-cpp": "6.0.3",
+    "@codemirror/lang-python": "6.2.1",
+    "@codemirror/language": "^6.12.4",
+    "@codemirror/state": "6.7.6",
+    "@codemirror/view": "6.43.13",
+    "@fontsource-variable/instrument-sans": "5.3.0",
+    "@fontsource-variable/literata": "5.3.0",
+    "@lezer/highlight": "^1.2.5",
+    "@monaco-editor/react": "4.7.0",
+    "@nucleo/content": "*",
+    "@nucleo/core": "*",
+    "@nucleo/models": "*",
+    "lucide-react": "1.52.0",
+    "monaco-editor": "0.57.0",
+    "motion": "14.0.0",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1",
+    "zod": "4.6.5",
+    "@nucleo/features": "*",
+    "@nucleo/platform": "*",
+    "@nucleo/api-client": "*",
+    "@nucleo/design-tokens": "*"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

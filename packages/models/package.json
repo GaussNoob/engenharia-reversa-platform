@@ -1,0 +1,14 @@
+{
+  "name": "@nucleo/models",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/core": "*"
+  }
+}

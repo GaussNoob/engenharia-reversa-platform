@@ -1,0 +1,647 @@
+[
+  {
+    "id": "02-numeros/calculos-com-binarios.md::table-01",
+    "sourcePath": "02-numeros/calculos-com-binarios.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 11,
+    "endLine": 16,
+    "rowCount": 4,
+    "columnLabels": [
+      "x",
+      "y",
+      "x & y"
+    ],
+    "sha256": "31e364bdb85f07f7af945a3a7446003520694a0b6dec20ad813671f002b82096",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/calculos-com-binarios.md::table-02",
+    "sourcePath": "02-numeros/calculos-com-binarios.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 48,
+    "endLine": 53,
+    "rowCount": 4,
+    "columnLabels": [
+      "x",
+      "y",
+      "x | y"
+    ],
+    "sha256": "5b33a0dece12e7a560c44c6368fee8400cd5a5f689b22b10298c9e3485f97fda",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/calculos-com-binarios.md::table-03",
+    "sourcePath": "02-numeros/calculos-com-binarios.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 89,
+    "endLine": 94,
+    "rowCount": 4,
+    "columnLabels": [
+      "x",
+      "y",
+      "x ^ y"
+    ],
+    "sha256": "3ffa125e08647f7df99db838ce15249db8b9aa38ee8bcc2968959cdfcc7cadc1",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/calculos-com-binarios.md::table-04",
+    "sourcePath": "02-numeros/calculos-com-binarios.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 250,
+    "endLine": 253,
+    "rowCount": 2,
+    "columnLabels": [
+      "x",
+      "\\~x"
+    ],
+    "sha256": "85d22c1fe7c5bfd658b6ecb85309b28f5fcebec0c63a59b8655b07a8c71682fa",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/calculos-com-binarios.md::table-05",
+    "sourcePath": "02-numeros/calculos-com-binarios.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 257,
+    "endLine": 261,
+    "rowCount": 3,
+    "columnLabels": [
+      "Tamanho",
+      "0b100",
+      "~0b100"
+    ],
+    "sha256": "f980c44f0a746c4efbcb0df35d1330a5be69a606bb0f8edc466c09e799fd390c",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/numeros-negativos.md::table-01",
+    "sourcePath": "02-numeros/numeros-negativos.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 40,
+    "endLine": 45,
+    "rowCount": 4,
+    "columnLabels": [
+      "Binário",
+      "Hexadecimal",
+      "Com sinal",
+      "Sem sinal"
+    ],
+    "sha256": "f0be0f387c3d69e38a62015e63b5dcedc6ff481a7e40392bdfe6ae3a31c08795",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/o-byte.md::table-01",
+    "sourcePath": "02-numeros/o-byte.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 9,
+    "endLine": 15,
+    "rowCount": 5,
+    "columnLabels": [
+      "Medida",
+      "Tamanho (Intel)",
+      "Nomenclatura Intel"
+    ],
+    "sha256": "b391d4577674ce8560e12cb354d32347f3bc39b15011cfba6cd8b63bd1a119f5",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/sistemas-de-numeracao.md::table-01",
+    "sourcePath": "02-numeros/sistemas-de-numeracao.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 54,
+    "endLine": 71,
+    "rowCount": 16,
+    "columnLabels": [
+      "Hexadecimal",
+      "Decimal",
+      "Octal",
+      "Binário"
+    ],
+    "sha256": "78f523aadd9ef350ec75fcd8f37be3f396e38c24ee630444e85b860f4f8d4f0c",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "02-numeros/sistemas-de-numeracao.md::table-02",
+    "sourcePath": "02-numeros/sistemas-de-numeracao.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 110,
+    "endLine": 123,
+    "rowCount": 12,
+    "columnLabels": [
+      "Decimal",
+      "Lulip's"
+    ],
+    "sha256": "ee95c966f153cfe068c6a34c89b1ca3bce1a123d42ea83c1f335fd5c8f97d418",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "03-cadeias-de-texto/ascii.md::table-01",
+    "sourcePath": "03-cadeias-de-texto/ascii.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 64,
+    "endLine": 67,
+    "rowCount": 2,
+    "columnLabels": [
+      "Code point",
+      "Code page",
+      "Caractere"
+    ],
+    "sha256": "28cf1238b95f343df8bb8f1b79c9e4638852903f5dcc4658a6ee8588f07f84be",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "04-arquivos/formatos.md::table-01",
+    "sourcePath": "04-arquivos/formatos.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 39,
+    "endLine": 43,
+    "rowCount": 3,
+    "columnLabels": [
+      "Byte offset (posição no arquivo)",
+      "Tamanho do campo em bytes",
+      "Valor em hexadecimal",
+      "Descrição"
+    ],
+    "sha256": "96c42622e5a97884cec5b38273bcfd35baf482d5ad214e1c6f3cf1e32ae06e7b",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "05-o-formato-pe/cabecalhos/README.md::table-01",
+    "sourcePath": "05-o-formato-pe/cabecalhos/README.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 7,
+    "endLine": 12,
+    "rowCount": 4,
+    "columnLabels": [
+      "Nomenclatura Microsoft",
+      "Nome do tipo em C (Microsoft Visual Studio)",
+      "Tamanho em bytes"
+    ],
+    "sha256": "c337cda5cc9747a4bd33d48d187ebf68a41f31a539c91a373b8948087c06253e",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md::table-01",
+    "sourcePath": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 48,
+    "endLine": 55,
+    "rowCount": 6,
+    "columnLabels": [
+      "Bit",
+      "Nome da flag",
+      "Descrição"
+    ],
+    "sha256": "4720a78c0dd53de117fc6b883a12a319179c2abac0b01fd1036cad32df0c0119",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "05-o-formato-pe/cabecalhos/coff.md::table-01",
+    "sourcePath": "05-o-formato-pe/cabecalhos/coff.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 47,
+    "endLine": 52,
+    "rowCount": 4,
+    "columnLabels": [
+      "Bit",
+      "Nome",
+      "Comentários"
+    ],
+    "sha256": "4dd0e231d27006d86513fecbaebfe75777cc759411ac8ad248a87d18f2b02bbb",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "05-o-formato-pe/cabecalhos/opcional.md::table-01",
+    "sourcePath": "05-o-formato-pe/cabecalhos/opcional.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 69,
+    "endLine": 72,
+    "rowCount": 2,
+    "columnLabels": [
+      "Bit (começando em 0)",
+      "Nome"
+    ],
+    "sha256": "1db3f75d21c3cddd9d53f01889cbbb23a7e59d45504115e1e22043ead33972d0",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "07-windows-api/README.md::table-01",
+    "sourcePath": "07-windows-api/README.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 30,
+    "endLine": 36,
+    "rowCount": 5,
+    "columnLabels": [
+      "",
+      ""
+    ],
+    "sha256": "eebee4d2582bad5ba46e785d4ced479efb1233bf32296152138594d660162fba",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "07-windows-api/caixas-de-mensagens.md::table-01",
+    "sourcePath": "07-windows-api/caixas-de-mensagens.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 69,
+    "endLine": 76,
+    "rowCount": 6,
+    "columnLabels": [
+      "Tipo",
+      "Expansão"
+    ],
+    "sha256": "dc2b8a148da5eb32339fb3425f72517e374de172be3a46d24c01829573b52c7a",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/README.md::table-01",
+    "sourcePath": "08-assembly/README.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 13,
+    "endLine": 18,
+    "rowCount": 4,
+    "columnLabels": [
+      "A",
+      "B",
+      "A & B",
+      "S"
+    ],
+    "sha256": "cdd3d9aa79b15c18bb36cef7fe3a1d94e1bc0b19bf2270580c2f5c517e7dfc59",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/instrucoes-basicas.md::table-01",
+    "sourcePath": "08-assembly/instrucoes-basicas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 120,
+    "endLine": 131,
+    "rowCount": 10,
+    "columnLabels": [
+      "Instrução",
+      "Alternativa",
+      "Condição"
+    ],
+    "sha256": "ba18d52b3d1dfde0876877adabdeca0e9c5f028dcc419d8dee916b2e249e98bc",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/instrucoes-basicas.md::table-02",
+    "sourcePath": "08-assembly/instrucoes-basicas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 137,
+    "endLine": 146,
+    "rowCount": 8,
+    "columnLabels": [
+      "Instrução",
+      "Alternativa",
+      "Condição"
+    ],
+    "sha256": "e9f6959d1e3c237a8e46db3ade886052ff8acec53b0d6d325fc3d9f084d21514",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/registradores.md::table-01",
+    "sourcePath": "08-assembly/registradores.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 13,
+    "endLine": 23,
+    "rowCount": 9,
+    "columnLabels": [
+      "Registrador",
+      "Significado",
+      "Uso sugerido"
+    ],
+    "sha256": "7da3b81567bce358802e1376300bcff5a6004d09ad3692115f340bf197125651",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/registradores.md::table-02",
+    "sourcePath": "08-assembly/registradores.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 140,
+    "endLine": 143,
+    "rowCount": 2,
+    "columnLabels": [
+      "Endereço Virtual (VA)",
+      "Opcodes e parâmetros",
+      "Assembly"
+    ],
+    "sha256": "f4f5b43f2e7c162dc8057d87cce629205b5645e5b6ec088870e39a8e9e220fd8",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "08-assembly/registradores.md::table-03",
+    "sourcePath": "08-assembly/registradores.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 156,
+    "endLine": 161,
+    "rowCount": 4,
+    "columnLabels": [
+      "Bit",
+      "Nome",
+      "Sigla",
+      "Descrição"
+    ],
+    "sha256": "f0dae2916fc6c56c394c58dfb9654b6b7480cd4f71baddcbb9aa084c1a295b49",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-01",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 9,
+    "endLine": 30,
+    "rowCount": 20,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "fdd8b39e62cb64c462c36d5972c964e5f498f6cd44b01465a8ccf67f3b416325",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-02",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 38,
+    "endLine": 53,
+    "rowCount": 14,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "f179f85d6a16acb946eaf2ef4eb888f308d8d73e95d31b2b6319165baaa75e52",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-03",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 57,
+    "endLine": 65,
+    "rowCount": 7,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "c2685c5a41fef560fd19e4595b83375d42d0b9217d5525ff3807816b9aedc968",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-04",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 69,
+    "endLine": 76,
+    "rowCount": 5,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "18b9a8f4918706a5842ad3ba5f3ddf0fccac20b3a8956bed9b8471a54a0fd6c2",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-05",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 80,
+    "endLine": 85,
+    "rowCount": 4,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "d27debca37891b96ea67a32e4f0952eaddb03285a8ab8d33a706b78d15898ed5",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-06",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 89,
+    "endLine": 100,
+    "rowCount": 10,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "d8e014eff3db83382ceecc5367662d3395d66e31111d6290941d3beb786b6c4a",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-07",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 104,
+    "endLine": 107,
+    "rowCount": 2,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "49eaa932724ad9ee6e56501488f0d0c44f96d85008445a2bd742f7248f0199cb",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-08",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 113,
+    "endLine": 115,
+    "rowCount": 1,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "25dbdc1ad9ec3186359046d88bb72e31110cbbcc0390623eda8c4209f53d3193",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-09",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 119,
+    "endLine": 121,
+    "rowCount": 1,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "d329539912807a5564435d6b7660f007f864693ad11ea61dc6908014e9fd2bba",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-10",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 125,
+    "endLine": 129,
+    "rowCount": 3,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "78be5a913b2874ec2841b5bb946eba097954130f6a93aa4be7f6ce0bc4969aca",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-11",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 133,
+    "endLine": 138,
+    "rowCount": 4,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "b1244d29453c6190200624e5ff958f09c29308c6b052da3c34d48cb1811cd226",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-12",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 142,
+    "endLine": 144,
+    "rowCount": 1,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "9954b0b744ed5e3ee3c2d87397a9855f41026f77208075a1c0f46d99987d24f7",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-13",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 148,
+    "endLine": 151,
+    "rowCount": 2,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "e5755d1d2b952be82628a95bb48948140e13e49c5be1518c1ee5106f2fb05776",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-14",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 155,
+    "endLine": 160,
+    "rowCount": 4,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "995d2a1669787ed4880767ce2c2d911df0e9ca7a932dcbdb3348a50521581bf3",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-15",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 164,
+    "endLine": 168,
+    "rowCount": 3,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "15890da814fe90d7d9cdeda9f36280eb24aa39219ed80e6ae3f1778b4c7e5572",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-16",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 174,
+    "endLine": 176,
+    "rowCount": 1,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "21d1bd1d5bf7f01323f6b85dc88b674cf0669b045e73cae81e64f123f09d6c77",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-17",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 182,
+    "endLine": 186,
+    "rowCount": 3,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "fa154da530616dabc07a1e47a4fd181c9a4846d128759f1abdea365aad7c1aa1",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-18",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 190,
+    "endLine": 194,
+    "rowCount": 3,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "7132c348a3bd8695c3485bf7bf6ea42d17d267950dd3eebd87355629e7410738",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-19",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 198,
+    "endLine": 206,
+    "rowCount": 7,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "44607fcb1b0622e9ad863ec7db4766d888b2e3bc4d401fd82ac6233863f4c7f7",
+    "adaptationStatus": "source-table-not-transformed"
+  },
+  {
+    "id": "apendices/e-ferramentas.md::table-20",
+    "sourcePath": "apendices/e-ferramentas.md",
+    "sourceCommit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "startLine": 242,
+    "endLine": 245,
+    "rowCount": 2,
+    "columnLabels": [
+      "Nome",
+      "Licença",
+      "Descrição"
+    ],
+    "sha256": "1001a53f7fde35b4ff3c05467b1fabb26481757a1c3cdb2c9c931bcf2666887b",
+    "adaptationStatus": "source-table-not-transformed"
+  }
+]

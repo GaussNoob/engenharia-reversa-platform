@@ -1,0 +1,13 @@
+node_modules
+references
+analysis
+content
+docs
+.env
+.env.*
+.runtime
+.git
+apps/web/.next
+apps/web/public/vendor
+test-results
+playwright-report

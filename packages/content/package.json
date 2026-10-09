@@ -1,0 +1,16 @@
+{
+  "name": "@nucleo/content",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/server.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/core": "*",
+    "zod": "4.6.5"
+  }
+}

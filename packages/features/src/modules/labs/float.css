@@ -1,0 +1,523 @@
+.float-bench {
+  container: float / inline-size;
+  --float-sign: #dfb9a8;
+  --float-exponent: #abc8d5;
+  --float-fraction: #d5dacf;
+}
+.float-heading h3 {
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 450;
+  line-height: 1.15;
+  letter-spacing: -1.6px;
+  margin: 18px 0 12px;
+}
+.float-heading > p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 500px;
+  margin: 0;
+}
+.float-heading .overline {
+  color: var(--meta);
+}
+.float-conversion {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px minmax(0, 1fr);
+  margin-top: 40px;
+  align-items: stretch;
+}
+.float-entry,
+.float-result {
+  min-width: 0;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #13181b;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.float-entry:focus-within {
+  border-color: #e8ba7099;
+  box-shadow: 0 0 0 3px #e8ba7014;
+}
+.float-entry input:focus,
+.float-entry input:focus-visible {
+  outline: none;
+}
+.float-result {
+  background: #101518;
+}
+.float-entry label,
+.float-result > span {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.float-entry > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #4a565e;
+  transition: border-color 0.15s;
+}
+.float-entry:focus-within > div {
+  border-bottom-color: var(--accent);
+}
+.float-entry input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  padding: 11px 0;
+  color: var(--ink);
+  background: transparent;
+  font: 28px var(--mono);
+  letter-spacing: -1px;
+}
+.float-entry button {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  color: var(--ink);
+  background: #ffffff08;
+  border: 0;
+  border-radius: 4px;
+}
+.float-entry button:hover {
+  background: #ffffff13;
+}
+.float-entry > span {
+  display: block;
+  font-size: 10px;
+  color: var(--meta);
+  margin-top: 12px;
+  line-height: 1.7;
+}
+.float-conversion-arrow {
+  color: var(--meta);
+  align-self: center;
+  justify-self: center;
+}
+.float-result small {
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+  color: var(--meta);
+}
+.float-result > strong {
+  display: block;
+  font: 24px/1.65 var(--mono);
+  letter-spacing: -0.9px;
+  margin: 10px 0 2px;
+  overflow-wrap: anywhere;
+}
+.float-result > code {
+  font: 11px var(--mono);
+  color: var(--muted);
+  letter-spacing: 0.4px;
+}
+.float-result > p {
+  font-size: 11px;
+  line-height: 1.75;
+  color: var(--meta);
+  margin: 9px 0 0;
+}
+.float-presets {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 26px 0 36px;
+}
+.float-presets > span {
+  font-size: 11px;
+  color: var(--meta);
+  margin-right: 5px;
+}
+.float-presets button {
+  padding: 9px 3px;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  font: 12px var(--mono);
+  min-height: 36px;
+}
+.float-presets button:hover,
+.float-presets button[aria-pressed="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--muted);
+}
+.float-word-section {
+  border-block: 1px solid var(--line);
+  padding: 24px 0 17px;
+}
+.float-word-section > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.float-word-section > header > span:first-child {
+  font: 10px var(--mono);
+  letter-spacing: 1.3px;
+  color: var(--muted);
+}
+.float-word-section > header > span:last-child {
+  font-size: 11px;
+  color: var(--meta);
+}
+.float-word {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.float-byte-range {
+  display: block;
+  font: 9px var(--mono);
+  color: var(--meta);
+  margin: 0 0 9px;
+}
+.float-byte > div {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 2px;
+}
+.float-bit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px 0 9px;
+  border: 0;
+  border-radius: 2px;
+  background: #ffffff04;
+  color: var(--muted);
+  font: 14px var(--mono);
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.float-bit small {
+  font-size: 8px;
+  opacity: 0.65;
+}
+.float-bit {
+  box-shadow: inset 0 2px 0 var(--field);
+  background: color-mix(in srgb, var(--field) 7%, transparent);
+}
+.float-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.float-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.float-legend i {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--field);
+}
+.float-legend small {
+  font: 9px var(--mono);
+  color: var(--meta);
+}
+.float-legend .sign,
+.float-formula .sign {
+  --field: var(--float-sign);
+}
+.float-legend .exponent,
+.float-formula .exponent {
+  --field: var(--float-exponent);
+}
+.float-legend .fraction,
+.float-formula .fraction {
+  --field: var(--float-fraction);
+}
+.float-formula .sign,
+.float-formula .exponent,
+.float-formula .fraction {
+  color: var(--field);
+}
+.float-bit.sign,
+.float-fields .sign {
+  --field: var(--float-sign);
+}
+.float-bit.exponent,
+.float-fields .exponent {
+  --field: var(--float-exponent);
+}
+.float-bit.fraction,
+.float-fields .fraction {
+  --field: var(--float-fraction);
+}
+.float-bit[aria-pressed="true"] {
+  background: var(--field);
+  color: #1c2529;
+}
+.float-bit:hover {
+  outline: 1px solid var(--ink);
+  outline-offset: 2px;
+  z-index: 1;
+}
+.float-bit[data-selected="true"] {
+  box-shadow:
+    inset 0 2px 0 var(--field),
+    0 4px 0 -1px var(--field);
+}
+.float-bit-hint {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--meta);
+  margin: 17px 0 0;
+  min-height: 20px;
+}
+.float-fields {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1.3fr;
+  gap: 25px;
+  padding: 26px 0;
+}
+.float-fields > div {
+  min-width: 0;
+}
+.float-fields > div > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.float-fields small {
+  font-size: 10px;
+  color: var(--meta);
+  margin-left: 3px;
+}
+.float-fields i {
+  width: 6px;
+  height: 6px;
+  background: var(--field);
+  flex-shrink: 0;
+  border-radius: 1px;
+}
+.float-fields strong {
+  display: block;
+  color: var(--field);
+  font: 27px var(--mono);
+  margin-top: 18px;
+  letter-spacing: -1px;
+}
+.float-fields p {
+  font-size: 11px;
+  line-height: 1.75;
+  color: var(--meta);
+  margin: 10px 0 0;
+}
+.float-formula {
+  border-top: 1px solid var(--line);
+  padding: 26px 0;
+}
+.float-formula > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.float-formula > p {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  font: 23px var(--mono);
+  margin: 24px 0 12px;
+}
+.float-formula sup {
+  font-size: 12px;
+}
+.float-formula .float-significand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.float-ratio {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 7px;
+  font-size: 14px;
+}
+.float-ratio > span:first-child {
+  border-bottom: 1px solid var(--muted);
+  padding-bottom: 7px;
+}
+.float-formula small {
+  font-size: 11px;
+  color: var(--meta);
+  line-height: 1.7;
+}
+.float-formula .float-special {
+  font: 15px/1.8 var(--ui);
+}
+.float-storage {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.float-storage > div:first-child > span {
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+  color: var(--meta);
+}
+.float-storage p {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+.float-storage-bytes {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+.float-storage-bytes > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.float-storage-bytes small {
+  font: 9px var(--mono);
+  color: var(--meta);
+}
+.float-storage-bytes code {
+  font: 18px var(--mono);
+}
+.float-storage > a {
+  color: var(--muted);
+  min-height: 44px;
+  min-width: 32px;
+  display: grid;
+  place-items: center;
+}
+@container float (max-width: 660px) {
+  .float-word {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .float-conversion {
+    grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr);
+  }
+  .float-entry,
+  .float-result {
+    padding: 16px;
+  }
+  .float-result > strong {
+    font-size: 20px;
+  }
+  .float-fields {
+    gap: 18px;
+  }
+  .float-fields > div > span {
+    flex-wrap: wrap;
+  }
+}
+@container float (max-width: 440px) {
+  .float-heading h3 {
+    font-size: 30px;
+  }
+  .float-conversion {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .float-conversion-arrow {
+    transform: rotate(90deg);
+    margin: 8px 0;
+  }
+  .float-entry input {
+    font-size: 28px;
+  }
+  .float-result > strong {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  .float-presets {
+    gap: 6px 15px;
+    margin: 20px 0 26px;
+  }
+  .float-presets > span {
+    flex-basis: 100%;
+  }
+  .float-word {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .float-bit {
+    font-size: 17px;
+    padding: 13px 0 9px;
+  }
+  .float-bit small {
+    font-size: 9px;
+  }
+  .float-fields {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-block: 10px;
+  }
+  .float-fields > div {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 17px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .float-fields > div:last-child {
+    border: 0;
+  }
+  .float-fields strong {
+    font-size: 23px;
+    margin: 0;
+  }
+  .float-fields p {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+  }
+  .float-formula > p {
+    font-size: 19px;
+    gap: 10px;
+  }
+  .float-ratio {
+    font-size: 12px;
+  }
+  .float-storage {
+    flex-wrap: wrap;
+    gap: 20px 14px;
+  }
+  .float-storage > div:first-child {
+    flex-basis: calc(100% - 45px);
+  }
+  .float-storage > a {
+    order: 1;
+    margin-left: auto;
+  }
+  .float-storage-bytes {
+    order: 2;
+    margin: 0;
+    gap: 32px;
+  }
+}

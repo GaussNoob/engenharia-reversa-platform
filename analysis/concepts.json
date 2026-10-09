@@ -1,0 +1,8285 @@
+[
+  {
+    "id": "concept/numbers/binario",
+    "term": "binário",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 18
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 150
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 16
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 17
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 40
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 7
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 9
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 15
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 29
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 54
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 82
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 13
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 23
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 59
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 37
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 61
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 67
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 47
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 74
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 69
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 75
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 67
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 25
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 3
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 31
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 41
+      },
+      {
+        "path": "09-depuracao/README.md",
+        "line": 7
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 6
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 54
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 59
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 14
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 160
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 208
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/octal",
+    "term": "octal",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 31
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 33
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 35
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 54
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/hexadecimal",
+    "term": "hexadecimal",
+    "aliases": [
+      "hexa"
+    ],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/registro-de-alteracoes.md",
+        "line": 11
+      },
+      {
+        "path": "02-numeros/README.md",
+        "line": 7
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 18
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 40
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 44
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 46
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 48
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 54
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 80
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 81
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 82
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 91
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 104
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 43
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 7
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 9
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 22
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 3
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 7
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 9
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 25
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 31
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 39
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 59
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 225
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 7
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 13
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 204
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/byte",
+    "term": "byte",
+    "aliases": [
+      "octeto"
+    ],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 9
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 244
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 259
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 10
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 14
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 17
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 1
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 7
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 12
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 22
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 35
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 36
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 56
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 7
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 41
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 57
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 68
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 13
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 17
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 18
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 19
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 29
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 39
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 42
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 51
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 71
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 32
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 43
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 11
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 15
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 41
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 125
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 19
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 25
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 62
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/bit",
+    "term": "bit",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 13
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 5
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 18
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 204
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 222
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 231
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 242
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 248
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 263
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 12
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 47
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 45
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 56
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 59
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 47
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 69
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 74
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 29
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 59
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 33
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 156
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 160
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/nibble",
+    "term": "nibble",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 7
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 11
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/word",
+    "term": "WORD",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 260
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 7
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 13
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 14
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 10
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 60
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 223
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 15
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/dword",
+    "term": "DWORD",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 261
+      },
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 11
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 36
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 73
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 75
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 126
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 128
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 130
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 12
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 15
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 16
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 112
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 87
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 187
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 189
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 202
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 221
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 223
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 61
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 63
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 64
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 87
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 99
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 100
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 102
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 103
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 121
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 122
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 156
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 157
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 174
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 192
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 194
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/qword",
+    "term": "QWORD",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/o-byte.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 12
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 247
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 248
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 250
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 252
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/signed",
+    "term": "signed",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 36
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/unsigned",
+    "term": "unsigned",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 36
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 10
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 11
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 36
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 158
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/complemento-de-dois",
+    "term": "complemento de dois",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 14
+      },
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 19
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/and",
+    "term": "AND",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 13
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 7
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 9
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 22
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      },
+      {
+        "path": "referencias.md",
+        "line": 11
+      },
+      {
+        "path": "referencias.md",
+        "line": 19
+      },
+      {
+        "path": "referencias.md",
+        "line": 20
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/or",
+    "term": "OR",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 13
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 44
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 75
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 76
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 22
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 28
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 60
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 124
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 126
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 127
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 139
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 140
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 141
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 142
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 117
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 132
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/xor",
+    "term": "XOR",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 13
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 85
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 96
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 101
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 102
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 104
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 108
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 119
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 130
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 132
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 133
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 134
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 162
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 172
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 22
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 88
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 204
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 246
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 249
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 251
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 64
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 66
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 143
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 8
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 14
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 16
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/not",
+    "term": "NOT",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 246
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 263
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 123
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 124
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 126
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 127
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 129
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 139
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 140
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 141
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 142
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 144
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 146
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/shl",
+    "term": "SHL",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 178
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 180
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 184
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 16
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/shr",
+    "term": "SHR",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 178
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 211
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/rol",
+    "term": "ROL",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 220
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 226
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 237
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 244
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/ror",
+    "term": "ROR",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 220
+      },
+      {
+        "path": "02-numeros/calculos-com-binarios.md",
+        "line": 244
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 68
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/numbers/msb",
+    "term": "MSB",
+    "aliases": [],
+    "category": "numbers",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 29
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 160
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/ascii",
+    "term": "ASCII",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/README.md",
+        "line": 9
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 7
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 22
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 31
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 33
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 45
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 50
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 54
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 56
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 58
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 26
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 17
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 24
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 41
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 11
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 22
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 3
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 29
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 43
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 51
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 63
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 21
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 28
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 65
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 25
+      },
+      {
+        "path": "apendices/README.md",
+        "line": 5
+      },
+      {
+        "path": "apendices/README.md",
+        "line": 6
+      },
+      {
+        "path": "apendices/a-tabela-ascii.md",
+        "line": 1
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 204
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/unicode",
+    "term": "Unicode",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 69
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 1
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 7
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 9
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 35
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 91
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 92
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 98
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 99
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 31
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 33
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 65
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 75
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 76
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 7
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 25
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/code-point",
+    "term": "code point",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/README.md",
+        "line": 9
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 64
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/code-page",
+    "term": "code page",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 58
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 64
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 102
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/utf-8",
+    "term": "UTF-8",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 11
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 17
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 24
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 35
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 82
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 102
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 26
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/utf-16",
+    "term": "UTF-16",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 11
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 30
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 37
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 41
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 50
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 53
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 59
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 68
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 71
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 75
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 78
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 84
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 86
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 96
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 100
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 102
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/utf-16-le",
+    "term": "UTF-16-LE",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 30
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 59
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 68
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 78
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 86
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 96
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 100
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/utf-16-be",
+    "term": "UTF-16-BE",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 68
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 71
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/utf-32",
+    "term": "UTF-32",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 11
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 104
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 106
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 109
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 115
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 118
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 122
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 125
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/bom",
+    "term": "BOM",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/README.md",
+        "line": 51
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 108
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 57
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 59
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 100
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 106
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 113
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 129
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 22
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 57
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 24
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 192
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/little-endian",
+    "term": "little-endian",
+    "aliases": [
+      "little endian"
+    ],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 57
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 59
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 49
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 95
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 103
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 11
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 44
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/big-endian",
+    "term": "big-endian",
+    "aliases": [
+      "big endian"
+    ],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 68
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 97
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/string",
+    "term": "string",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 22
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 11
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 17
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 24
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 43
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 50
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 86
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 100
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 106
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 11
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 18
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 26
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 31
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 25
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 50
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 83
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 91
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 92
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 33
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 264
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 19
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 20
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 19
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 21
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 27
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 29
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 31
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/nullbyte",
+    "term": "nullbyte",
+    "aliases": [
+      "null byte",
+      "nullbytes"
+    ],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 9
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 13
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 24
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/lf",
+    "term": "LF",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 36
+      },
+      {
+        "path": "apendices/a-tabela-ascii.md",
+        "line": 15
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/cr",
+    "term": "CR",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 37
+      },
+      {
+        "path": "apendices/a-tabela-ascii.md",
+        "line": 18
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/crlf",
+    "term": "CrLf",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 37
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 9
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/text/iso-8859-1",
+    "term": "ISO-8859-1",
+    "aliases": [],
+    "category": "text",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 60
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 5
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 84
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 86
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 89
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 93
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 100
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 102
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 3
+      },
+      {
+        "path": "apendices/README.md",
+        "line": 9
+      },
+      {
+        "path": "apendices/README.md",
+        "line": 10
+      },
+      {
+        "path": "apendices/b-tabela-iso-8859-1.md",
+        "line": 1
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/offset",
+    "term": "offset",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 11
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 13
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 17
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 18
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 19
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 39
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 42
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 81
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 69
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 71
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/magic-number",
+    "term": "magic number",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 45
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/metadados",
+    "term": "metadados",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/README.md",
+        "line": 18
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/filesystem",
+    "term": "filesystem",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/README.md",
+        "line": 3
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 18
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/gif",
+    "term": "GIF",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 3
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 5
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 7
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 33
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 35
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 37
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 45
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 47
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 49
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 51
+      },
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 55
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 11
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/files/header",
+    "term": "header",
+    "aliases": [],
+    "category": "files",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 67
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 82
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 88
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 36
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 28
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 34
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 39
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/pe",
+    "term": "PE",
+    "aliases": [
+      "Portable Executable"
+    ],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/registro-de-alteracoes.md",
+        "line": 11
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 1
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 11
+      },
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 13
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 38
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 37
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 56
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 78
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 95
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 97
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 40
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 39
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 43
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 55
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 61
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 65
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 75
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 80
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 82
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 46
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 24
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 21
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 59
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 61
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 83
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 47
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 49
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 3
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 3
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 122
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 40
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 41
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 43
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 44
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 45
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 47
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 48
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 50
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 52
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 59
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 60
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 61
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 62
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 63
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 64
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 194
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 244
+      },
+      {
+        "path": "referencias.md",
+        "line": 20
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/pe32",
+    "term": "PE32",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 46
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 40
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 29
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 122
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 44
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/pe32",
+    "term": "PE32+",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 46
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 40
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 122
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 44
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/coff",
+    "term": "COFF",
+    "aliases": [
+      "Common Object File Format"
+    ],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 22
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 2
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 56
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 67
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 97
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 99
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 67
+      },
+      {
+        "path": "referencias.md",
+        "line": 20
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/mz",
+    "term": "MZ",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 79
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/e-magic",
+    "term": "e_magic",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 41
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/e-lfanew",
+    "term": "e_lfanew",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 27
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 35
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 53
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 55
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 57
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 80
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 81
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/machine",
+    "term": "Machine",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 13
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 25
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 56
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 83
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 29
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/numberofsections",
+    "term": "NumberOfSections",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 22
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 29
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 57
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/timedatestamp",
+    "term": "TimeDateStamp",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 33
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 58
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 12
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/sizeofoptionalheader",
+    "term": "SizeOfOptionalHeader",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 18
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 39
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 60
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 3
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/characteristics",
+    "term": "Characteristics",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 18
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 44
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 59
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 43
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 61
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 89
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 67
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 35
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 25
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/addressofentrypoint",
+    "term": "AddressOfEntryPoint",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 50
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 30
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/imagebase",
+    "term": "ImageBase",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 34
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 17
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 54
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 53
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/subsystem",
+    "term": "Subsystem",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 30
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 58
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 122
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/dllcharacteristics",
+    "term": "DllCharacteristics",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 65
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/datadirectory",
+    "term": "DataDirectory",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 38
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 76
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/virtualsize",
+    "term": "VirtualSize",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 10
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 28
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/virtualaddress",
+    "term": "VirtualAddress",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 11
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 32
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 16
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 18
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 67
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/sizeofrawdata",
+    "term": "SizeOfRawData",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 12
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 30
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 36
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/pointertorawdata",
+    "term": "PointerToRawData",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 13
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 40
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 130
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/sectionalignment",
+    "term": "SectionAlignment",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 18
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 67
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/filealignment",
+    "term": "FileAlignment",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 19
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/text",
+    "term": ".text",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 26
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 13
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 33
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 57
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 65
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 113
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 124
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 130
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 132
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/data",
+    "term": ".data",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 17
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 58
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 65
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/rdata",
+    "term": ".rdata",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 33
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 35
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 46
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/idata",
+    "term": ".idata",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 48
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/idt",
+    "term": "IDT",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 22
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 44
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 63
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 69
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 73
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 75
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/ilt",
+    "term": "ILT",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 25
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 27
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 44
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 71
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 73
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/iat",
+    "term": "IAT",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 32
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 52
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 54
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 50
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/hint-name",
+    "term": "Hint/Name",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 29
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 71
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 73
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/exports",
+    "term": "exports",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 16
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 8
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/rva",
+    "term": "RVA",
+    "aliases": [
+      "Relative Virtual Address",
+      "Endereço Virtual Relativo"
+    ],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 17
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 53
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 61
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/va",
+    "term": "VA",
+    "aliases": [
+      "Virtual Address",
+      "Endereço Virtual"
+    ],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 11
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 13
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 15
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 17
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 53
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 140
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/memoria-virtual",
+    "term": "memória virtual",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 7
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/pagina",
+    "term": "página",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 58
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 60
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 65
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 67
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 69
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/aslr",
+    "term": "ASLR",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 74
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 15
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/dep",
+    "term": "DEP",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 74
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/clr",
+    "term": "CLR",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 36
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/pe/certificate-table",
+    "term": "Certificate Table",
+    "aliases": [],
+    "category": "pe",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 28
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "line": 30
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/user-mode",
+    "term": "user mode",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 7
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 9
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 11
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 3
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/kernel-mode",
+    "term": "kernel mode",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 7
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 9
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/ring",
+    "term": "ring",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 9
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 95
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/thread",
+    "term": "thread",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 13
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 39
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/processo",
+    "term": "processo",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/README.md",
+        "line": 5
+      },
+      {
+        "path": "01-introducao/README.md",
+        "line": 13
+      },
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 3
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 3
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 3
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 11
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 52
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 13
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 39
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 49
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 52
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 27
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 13
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 15
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 3
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 36
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 135
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 26
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/pid",
+    "term": "PID",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 12
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/loader",
+    "term": "loader",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 7
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 30
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "line": 46
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 37
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 54
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 11
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 37
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 43
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 45
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/linker",
+    "term": "linker",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 9
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 71
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 11
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 42
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/compilador",
+    "term": "compilador",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 131
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 37
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "line": 71
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 25
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 33
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 41
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 46
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 9
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 70
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 32
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 54
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 99
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 216
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 55
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 42
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 45
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 128
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/dll",
+    "term": "DLL",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/README.md",
+        "line": 5
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 52
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 44
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 48
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 52
+      },
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 75
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 31
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 35
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 8
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 15
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 18
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 25
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 36
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 37
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 38
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 39
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 40
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 42
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 17
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 3
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/biblioteca",
+    "term": "biblioteca",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/import-table.md",
+        "line": 54
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 31
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 35
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 41
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 15
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 25
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 59
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 60
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 61
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 62
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 63
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 64
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 65
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/execution/handle",
+    "term": "handle",
+    "aliases": [],
+    "category": "execution",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 91
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 37
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 34
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 46
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 52
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 62
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 10
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 74
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 79
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 88
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 96
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 110
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 118
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 122
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 128
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 19
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 97
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 104
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/windows-api",
+    "term": "Windows API",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/registro-de-alteracoes.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 5
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 1
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 3
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 5
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 72
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 139
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 18
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 65
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 3
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 151
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/messagebox",
+    "term": "MessageBox",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 20
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 28
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 40
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 42
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 67
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 26
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 31
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 33
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 46
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 52
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 54
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 62
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 63
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 240
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/createfile",
+    "term": "CreateFile",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 5
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 7
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 79
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 88
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 118
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 128
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/writefile",
+    "term": "WriteFile",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 104
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 109
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 120
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 143
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/closehandle",
+    "term": "CloseHandle",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 96
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 99
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 122
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 147
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/regcreatekey",
+    "term": "RegCreateKey",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 24
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 26
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 58
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 123
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/regsetkeyvalue",
+    "term": "RegSetKeyValue",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 64
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/regclosekey",
+    "term": "RegCloseKey",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 59
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 133
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/hwnd",
+    "term": "HWND",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 21
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 34
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 44
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 30
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 45
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 143
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/lpcstr",
+    "term": "LPCSTR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 72
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 25
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 140
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 98
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 119
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 120
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 169
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 176
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 191
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 193
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 206
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 207
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/lpcwstr",
+    "term": "LPCWSTR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 33
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 71
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 72
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 125
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 44
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 74
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 11
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/tchar",
+    "term": "TCHAR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 65
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/wchar",
+    "term": "WCHAR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 126
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 65
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/lptstr",
+    "term": "LPTSTR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 75
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/lpctstr",
+    "term": "LPCTSTR",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 22
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 23
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 35
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 76
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 31
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 32
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/bool",
+    "term": "BOOL",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 109
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 14
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 18
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 57
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 60
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 134
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 142
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 144
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 168
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 173
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/hkey",
+    "term": "HKEY",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 10
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 11
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 12
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 14
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 15
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 16
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 18
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 19
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 20
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 32
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 40
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 46
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 52
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 57
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 59
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 70
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 79
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 121
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 58
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 190
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/reg-dword",
+    "term": "REG_DWORD",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 95
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 96
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 115
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 131
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/reg-sz",
+    "term": "REG_SZ",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 91
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 115
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 128
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/hkey-current-user",
+    "term": "HKEY_CURRENT_USER",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 11
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 42
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 48
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 58
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 123
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/windows-api/hkcu",
+    "term": "HKCU",
+    "aliases": [],
+    "category": "windows-api",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 48
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 54
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 115
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/opcode",
+    "term": "opcode",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/README.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 43
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 3
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 5
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 7
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 11
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 102
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 19
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 25
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 3
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/operando",
+    "term": "operando",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/README.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 15
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 32
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 77
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 80
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 81
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 93
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/registrador",
+    "term": "registrador",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/README.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 144
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 158
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 160
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 166
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 171
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 216
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 7
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 11
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 15
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 19
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 66
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 83
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 130
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 131
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 9
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 13
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 33
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 48
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 52
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 57
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 84
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 88
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 138
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 145
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 148
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 150
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 44
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 37
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 47
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 53
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/subregistrador",
+    "term": "subregistrador",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/gpr",
+    "term": "GPR",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 9
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 11
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/long-mode",
+    "term": "long mode",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 5
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rax",
+    "term": "RAX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 107
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 149
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 47
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 15
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 31
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 33
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 38
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 60
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 142
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 143
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rbx",
+    "term": "RBX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 17
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 19
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 48
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 49
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 16
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 31
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rcx",
+    "term": "RCX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 105
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 119
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 27
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 28
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 35
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 39
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 63
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 64
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 66
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 17
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 31
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rdx",
+    "term": "RDX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 105
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 117
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 163
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 166
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 248
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 18
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 31
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rsp",
+    "term": "RSP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 83
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 87
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 89
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 144
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 158
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 166
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 185
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 187
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 189
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 202
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 206
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 221
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 225
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 245
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 254
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 22
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 67
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 84
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 38
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 52
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rbp",
+    "term": "RBP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 21
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 67
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 84
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rsi",
+    "term": "RSI",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 19
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 67
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 69
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 74
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rdi",
+    "term": "RDI",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 20
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 67
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 84
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rip",
+    "term": "RIP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 129
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 171
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 173
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 175
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 89
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 138
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 145
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 11
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 39
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/eax",
+    "term": "EAX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/README.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 79
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 87
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 88
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 129
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 202
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 203
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 204
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 7
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 11
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 74
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 75
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 77
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 95
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 97
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 98
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 100
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 102
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 110
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 111
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 113
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 114
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 116
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 40
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 116
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 117
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 37
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 39
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 8
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 34
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 41
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 53
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 56
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/ax",
+    "term": "AX",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 42
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 52
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      },
+      {
+        "path": "apendices/b-tabela-iso-8859-1.md",
+        "line": 17
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 59
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 230
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/ah",
+    "term": "AH",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 44
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 52
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/al",
+    "term": "AL",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 44
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 63
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/r8",
+    "term": "R8",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 105
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 247
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 23
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 86
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 88
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 103
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/r8d",
+    "term": "R8D",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 192
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 193
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 95
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/r8w",
+    "term": "R8W",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 97
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/r8b",
+    "term": "R8B",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 99
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/rflags",
+    "term": "RFLAGS",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 83
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 150
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/cf",
+    "term": "CF",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 124
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 126
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 127
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 158
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/zf",
+    "term": "ZF",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 66
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 118
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 122
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 123
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 126
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 127
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 148
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 159
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/sf",
+    "term": "SF",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 143
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 144
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 160
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/of",
+    "term": "OF",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 76
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 84
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 87
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 88
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 22
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 30
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 33
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 34
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 42
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 43
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 44
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 46
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 145
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 161
+      },
+      {
+        "path": "referencias.md",
+        "line": 27
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/pf",
+    "term": "PF",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 128
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 129
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/mov",
+    "term": "MOV",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/README.md",
+        "line": 50
+      },
+      {
+        "path": "08-assembly/README.md",
+        "line": 60
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 79
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 84
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 85
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 87
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 112
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 113
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 117
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 125
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 187
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 189
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 191
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 193
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 195
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 197
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 198
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 202
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 225
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 15
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 17
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 27
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 47
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 48
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 55
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 63
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 74
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 77
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 95
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 110
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 60
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 116
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 132
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 142
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 145
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 24
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/add",
+    "term": "ADD",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 78
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 89
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 124
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 206
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 254
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 25
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 28
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 30
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 39
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 43
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 97
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 100
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 102
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 113
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 26
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/sub",
+    "term": "SUB",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 24
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 54
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 83
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 185
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 245
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 48
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 57
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 67
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 84
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 86
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 88
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      },
+      {
+        "path": "apendices/a-tabela-ascii.md",
+        "line": 15
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/inc",
+    "term": "INC",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 32
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 35
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 39
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 43
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 98
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 100
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 114
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 16
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/dec",
+    "term": "DEC",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 7
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/mul",
+    "term": "MUL",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 45
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 49
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 51
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 53
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/div",
+    "term": "DIV",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 57
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/cmp",
+    "term": "CMP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 72
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 75
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 77
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 83
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 85
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 108
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 111
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 135
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 17
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 27
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 34
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/test",
+    "term": "TEST",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 72
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 41
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jmp",
+    "term": "JMP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 96
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 102
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 104
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/je",
+    "term": "JE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 108
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 112
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 118
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 122
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 148
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 35
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 42
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jz",
+    "term": "JZ",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 118
+      },
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 122
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jne",
+    "term": "JNE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 123
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jnz",
+    "term": "JNZ",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 123
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/ja",
+    "term": "JA",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 126
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jae",
+    "term": "JAE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 125
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jb",
+    "term": "JB",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 124
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jbe",
+    "term": "JBE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 127
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jg",
+    "term": "JG",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 139
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jge",
+    "term": "JGE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 140
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jl",
+    "term": "JL",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 141
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 18
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jle",
+    "term": "JLE",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 142
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 28
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/js",
+    "term": "JS",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 143
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jns",
+    "term": "JNS",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 144
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jo",
+    "term": "JO",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 145
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jno",
+    "term": "JNO",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 146
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jcxz",
+    "term": "JCXZ",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 130
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/jecxz",
+    "term": "JECXZ",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/instrucoes-basicas.md",
+        "line": 131
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/call",
+    "term": "CALL",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 86
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 114
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 129
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 168
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 177
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 198
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 200
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 250
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 252
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 9
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 13
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 21
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 25
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 9
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 30
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 32
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 35
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/ret",
+    "term": "RET",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 46
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 51
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 53
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 62
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 61
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 80
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 90
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 126
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 129
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 173
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 208
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 255
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/push",
+    "term": "PUSH",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 149
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 155
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 158
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 17
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 21
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/pop",
+    "term": "POP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 160
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 163
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/lea",
+    "term": "LEA",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 247
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 248
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/nop",
+    "term": "NOP",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 253
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 47
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 50
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/xchg",
+    "term": "XCHG",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 53
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 56
+      },
+      {
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "line": 59
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/abi",
+    "term": "ABI",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 101
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 219
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/shadow-space",
+    "term": "shadow space",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 216
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/pilha",
+    "term": "pilha",
+    "aliases": [
+      "stack"
+    ],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 81
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 33
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 1
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 106
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 131
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 133
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 135
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 137
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 139
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 144
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 146
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 152
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 158
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 160
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 166
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 173
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 175
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 179
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 181
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 184
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 186
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 188
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 201
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 215
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 216
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 219
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 224
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 21
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 22
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 50
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 52
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 17
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/stack-frame",
+    "term": "stack frame",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 21
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/assembly/lifo",
+    "term": "LIFO",
+    "aliases": [],
+    "category": "assembly",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 137
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/disassembly",
+    "term": "disassembly",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 7
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 28
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 30
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 1
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 3
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 5
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 9
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 16
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/debugger",
+    "term": "debugger",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 15
+      },
+      {
+        "path": "09-depuracao/README.md",
+        "line": 5
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 3
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 13
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 1
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 8
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 14
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 54
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 3
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 9
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 15
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 19
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 28
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 32
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 34
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 35
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 41
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 92
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 93
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 95
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 96
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 98
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 99
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 100
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 136
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 160
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/breakpoint",
+    "term": "breakpoint",
+    "aliases": [
+      "ponto de parada"
+    ],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 3
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 5
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 7
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 9
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 11
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 13
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 17
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 19
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 14
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 39
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 5
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/int3",
+    "term": "INT3",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 17
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/step-over",
+    "term": "Step over",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 21
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 24
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 32
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 35
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/step-into",
+    "term": "Step into",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 32
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 35
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/lasterror",
+    "term": "LastError",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 44
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 37
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 39
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/laststatus",
+    "term": "LastStatus",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 44
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 37
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 39
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/patch",
+    "term": "patch",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/patches.md",
+        "line": 3
+      },
+      {
+        "path": "09-depuracao/patches.md",
+        "line": 5
+      },
+      {
+        "path": "09-depuracao/patches.md",
+        "line": 11
+      },
+      {
+        "path": "09-depuracao/patches.md",
+        "line": 13
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/dump",
+    "term": "dump",
+    "aliases": [],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 76
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 22
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 30
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 36
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 38
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 40
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 21
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 25
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 33
+      },
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 35
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  },
+  {
+    "id": "concept/debugging/entrypoint",
+    "term": "entrypoint",
+    "aliases": [
+      "entry point",
+      "EP",
+      "ponto de entrada"
+    ],
+    "category": "debugging",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "line": 52
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 19
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 45
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 53
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 56
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 57
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 53
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 123
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 125
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 14
+      },
+      {
+        "path": "09-depuracao/debugger.md",
+        "line": 30
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 19
+      }
+    ],
+    "status": "term-in-source-not-yet-curated-definition"
+  }
+]

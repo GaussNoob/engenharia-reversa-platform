@@ -1,0 +1,31 @@
+{
+  "name": "@nucleo/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/build-desktop.mjs --dev",
+    "build": "node ../../scripts/build-desktop.mjs",
+    "build:ui": "node ../../scripts/build-native.mjs desktop",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/features": "*",
+    "@nucleo/platform": "*",
+    "@nucleo/api-client": "*",
+    "@nucleo/core": "*",
+    "@nucleo/models": "*",
+    "@nucleo/design-tokens": "*",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "@fontsource-variable/instrument-sans": "5.3.0",
+    "@fontsource-variable/literata": "5.3.0",
+    "@tauri-apps/api": "2.12.1",
+    "@tauri-apps/plugin-dialog": "2.8.1",
+    "@tauri-apps/plugin-fs": "2.6.0",
+    "@tauri-apps/plugin-opener": "2.7.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.1"
+  }
+}

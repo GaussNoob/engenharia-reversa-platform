@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "stage": "implemented-local-platform",
+  "applicationImplemented": true,
+  "userConstraints": {
+    "excludedProviders": [
+      "Supabase"
+    ],
+    "database": "independent-postgresql",
+    "orm": "drizzle",
+    "analyzeSourceBeforeProductCode": true,
+    "preserveRelevantTechnicalScope": true,
+    "noMainServerExecutionOfStudentCode": true,
+    "noGenericEadTemplate": true
+  },
+  "stackProposal": {
+    "web": "Next.js App Router, React, TypeScript",
+    "api": "Hono on Node.js",
+    "auth": "Better Auth with PostgreSQL sessions",
+    "database": "PostgreSQL",
+    "orm": "Drizzle",
+    "styles": "Scoped CSS with own design tokens",
+    "motion": "CSS and Three.js contextual transitions with reduced-motion support",
+    "desktopEditor": "Monaco",
+    "mobileEditor": "CodeMirror 6, verified in Chromium mobile viewports",
+    "execution": "Dedicated queue worker with disposable gVisor containers",
+    "providerDependency": "none-mandatory"
+  },
+  "publicationDependencies": [
+    "Clarify applicable permission to adapt and redistribute the full book text and images.",
+    "Obtain and verify the external AnalyseMe-00 sample before claiming original-binary integration."
+  ],
+  "editorCompletion": "Shared local contextual index for Python, C, C++, Assembly and FASM",
+  "mobilePractice": "Fixed launcher and native modal semantics with custom presentation; editor remains mounted"
+}

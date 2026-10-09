@@ -1,0 +1,33 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "incremental": true,
+    "paths": {
+      "@nucleo/core": ["../../packages/core/src/index.ts"],
+      "@nucleo/models": ["../../packages/models/src/index.ts"],
+      "@nucleo/content": ["../../packages/content/src/index.ts"],
+      "@nucleo/content/server": ["../../packages/content/src/server.ts"],
+      "@nucleo/platform": ["../../packages/platform/src/index.tsx"],
+      "@nucleo/platform/*": ["../../packages/platform/src/*"],
+      "@nucleo/api-client": ["../../packages/api-client/src/index.ts"],
+      "@nucleo/api-client/*": ["../../packages/api-client/src/*"],
+      "@nucleo/features/*": ["../../packages/features/src/*"],
+      "@/*": ["./src/*"],
+      "@nucleo/design-tokens/*": ["../../packages/design-tokens/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

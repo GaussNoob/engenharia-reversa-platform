@@ -1,0 +1,98 @@
+body[data-platform] {
+  padding-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+  padding-left: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+  padding-right: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+}
+body[data-platform] .app-sidebar {
+  padding-top: calc(
+    28px + var(--safe-area-inset-top, env(safe-area-inset-top, 0px))
+  );
+}
+body[data-platform] .page-body {
+  padding-bottom: calc(
+    48px + var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px))
+  );
+}
+body[data-platform] .account-settings {
+  max-width: 900px;
+}
+.account-settings section {
+  border-top: 1px solid var(--line);
+  padding: 28px 0;
+}
+.account-settings h2 {
+  font-size: 24px;
+}
+.account-session {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.account-session span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.account-session small {
+  display: block;
+  color: var(--muted);
+}
+.execution-record {
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.execution-record pre {
+  overflow: auto;
+  max-height: 320px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+body[data-platform="mobile"] .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+}
+body[data-platform="mobile"] .auth-page {
+  min-height: 100dvh;
+  padding-bottom: var(
+    --safe-area-inset-bottom,
+    env(safe-area-inset-bottom, 0px)
+  );
+}
+body[data-platform="mobile"] .tool-button {
+  min-height: 44px;
+}
+body[data-platform="mobile"] .mobile-menu {
+  top: calc(17px + var(--safe-area-inset-top, env(safe-area-inset-top, 0px)));
+}
+body[data-platform="mobile"] .workbench-tab-dialog {
+  max-height: calc(
+    100dvh - var(--safe-area-inset-top, env(safe-area-inset-top, 0px)) -
+      var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px))
+  );
+}
+body[data-platform="mobile"] .page-header {
+  padding-top: calc(
+    25px + var(--safe-area-inset-top, env(safe-area-inset-top, 0px))
+  );
+}
+@media (max-width: 760px) {
+  .account-session {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  body[data-platform] .page-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-platform] *,
+  body[data-platform] *::before,
+  body[data-platform] *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

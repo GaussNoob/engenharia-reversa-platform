@@ -1,0 +1,43 @@
+name: Web deployment
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Deployment environment
+        type: choice
+        options: [preview, production]
+        default: preview
+permissions:
+  contents: read
+concurrency:
+  group: web-${{ inputs.target }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.target }}
+    env:
+      VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "24", cache: npm }
+      - run: npm ci
+      - name: Read deployment settings
+        run: npx vercel@63.1.0 pull --yes --environment=${{ inputs.target }} --token="$VERCEL_TOKEN"
+      - name: Build selected environment
+        run: |
+          if [ "${{ inputs.target }}" = production ]; then
+            npx vercel@63.1.0 build --prod --token="$VERCEL_TOKEN"
+          else
+            npx vercel@63.1.0 build --token="$VERCEL_TOKEN"
+          fi
+      - name: Deploy generated output
+        run: |
+          if [ "${{ inputs.target }}" = production ]; then
+            npx vercel@63.1.0 deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+          else
+            npx vercel@63.1.0 deploy --prebuilt --token="$VERCEL_TOKEN"
+          fi

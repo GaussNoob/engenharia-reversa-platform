@@ -1,0 +1,324 @@
+.source-image-open {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: #f2f2f0;
+  border-radius: 3px;
+  cursor: zoom-in;
+  overflow: hidden;
+}
+.source-image-open img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: contain;
+}
+.source-image-open > span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  font: 11px var(--ui);
+  background: #161b1fee;
+  color: var(--ink);
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.18s;
+}
+.source-image-open:hover > span,
+.source-image-open:focus-visible > span {
+  opacity: 1;
+}
+.source-image-error {
+  padding: 24px;
+  background: var(--surface);
+  font: 14px var(--ui);
+  color: var(--muted);
+}
+.source-image-dialog {
+  padding: 0;
+  width: min(1200px, calc(100vw - 48px));
+  max-width: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  overflow: hidden;
+}
+.source-image-dialog::backdrop {
+  background: #070a0dea;
+}
+.source-image-dialog > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 16px 12px 24px;
+  border-bottom: 1px solid var(--line);
+}
+.source-image-dialog h2 {
+  margin: 0;
+  font: 14px/1.6 var(--ui);
+}
+.source-image-dialog header > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.source-image-dialog output {
+  font: 11px var(--mono);
+  color: var(--muted);
+  min-width: 42px;
+  text-align: center;
+}
+.source-image-canvas {
+  overflow: auto;
+  max-height: 78dvh;
+  overscroll-behavior: contain;
+  background: #f2f2f0;
+}
+.source-image-canvas img {
+  display: block;
+  height: auto;
+}
+.practice-launcher,
+.practice-dialog-header,
+.practice-dialog-tabs {
+  display: none;
+}
+.practice-dialog {
+  position: static;
+  inset: auto;
+  width: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  background: var(--surface);
+  overflow: visible;
+}
+.practice-dialog:not([open]) {
+  display: none;
+}
+@media (max-width: 900px) {
+  .lesson-mobile-tabs {
+    display: none;
+  }
+  .lesson-layout {
+    padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+  }
+  .lesson-layout .lesson-reading {
+    display: block;
+  }
+  .lesson-layout .lesson-practice,
+  .lesson-layout .lesson-practice.practice-collapsed {
+    display: contents;
+  }
+  .practice-launcher {
+    position: fixed;
+    left: max(16px, calc((100vw - 700px) / 2));
+    right: max(16px, calc((100vw - 700px) / 2));
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    z-index: 30;
+    min-height: 62px;
+    padding: 11px 16px;
+    background: #21272b;
+    border: 1px solid #434d55;
+    border-radius: 8px;
+    box-shadow: 0 8px 40px #0009;
+    color: var(--ink);
+    text-align: left;
+  }
+  .practice-launcher > span {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .practice-launcher strong {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .practice-launcher small {
+    font-size: 11px;
+    color: var(--muted);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .practice-launcher > svg:first-child {
+    color: var(--muted);
+  }
+  .practice-launcher > svg:last-child {
+    color: var(--meta);
+  }
+  .practice-dialog {
+    position: fixed;
+    inset: auto 0 0;
+    top: calc(var(--practice-top, 0px) + 12px);
+    width: 100%;
+    height: calc(var(--practice-height, 100dvh) - 12px);
+    max-height: calc(100dvh - 12px);
+    margin: 0;
+    border: 1px solid #38424a;
+    border-bottom: 0;
+    border-radius: 14px 14px 0 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .practice-dialog::backdrop {
+    background: #05080ccc;
+  }
+  .practice-dialog[open] {
+    animation: practice-open 0.24s cubic-bezier(0.2, 0.65, 0.25, 1) both;
+  }
+  .practice-dialog-header {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 16px 18px 14px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  .practice-dialog-header > div {
+    min-width: 0;
+  }
+  .practice-dialog-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+  }
+  .practice-dialog-header p {
+    margin: 5px 0 0;
+    font-size: 11px;
+    color: var(--meta);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .practice-dialog-header button {
+    flex-shrink: 0;
+  }
+  .practice-dialog .practice-context {
+    display: none;
+  }
+  .practice-dialog-tabs {
+    display: flex;
+    gap: 20px;
+    padding: 0 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .practice-dialog-tabs button {
+    color: var(--muted);
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    font-size: 13px;
+    padding: 14px 2px;
+    min-height: 46px;
+  }
+  .practice-dialog-tabs button[aria-pressed="true"] {
+    color: var(--ink);
+    border-color: var(--muted);
+  }
+  .practice-dialog-tabs > span {
+    align-self: center;
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--meta);
+  }
+  .practice-dialog .editor-container {
+    height: clamp(200px, calc(var(--practice-height, 100dvh) - 340px), 520px);
+    min-height: 170px;
+  }
+  .practice-dialog .workbench-tabs {
+    display: flex;
+  }
+  .practice-dialog .terminal-panel {
+    min-height: 260px;
+  }
+  .practice-dialog .concept-bench {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 761px) and (max-width: 900px) {
+  .practice-launcher {
+    left: 234px;
+    right: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .source-image-dialog {
+    width: calc(100vw - 16px);
+  }
+  .source-image-dialog > header {
+    padding: 10px;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .source-image-dialog header > div {
+    margin-left: auto;
+  }
+  .source-image-dialog h2 {
+    font-size: 12px;
+  }
+  .source-image-open > span {
+    opacity: 1;
+    font-size: 10px;
+    bottom: 7px;
+    right: 7px;
+  }
+}
+@keyframes practice-open {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .practice-dialog[open] {
+    animation: none;
+  }
+  .source-image-open > span {
+    transition: none;
+  }
+}
+
+/* Desktop: the practice column spans the viewport and the editor takes the spare height. */
+@media (min-width: 901px) {
+  .lesson-layout .lesson-practice {
+    height: calc(100vh - 70px);
+  }
+  .lesson-practice .practice-dialog {
+    min-height: 100%;
+  }
+  .lesson-practice .practice-dialog .editor-container {
+    height: max(280px, calc(100vh - 70px - 350px));
+  }
+  .lesson-practice .practice-dialog .terminal-panel {
+    min-height: max(280px, calc(100vh - 70px - 300px));
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": ["node"],
+    "paths": {
+      "@nucleo/core": ["./packages/core/src/index.ts"],
+      "@nucleo/models": ["./packages/models/src/index.ts"],
+      "@nucleo/content": ["./packages/content/src/index.ts"],
+      "@nucleo/content/server": ["./packages/content/src/server.ts"],
+      "@nucleo/platform": ["./packages/platform/src/index.tsx"],
+      "@nucleo/platform/*": ["./packages/platform/src/*"],
+      "@nucleo/api-client": ["./packages/api-client/src/index.ts"],
+      "@nucleo/api-client/*": ["./packages/api-client/src/*"],
+      "@nucleo/features/*": ["./packages/features/src/*"],
+      "@nucleo/design-tokens/*": ["./packages/design-tokens/*"]
+    }
+  }
+}

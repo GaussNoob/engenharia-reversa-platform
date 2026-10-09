@@ -1,0 +1,21 @@
+:root {
+  --bg: #0d0f10;
+  --surface: #15181a;
+  --panel: #1c2023;
+  --raised: #242a2e;
+  --ink: #f1f0eb;
+  --muted: #a7afb5;
+  --meta: #89939a;
+  --accent: #e8ba70;
+  --accent-ink: #17130d;
+  --focus: #f0c589;
+  --positive: #b2c7a6;
+  --negative: #e69c88;
+  --info: #98bbca;
+  --line: #2b3034;
+  --strong-line: #697681;
+  --ui: "Instrument Sans Variable", sans-serif;
+  --read: "Literata Variable", Georgia, serif;
+  --mono: "Commit Mono", monospace;
+  --sidebar: 236px;
+}

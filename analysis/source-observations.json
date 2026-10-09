@@ -1,0 +1,32 @@
+{
+  "auditDate": "2026-10-06",
+  "repository": {
+    "url": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+    "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "githubApiLicense": null,
+    "licenseFileInWorkingTree": false,
+    "sourceModified": false,
+    "sourceProgramsExecuted": false,
+    "scope": "all tracked files in the pinned working tree; not an audit of all history or external tool repositories"
+  },
+  "analyseMe00": {
+    "sourceUrl": "https://menteb.in/analyseme00",
+    "redirectUrl": "https://www.mentebinaria.com.br/forums/topic/446-analyseme-nível-00/",
+    "observedFinalHttpStatus": 403,
+    "observedReason": "access verification challenge",
+    "downloaded": false,
+    "hashVerified": false,
+    "binaryArchitectureVerified": false,
+    "executed": false
+  },
+  "visualReference": {
+    "url": "https://www.framer.com/",
+    "desktopViewport": [1440, 1100],
+    "observed": ["dark canvas", "strong title hierarchy", "wide negative space", "large product demonstration surface"],
+    "use": "composition and finish reference; own colors, type and functional demonstrations"
+  },
+  "sourceDiagrams": {
+    "transparentWithDarkLines": ["05_pe.png", "05_alinhamento.png", "05_memoria_virtual.png", "06_execucao_programas.png"],
+    "inspection": "viewed on light background to preserve legibility; original PNGs unchanged"
+  }
+}

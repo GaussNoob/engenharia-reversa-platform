@@ -1,0 +1,38 @@
+{
+  "name": "@nucleo/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/build-native.mjs mobile --serve",
+    "build": "node ../../scripts/build-native.mjs mobile",
+    "sync:android": "cap sync android",
+    "build:android": "node ../../scripts/build-mobile.mjs apk",
+    "build:aab": "node ../../scripts/build-mobile.mjs aab",
+    "open:android": "cap open android",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/features": "*",
+    "@nucleo/platform": "*",
+    "@nucleo/api-client": "*",
+    "@nucleo/core": "*",
+    "@nucleo/models": "*",
+    "@nucleo/design-tokens": "*",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "@fontsource-variable/instrument-sans": "5.3.0",
+    "@fontsource-variable/literata": "5.3.0",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/android": "8.5.3",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/filesystem": "8.1.4",
+    "@capacitor/share": "8.0.3",
+    "@aparajita/capacitor-secure-storage": "8.0.1",
+    "@capacitor/browser": "8.0.5",
+    "@capacitor/keyboard": "8.0.6"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

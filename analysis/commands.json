@@ -1,0 +1,370 @@
+[
+  {
+    "name": "dumpbin",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 70
+      },
+      {
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "line": 95
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 19
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 5
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 8
+      },
+      {
+        "path": "06-execucao-de-programas/executaveis.md",
+        "line": 28
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 43
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "findstr",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 8
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 13
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "rundll32",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 15
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 18
+      },
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 25
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "tasklist",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 7
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 10
+      },
+      {
+        "path": "06-execucao-de-programas/processos.md",
+        "line": 36
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "regedit",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 48
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "chmod",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 35
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "cat",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 48
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "grep",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 13
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "hdump",
+    "sourceOccurrences": [
+      {
+        "path": "04-arquivos/formatos.md",
+        "line": 31
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 200
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 211
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "heksa",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 201
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 215
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "hexyl",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 203
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 219
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "hexdump",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 200
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 204
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "hd",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 200
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 204
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 205
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 206
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 225
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "od",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 205
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 230
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "xxd",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 206
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 235
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "fasm",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 107
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 122
+      },
+      {
+        "path": "08-assembly/registradores.md",
+        "line": 128
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 71
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "objdump",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 47
+      },
+      {
+        "path": "apendices/e-ferramentas.md",
+        "line": 59
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "StepOver",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 26
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "step",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 21
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 23
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 24
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 26
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 32
+      },
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 35
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "sto",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 26
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "st",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/disassembly.md",
+        "line": 26
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "SetBPX",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 7
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "bp",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 7
+      },
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 19
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  },
+  {
+    "name": "bpx",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/breakpoints.md",
+        "line": 7
+      }
+    ],
+    "status": "mentioned-in-source-not-host-shell-command"
+  }
+]

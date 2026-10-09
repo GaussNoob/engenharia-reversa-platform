@@ -1,0 +1,26 @@
+[Unit]
+Description=Núcleo sandbox runner
+After=network-online.target docker.service
+Requires=docker.service
+[Service]
+Type=simple
+User=nucleo-runner
+Group=nucleo
+SupplementaryGroups=docker
+WorkingDirectory=/opt/nucleo/current
+Environment=NODE_ENV=production
+Environment=TMPDIR=/var/lib/nucleo/jobs
+EnvironmentFile=/etc/nucleo/runner.env
+ExecStart=/usr/bin/node --import tsx apps/runner/src/main.ts
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+UMask=0027
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+ReadWritePaths=/var/lib/nucleo/jobs /var/lib/nucleo/artifacts
+[Install]
+WantedBy=multi-user.target

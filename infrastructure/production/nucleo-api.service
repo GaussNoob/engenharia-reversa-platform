@@ -1,0 +1,24 @@
+[Unit]
+Description=Núcleo API
+After=network-online.target docker.service
+Wants=network-online.target
+[Service]
+Type=simple
+User=nucleo-api
+Group=nucleo
+WorkingDirectory=/opt/nucleo/current
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/nucleo/api.env
+ExecStart=/usr/bin/node --import tsx apps/api/src/main.ts
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1394 @@
+[
+  {
+    "name": "CheckRemoteDebuggerPresent",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 18
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CloseHandle",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 99
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 147
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CopyFile",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateFile",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 38
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 79
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 128
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateFileA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 5
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 97
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 108
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateFileMapping",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateFileW",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 10
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 5
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 108
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateProcessA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 168
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateRemoteThread",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateThread",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CreateToolhelp32Snapshot",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CryptDecrypt",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 68
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CryptEncrypt",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 57
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CryptGenKey",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 68
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "CryptImportKey",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 68
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "DeleteFile",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "DeleteFileA",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "EnableMenuItem",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 134
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "EnableWindow",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 142
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ExitProcess",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ExitThread",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "FatalExit",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetDiskFreeSpace",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 90
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetDlgItemTextA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 44
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetDriveType",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 90
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetEnvironmentVariableA",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetFullPathName",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetLocalTime",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 75
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetLogicalDrives",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 87
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetNativeSystemInfo",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 78
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetTempPath",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "GetVolumeInformationA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 90
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Heap32First",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Heap32ListFirst",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Heap32ListNext",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Heap32Next",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "HttpSendRequestA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 127
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "InternetOpenA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 127
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "InternetOpenUrlA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 117
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "InternetOpenUrlW",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 127
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "InternetOpenW",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 127
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "InternetReadFile",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 127
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "IsDebuggerPresent",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 14
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "LoadLibrary",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "MessageBox",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/README.md",
+        "line": 13
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 20
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 61
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 67
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 17
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 46
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 52
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 54
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "MessageBoxA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 29
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "MessageBoxEx",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 37
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "MessageBoxW",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 66
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 261
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Module32First",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Module32Next",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "MoveFile",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenFile",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenFileMapping",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenMutex",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 110
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenProcess",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenProcessToken",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "OpenThreadToken",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Process32First",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Process32Next",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegCloseKey",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 59
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 133
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegCreateKey",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 58
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 123
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegCreateKeyW",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 31
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegEnumKeyExA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegOpenKey",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegOpenKeyEx",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegQueryValueA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegSetKeyValueW",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 69
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 128
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 131
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegSetValueA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 189
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegSetValueExA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegSetValueExW",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "RegSetValueW",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 198
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "SetLocalTime",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 80
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "SetSystemTime",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 80
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ShellAboutA",
+    "sourceOccurrences": [
+      {
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "line": 21
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ShellExecute",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "TerminateProcess",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "Toolhelp32ReadProcessMemory",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualAlloc",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 153
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualAllocEx",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 161
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualFree",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 161
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualLock",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 161
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualProtect",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 161
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "VirtualQuery",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 161
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "WriteFile",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 109
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 143
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "WriteProcessMemory",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ZwQueryInformationProcess",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "ZwSetInformationThread",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 182
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "c_byte",
+    "sourceOccurrences": [
+      {
+        "path": "02-numeros/numeros-negativos.md",
+        "line": 32
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "chr",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 15
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 18
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "encode",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 16
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 17
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 53
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 71
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 78
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 89
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 96
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 109
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 118
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 125
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "fahrenheit2celsius",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 34
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 37
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 40
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 43
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "hex",
+    "sourceOccurrences": [
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 25
+      },
+      {
+        "path": "03-cadeias-de-texto/ascii.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "line": 16
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 20
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 29
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 46
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 53
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 62
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 71
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 78
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 89
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 96
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 109
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 118
+      },
+      {
+        "path": "03-cadeias-de-texto/unicode.md",
+        "line": 125
+      },
+      {
+        "path": "04-arquivos/README.md",
+        "line": 14
+      },
+      {
+        "path": "05-o-formato-pe/enderecamento.md",
+        "line": 57
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "lstrcat",
+    "sourceOccurrences": [
+      {
+        "path": "09-depuracao/manipulacao.md",
+        "line": 7
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 211
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "lstrcmpA",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 205
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "lstrcpy",
+    "sourceOccurrences": [
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 211
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "lstrlen",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 126
+      },
+      {
+        "path": "apendices/d-funcoes-api-win.md",
+        "line": 211
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "lstrlenA",
+    "sourceOccurrences": [
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 141
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "main",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 49
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 24
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 40
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 75
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 24
+      },
+      {
+        "path": "07-windows-api/README.md",
+        "line": 12
+      },
+      {
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "line": 120
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 16
+      },
+      {
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "line": 43
+      },
+      {
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "line": 127
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 68
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 203
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 207
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 230
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "print",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 12
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 16
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 20
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 38
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 41
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 44
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "printf",
+    "sourceOccurrences": [
+      {
+        "path": "01-introducao/antes-de-comecar.md",
+        "line": 50
+      },
+      {
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "line": 26
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 79
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 25
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 29
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 31
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 33
+      },
+      {
+        "path": "06-execucao-de-programas/README.md",
+        "line": 35
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "puts",
+    "sourceOccurrences": [
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 27
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 31
+      },
+      {
+        "path": "05-o-formato-pe/secoes.md",
+        "line": 42
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  },
+  {
+    "name": "soma",
+    "sourceOccurrences": [
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 64
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 69
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 93
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 99
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 109
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 121
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 199
+      },
+      {
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "line": 231
+      }
+    ],
+    "status": "source-symbol-candidate-review-before-public-index"
+  }
+]

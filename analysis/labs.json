@@ -1,0 +1,1159 @@
+[
+  {
+    "id": "python-inicial",
+    "title": "Primeiro resultado no Python",
+    "moduleNumber": "01",
+    "engine": "python",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "01-introducao/antes-de-comecar.md",
+        "startLine": 1,
+        "endLine": 58,
+        "fileSha256": "4a2f778af2ec3a58bde10aa81bfa10b8efe9bd69bd731295b7b67a3fbdd96a1f"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/01-introducao/antes-de-comecar"
+    ],
+    "codeExampleIds": [
+      "01-introducao/antes-de-comecar.md::code-01",
+      "01-introducao/antes-de-comecar.md::code-02"
+    ],
+    "learningOutcome": "Obter e explicar o resultado de uma expressão no REPL.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "c-inicial",
+    "title": "Compilar e observar um programa C",
+    "moduleNumber": "01",
+    "engine": "c-portable",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "01-introducao/antes-de-comecar.md",
+        "startLine": 1,
+        "endLine": 58,
+        "fileSha256": "4a2f778af2ec3a58bde10aa81bfa10b8efe9bd69bd731295b7b67a3fbdd96a1f"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/01-introducao/antes-de-comecar"
+    ],
+    "codeExampleIds": [
+      "01-introducao/antes-de-comecar.md::code-01",
+      "01-introducao/antes-de-comecar.md::code-02"
+    ],
+    "learningOutcome": "Compilar o programa inicial e conferir stdout e código de saída.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "conversao-bases",
+    "title": "O mesmo número em quatro bases",
+    "moduleNumber": "02",
+    "engine": "number-bench",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "startLine": 1,
+        "endLine": 125,
+        "fileSha256": "a31140fe82922d5e02aa7a91a26ce0e95d4a3941b4085a071b58ddfb3e3191db"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/bases",
+      "fundamentos-engenharia-reversa/02-numeros/hexadecimal",
+      "fundamentos-engenharia-reversa/02-numeros/sistema-proprio"
+    ],
+    "codeExampleIds": [
+      "02-numeros/sistemas-de-numeracao.md::code-01",
+      "02-numeros/sistemas-de-numeracao.md::code-02",
+      "02-numeros/sistemas-de-numeracao.md::code-03",
+      "02-numeros/sistemas-de-numeracao.md::code-04",
+      "02-numeros/sistemas-de-numeracao.md::code-05"
+    ],
+    "learningOutcome": "Representar o mesmo valor em binário, octal, decimal e hexadecimal.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "base-propria",
+    "title": "Criar um alfabeto numérico",
+    "moduleNumber": "02",
+    "engine": "number-bench",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "startLine": 1,
+        "endLine": 125,
+        "fileSha256": "a31140fe82922d5e02aa7a91a26ce0e95d4a3941b4085a071b58ddfb3e3191db"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/bases",
+      "fundamentos-engenharia-reversa/02-numeros/hexadecimal",
+      "fundamentos-engenharia-reversa/02-numeros/sistema-proprio"
+    ],
+    "codeExampleIds": [
+      "02-numeros/sistemas-de-numeracao.md::code-01",
+      "02-numeros/sistemas-de-numeracao.md::code-02",
+      "02-numeros/sistemas-de-numeracao.md::code-03",
+      "02-numeros/sistemas-de-numeracao.md::code-04",
+      "02-numeros/sistemas-de-numeracao.md::code-05"
+    ],
+    "learningOutcome": "Converter valores no sistema ternário descrito no livro e em um alfabeto escolhido.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "signed-byte",
+    "title": "Um byte, duas interpretações",
+    "moduleNumber": "02",
+    "engine": "bit-bench",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/numeros-negativos.md",
+        "startLine": 1,
+        "endLine": 47,
+        "fileSha256": "9f61794b8905976653710fc617412f0844a7287998fcb7358fa091bd66047096"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/numeros-negativos"
+    ],
+    "codeExampleIds": [
+      "02-numeros/numeros-negativos.md::code-01",
+      "02-numeros/numeros-negativos.md::code-02",
+      "02-numeros/numeros-negativos.md::code-03"
+    ],
+    "learningOutcome": "Demonstrar por que 0xF6 representa 246 sem sinal e -10 com sinal em oito bits.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "and-or",
+    "title": "Operar sobre cada bit",
+    "moduleNumber": "02",
+    "engine": "bit-bench",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/calculos-com-binarios.md",
+        "startLine": 1,
+        "endLine": 270,
+        "fileSha256": "865541b465c68348fc5919a2b04361315611c3a5c90b1ea0a6f2cd6a977ff559"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/and-or",
+      "fundamentos-engenharia-reversa/02-numeros/xor",
+      "fundamentos-engenharia-reversa/02-numeros/shift-rotate",
+      "fundamentos-engenharia-reversa/02-numeros/not"
+    ],
+    "codeExampleIds": [
+      "02-numeros/calculos-com-binarios.md::code-01",
+      "02-numeros/calculos-com-binarios.md::code-02",
+      "02-numeros/calculos-com-binarios.md::code-03",
+      "02-numeros/calculos-com-binarios.md::code-04",
+      "02-numeros/calculos-com-binarios.md::code-05",
+      "02-numeros/calculos-com-binarios.md::code-06",
+      "02-numeros/calculos-com-binarios.md::code-07",
+      "02-numeros/calculos-com-binarios.md::code-08",
+      "02-numeros/calculos-com-binarios.md::code-09",
+      "02-numeros/calculos-com-binarios.md::code-10",
+      "02-numeros/calculos-com-binarios.md::code-11",
+      "02-numeros/calculos-com-binarios.md::code-12",
+      "02-numeros/calculos-com-binarios.md::code-13",
+      "02-numeros/calculos-com-binarios.md::code-14",
+      "02-numeros/calculos-com-binarios.md::code-15",
+      "02-numeros/calculos-com-binarios.md::code-16"
+    ],
+    "learningOutcome": "Reproduzir as tabelas AND e OR e separar disjunção de soma.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "xor",
+    "title": "Trocar e recuperar com XOR",
+    "moduleNumber": "02",
+    "engine": "python",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/calculos-com-binarios.md",
+        "startLine": 1,
+        "endLine": 270,
+        "fileSha256": "865541b465c68348fc5919a2b04361315611c3a5c90b1ea0a6f2cd6a977ff559"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/and-or",
+      "fundamentos-engenharia-reversa/02-numeros/xor",
+      "fundamentos-engenharia-reversa/02-numeros/shift-rotate",
+      "fundamentos-engenharia-reversa/02-numeros/not"
+    ],
+    "codeExampleIds": [
+      "02-numeros/calculos-com-binarios.md::code-01",
+      "02-numeros/calculos-com-binarios.md::code-02",
+      "02-numeros/calculos-com-binarios.md::code-03",
+      "02-numeros/calculos-com-binarios.md::code-04",
+      "02-numeros/calculos-com-binarios.md::code-05",
+      "02-numeros/calculos-com-binarios.md::code-06",
+      "02-numeros/calculos-com-binarios.md::code-07",
+      "02-numeros/calculos-com-binarios.md::code-08",
+      "02-numeros/calculos-com-binarios.md::code-09",
+      "02-numeros/calculos-com-binarios.md::code-10",
+      "02-numeros/calculos-com-binarios.md::code-11",
+      "02-numeros/calculos-com-binarios.md::code-12",
+      "02-numeros/calculos-com-binarios.md::code-13",
+      "02-numeros/calculos-com-binarios.md::code-14",
+      "02-numeros/calculos-com-binarios.md::code-15",
+      "02-numeros/calculos-com-binarios.md::code-16"
+    ],
+    "learningOutcome": "Reproduzir XOR-swap e a reversibilidade do exemplo com chave 0x42.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "shift-rotate",
+    "title": "Deslocar ou dar a volta",
+    "moduleNumber": "02",
+    "engine": "bit-bench",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "02-numeros/calculos-com-binarios.md",
+        "startLine": 1,
+        "endLine": 270,
+        "fileSha256": "865541b465c68348fc5919a2b04361315611c3a5c90b1ea0a6f2cd6a977ff559"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/02-numeros/and-or",
+      "fundamentos-engenharia-reversa/02-numeros/xor",
+      "fundamentos-engenharia-reversa/02-numeros/shift-rotate",
+      "fundamentos-engenharia-reversa/02-numeros/not"
+    ],
+    "codeExampleIds": [
+      "02-numeros/calculos-com-binarios.md::code-01",
+      "02-numeros/calculos-com-binarios.md::code-02",
+      "02-numeros/calculos-com-binarios.md::code-03",
+      "02-numeros/calculos-com-binarios.md::code-04",
+      "02-numeros/calculos-com-binarios.md::code-05",
+      "02-numeros/calculos-com-binarios.md::code-06",
+      "02-numeros/calculos-com-binarios.md::code-07",
+      "02-numeros/calculos-com-binarios.md::code-08",
+      "02-numeros/calculos-com-binarios.md::code-09",
+      "02-numeros/calculos-com-binarios.md::code-10",
+      "02-numeros/calculos-com-binarios.md::code-11",
+      "02-numeros/calculos-com-binarios.md::code-12",
+      "02-numeros/calculos-com-binarios.md::code-13",
+      "02-numeros/calculos-com-binarios.md::code-14",
+      "02-numeros/calculos-com-binarios.md::code-15",
+      "02-numeros/calculos-com-binarios.md::code-16"
+    ],
+    "learningOutcome": "Comparar SHL/SHR com ROL/ROR em largura definida e conferir 133 ROL 3.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "encodings",
+    "title": "Texto visto como bytes",
+    "moduleNumber": "03",
+    "engine": "encoding",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "03-cadeias-de-texto/unicode.md",
+        "startLine": 1,
+        "endLine": 133,
+        "fileSha256": "4f2e1bb7c9e6e7c3c281e8c9f4101509f16777eca15a9584b95e6a70e46f1c8a"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/03-cadeias-de-texto/utf-8",
+      "fundamentos-engenharia-reversa/03-cadeias-de-texto/utf-16",
+      "fundamentos-engenharia-reversa/03-cadeias-de-texto/utf-32"
+    ],
+    "codeExampleIds": [
+      "03-cadeias-de-texto/unicode.md::code-01",
+      "03-cadeias-de-texto/unicode.md::code-02",
+      "03-cadeias-de-texto/unicode.md::code-03",
+      "03-cadeias-de-texto/unicode.md::code-04",
+      "03-cadeias-de-texto/unicode.md::code-05",
+      "03-cadeias-de-texto/unicode.md::code-06",
+      "03-cadeias-de-texto/unicode.md::code-07",
+      "03-cadeias-de-texto/unicode.md::code-08",
+      "03-cadeias-de-texto/unicode.md::code-09",
+      "03-cadeias-de-texto/unicode.md::code-10",
+      "03-cadeias-de-texto/unicode.md::code-11",
+      "03-cadeias-de-texto/unicode.md::code-12"
+    ],
+    "learningOutcome": "Comparar UTF-8, UTF-16 LE/BE, UTF-32 e BOM nos exemplos originais.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "null-strings",
+    "title": "Encontrar o fim de uma string",
+    "moduleNumber": "03",
+    "engine": "hex",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "startLine": 1,
+        "endLine": 34,
+        "fileSha256": "9d64065a228cb18c3a901eaf37dd41eddc7d637410187063d27400a840993495"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/03-cadeias-de-texto/c-strings"
+    ],
+    "codeExampleIds": [
+      "03-cadeias-de-texto/c-strings.md::code-01",
+      "03-cadeias-de-texto/c-strings.md::code-02"
+    ],
+    "learningOutcome": "Localizar Erro e seu terminador em ASCII e UTF-16-LE.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "arquivo-conteudo",
+    "title": "Conteúdo e metadados",
+    "moduleNumber": "04",
+    "engine": "hex",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "04-arquivos/README.md",
+        "startLine": 1,
+        "endLine": 28,
+        "fileSha256": "50b5084c4493eb81780527fd2a01c65f979f717b2166bc6ce96cda7b92b5ffe9"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/04-arquivos/visao-geral"
+    ],
+    "codeExampleIds": [
+      "04-arquivos/README.md::code-01"
+    ],
+    "learningOutcome": "Conferir os 19 bytes do texto e distinguir conteúdo, nome e extensão.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "gif",
+    "title": "Ler um cabeçalho GIF",
+    "moduleNumber": "04",
+    "engine": "hex",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "04-arquivos/formatos.md",
+        "startLine": 1,
+        "endLine": 55,
+        "fileSha256": "7adfcac02ea6816c93f0ba20d0905fe37f8017e17be3b666d9be1b23ec921f55"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/04-arquivos/formatos"
+    ],
+    "codeExampleIds": [],
+    "learningOutcome": "Identificar GIF89a e interpretar largura e altura little-endian.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "dos",
+    "title": "Seguir MZ até PE",
+    "moduleNumber": "05",
+    "engine": "pe",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "startLine": 1,
+        "endLine": 82,
+        "fileSha256": "9572d9e18454a86152e29badabe94c43faf1b1c9414008735ad4f9d27159a5f5"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/dos"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/cabecalhos/dos.md::code-01",
+      "05-o-formato-pe/cabecalhos/dos.md::code-02"
+    ],
+    "learningOutcome": "Localizar e_magic e e_lfanew e seguir o offset até PE\\0\\0.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "coff",
+    "title": "Identificar a máquina alvo",
+    "moduleNumber": "05",
+    "engine": "pe",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "startLine": 1,
+        "endLine": 101,
+        "fileSha256": "4ec8da14d945440528ef4d3bbd98bff2da3950a22f0ea9d922b78d1cdca1d5df"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/coff"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/cabecalhos/coff.md::code-01",
+      "05-o-formato-pe/cabecalhos/coff.md::code-02",
+      "05-o-formato-pe/cabecalhos/coff.md::code-03"
+    ],
+    "learningOutcome": "Ler Machine, NumberOfSections, timestamp e Characteristics.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "optional",
+    "title": "O ponto de entrada e suas flags",
+    "moduleNumber": "05",
+    "engine": "pe",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "startLine": 1,
+        "endLine": 76,
+        "fileSha256": "12e33a4f2976fc1679011fbe30b17ce55aa00db8cd6a3329403f4e5203f5a2e2"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/opcional"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/cabecalhos/opcional.md::code-01"
+    ],
+    "learningOutcome": "Distinguir PE32/PE32+ e calcular o entrypoint com ImageBase.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "sections",
+    "title": "Do disco para páginas de memória",
+    "moduleNumber": "05",
+    "engine": "memory",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/secoes.md",
+        "startLine": 1,
+        "endLine": 83,
+        "fileSha256": "994a161d0a8ac717ecaf26e9838a0201aa091fef52b3beba3a0b86b9205b3ab2"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/secoes"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/secoes.md::code-01",
+      "05-o-formato-pe/secoes.md::code-02",
+      "05-o-formato-pe/secoes.md::code-03"
+    ],
+    "learningOutcome": "Mapear .text e .data com alinhamento e permissões sem sobreposição incorreta.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "imports",
+    "title": "Seguir uma importação",
+    "moduleNumber": "05",
+    "engine": "pe",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/import-table.md",
+        "startLine": 1,
+        "endLine": 75,
+        "fileSha256": "1f62a8fd6c497d44e82c26a0dfd55abfa6ee485321dec635d678224314210b50"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/import-table"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/import-table.md::code-01",
+      "05-o-formato-pe/import-table.md::code-02"
+    ],
+    "learningOutcome": "Percorrer IDT, ILT, Hint/Name e IAT, convertendo RVA para offset quando necessário.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "addressing",
+    "title": "Offset, RVA e VA",
+    "moduleNumber": "05",
+    "engine": "memory",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "05-o-formato-pe/enderecamento.md",
+        "startLine": 1,
+        "endLine": 63,
+        "fileSha256": "cc95ee04e251947061a2a6c59536da2359a6b94e994ee5a5695db49391e12282"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/05-o-formato-pe/enderecamento"
+    ],
+    "codeExampleIds": [
+      "05-o-formato-pe/enderecamento.md::code-01",
+      "05-o-formato-pe/enderecamento.md::code-02"
+    ],
+    "learningOutcome": "Explicar a soma 0x1740 + 0x140000000 e fazer a conversão inversa.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "loader",
+    "title": "Carregar uma imagem passo a passo",
+    "moduleNumber": "06",
+    "engine": "loader-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "06-execucao-de-programas/README.md",
+        "startLine": 1,
+        "endLine": 53,
+        "fileSha256": "5f4a6e14a6863668b3011646fae15ba7d6ec81d607ea82435af6a637212b9fb2"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/06-execucao-de-programas/privilegios",
+      "fundamentos-engenharia-reversa/06-execucao-de-programas/dependencias",
+      "fundamentos-engenharia-reversa/06-execucao-de-programas/loader"
+    ],
+    "codeExampleIds": [
+      "06-execucao-de-programas/README.md::code-01"
+    ],
+    "learningOutcome": "Mapear seções, resolver bibliotecas, preencher IAT e transferir o fluxo ao entrypoint.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "dll",
+    "title": "Imports, exports e chamadas",
+    "moduleNumber": "06",
+    "engine": "pe",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "startLine": 1,
+        "endLine": 27,
+        "fileSha256": "2da00a56cc43ecd118b53a06397e129383a23b1a557c05981142a1b85fdbf9dd"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/06-execucao-de-programas/bibliotecas"
+    ],
+    "codeExampleIds": [
+      "06-execucao-de-programas/bibliotecas.md::code-01",
+      "06-execucao-de-programas/bibliotecas.md::code-02"
+    ],
+    "learningOutcome": "Encontrar ShellAboutA/W e distinguir função exportada de chamada compatível com rundll32.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "processos",
+    "title": "Programa, processo e thread",
+    "moduleNumber": "06",
+    "engine": "process-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "06-execucao-de-programas/processos.md",
+        "startLine": 1,
+        "endLine": 38,
+        "fileSha256": "9fd29b9366e8bab68357d4c59e20264505b7c47dce68309e31cf98e5d43c972e"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/06-execucao-de-programas/processos"
+    ],
+    "codeExampleIds": [
+      "06-execucao-de-programas/processos.md::code-01"
+    ],
+    "learningOutcome": "Relacionar duas instâncias do mesmo executável a PIDs e espaços de endereçamento distintos.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "messagebox",
+    "title": "Parâmetros e retorno de MessageBox",
+    "moduleNumber": "07",
+    "engine": "windows-api-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "startLine": 1,
+        "endLine": 78,
+        "fileSha256": "e8d3c724fd11d3e2cfcc2a08a0398ceb5ed35f79d7996632335b1e823d7036af"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/07-windows-api/messagebox",
+      "fundamentos-engenharia-reversa/07-windows-api/retorno-messagebox"
+    ],
+    "codeExampleIds": [
+      "07-windows-api/caixas-de-mensagens.md::code-01",
+      "07-windows-api/caixas-de-mensagens.md::code-02"
+    ],
+    "learningOutcome": "Interpretar flags, textos UTF-16 e retornos IDYES/IDNO.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "windows-files",
+    "title": "Criar, escrever e fechar",
+    "moduleNumber": "07",
+    "engine": "windows-api-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "startLine": 1,
+        "endLine": 151,
+        "fileSha256": "2e6bdaac75283710c835134a8eb422c4431c3aea0603ac2284fa8eed7d1a188e"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/07-windows-api/createfile",
+      "fundamentos-engenharia-reversa/07-windows-api/writefile"
+    ],
+    "codeExampleIds": [
+      "07-windows-api/manipulacao-de-arquivos.md::code-01",
+      "07-windows-api/manipulacao-de-arquivos.md::code-02",
+      "07-windows-api/manipulacao-de-arquivos.md::code-03",
+      "07-windows-api/manipulacao-de-arquivos.md::code-04",
+      "07-windows-api/manipulacao-de-arquivos.md::code-05",
+      "07-windows-api/manipulacao-de-arquivos.md::code-06",
+      "07-windows-api/manipulacao-de-arquivos.md::code-07",
+      "07-windows-api/manipulacao-de-arquivos.md::code-08",
+      "07-windows-api/manipulacao-de-arquivos.md::code-09"
+    ],
+    "learningOutcome": "Verificar o ciclo de um handle e os bytes escritos em log.txt no filesystem virtual.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "registry",
+    "title": "Chaves, valores e tipos",
+    "moduleNumber": "07",
+    "engine": "windows-api-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "startLine": 1,
+        "endLine": 139,
+        "fileSha256": "8ac4789ff757300f5ecedf6cf5540a873c3cf51d2fe3b68c9cd7f3fc00a0e7de"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/07-windows-api/acesso-ao-registro"
+    ],
+    "codeExampleIds": [
+      "07-windows-api/acesso-ao-registro.md::code-01",
+      "07-windows-api/acesso-ao-registro.md::code-02",
+      "07-windows-api/acesso-ao-registro.md::code-03",
+      "07-windows-api/acesso-ao-registro.md::code-04",
+      "07-windows-api/acesso-ao-registro.md::code-05",
+      "07-windows-api/acesso-ao-registro.md::code-06"
+    ],
+    "learningOutcome": "Criar Habilitado e Website no registro virtual e conferir tipo, tamanho e terminador.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "register-aliases",
+    "title": "Escrever em uma parte do registrador",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/registradores.md",
+        "startLine": 1,
+        "endLine": 165,
+        "fileSha256": "93a5eca707bc5fe7fb546c53b41be1bac69ed12effd85542c7cd5fb9d66bcea8"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/registradores",
+      "fundamentos-engenharia-reversa/08-assembly/primeiro-pe",
+      "fundamentos-engenharia-reversa/08-assembly/rip",
+      "fundamentos-engenharia-reversa/08-assembly/rflags"
+    ],
+    "codeExampleIds": [
+      "08-assembly/registradores.md::code-01",
+      "08-assembly/registradores.md::code-02",
+      "08-assembly/registradores.md::code-03",
+      "08-assembly/registradores.md::code-04",
+      "08-assembly/registradores.md::code-05"
+    ],
+    "learningOutcome": "Observar RAX/EAX/AX/AH/AL, preservação parcial e zero-extension de EAX.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "opcodes",
+    "title": "Do Assembly aos bytes",
+    "moduleNumber": "08",
+    "engine": "assembler",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/README.md",
+        "startLine": 1,
+        "endLine": 60,
+        "fileSha256": "7bc3d3448443dcc66c5f079655370ceb256ad1b49389556f1c04efde2cd58bd3"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/visao-geral"
+    ],
+    "codeExampleIds": [
+      "08-assembly/README.md::code-01",
+      "08-assembly/README.md::code-02"
+    ],
+    "learningOutcome": "Codificar MOV EAX, 0x20 e OR EAX, 0x18 e localizar os bytes na seção .text.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "flags-branches",
+    "title": "Decidir com flags",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/instrucoes-basicas.md",
+        "startLine": 1,
+        "endLine": 148,
+        "fileSha256": "160de985b3e3c671859c30d3f73fe668c417167ecd9587ec604a701515c2c69c"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/mov",
+      "fundamentos-engenharia-reversa/08-assembly/aritmetica",
+      "fundamentos-engenharia-reversa/08-assembly/bitwise",
+      "fundamentos-engenharia-reversa/08-assembly/cmp-test",
+      "fundamentos-engenharia-reversa/08-assembly/saltos"
+    ],
+    "codeExampleIds": [
+      "08-assembly/instrucoes-basicas.md::code-01",
+      "08-assembly/instrucoes-basicas.md::code-02",
+      "08-assembly/instrucoes-basicas.md::code-03",
+      "08-assembly/instrucoes-basicas.md::code-04",
+      "08-assembly/instrucoes-basicas.md::code-05",
+      "08-assembly/instrucoes-basicas.md::code-06",
+      "08-assembly/instrucoes-basicas.md::code-07",
+      "08-assembly/instrucoes-basicas.md::code-08",
+      "08-assembly/instrucoes-basicas.md::code-09",
+      "08-assembly/instrucoes-basicas.md::code-10",
+      "08-assembly/instrucoes-basicas.md::code-11"
+    ],
+    "learningOutcome": "Conferir CMP/TEST e saltos signed/unsigned, mantendo flags intactas após MOV.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "call-stack",
+    "title": "Ir, empilhar e voltar",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "startLine": 1,
+        "endLine": 266,
+        "fileSha256": "7ed5f436eac4a304d5f654a245d8fbd153816c27a24378be5850084738441efd"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/funcoes",
+      "fundamentos-engenharia-reversa/08-assembly/call-ret",
+      "fundamentos-engenharia-reversa/08-assembly/pilha",
+      "fundamentos-engenharia-reversa/08-assembly/shadow-space",
+      "fundamentos-engenharia-reversa/08-assembly/messagebox-assembly"
+    ],
+    "codeExampleIds": [
+      "08-assembly/funcoes-e-pilha.md::code-01",
+      "08-assembly/funcoes-e-pilha.md::code-02",
+      "08-assembly/funcoes-e-pilha.md::code-03",
+      "08-assembly/funcoes-e-pilha.md::code-04",
+      "08-assembly/funcoes-e-pilha.md::code-05",
+      "08-assembly/funcoes-e-pilha.md::code-06",
+      "08-assembly/funcoes-e-pilha.md::code-07",
+      "08-assembly/funcoes-e-pilha.md::code-08",
+      "08-assembly/funcoes-e-pilha.md::code-09",
+      "08-assembly/funcoes-e-pilha.md::code-10",
+      "08-assembly/funcoes-e-pilha.md::code-11",
+      "08-assembly/funcoes-e-pilha.md::code-12",
+      "08-assembly/funcoes-e-pilha.md::code-13",
+      "08-assembly/funcoes-e-pilha.md::code-14"
+    ],
+    "learningOutcome": "Mostrar PUSH/POP, CALL/RET, RSP e o endereço real de retorno.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "abi",
+    "title": "Seis argumentos na ABI Microsoft x64",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "startLine": 1,
+        "endLine": 266,
+        "fileSha256": "7ed5f436eac4a304d5f654a245d8fbd153816c27a24378be5850084738441efd"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/funcoes",
+      "fundamentos-engenharia-reversa/08-assembly/call-ret",
+      "fundamentos-engenharia-reversa/08-assembly/pilha",
+      "fundamentos-engenharia-reversa/08-assembly/shadow-space",
+      "fundamentos-engenharia-reversa/08-assembly/messagebox-assembly"
+    ],
+    "codeExampleIds": [
+      "08-assembly/funcoes-e-pilha.md::code-01",
+      "08-assembly/funcoes-e-pilha.md::code-02",
+      "08-assembly/funcoes-e-pilha.md::code-03",
+      "08-assembly/funcoes-e-pilha.md::code-04",
+      "08-assembly/funcoes-e-pilha.md::code-05",
+      "08-assembly/funcoes-e-pilha.md::code-06",
+      "08-assembly/funcoes-e-pilha.md::code-07",
+      "08-assembly/funcoes-e-pilha.md::code-08",
+      "08-assembly/funcoes-e-pilha.md::code-09",
+      "08-assembly/funcoes-e-pilha.md::code-10",
+      "08-assembly/funcoes-e-pilha.md::code-11",
+      "08-assembly/funcoes-e-pilha.md::code-12",
+      "08-assembly/funcoes-e-pilha.md::code-13",
+      "08-assembly/funcoes-e-pilha.md::code-14"
+    ],
+    "learningOutcome": "Reconhecer quatro argumentos em registradores, dois na pilha e shadow space.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "api-reconstruction",
+    "title": "Reconstruir uma chamada da API",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "startLine": 1,
+        "endLine": 266,
+        "fileSha256": "7ed5f436eac4a304d5f654a245d8fbd153816c27a24378be5850084738441efd"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/08-assembly/funcoes",
+      "fundamentos-engenharia-reversa/08-assembly/call-ret",
+      "fundamentos-engenharia-reversa/08-assembly/pilha",
+      "fundamentos-engenharia-reversa/08-assembly/shadow-space",
+      "fundamentos-engenharia-reversa/08-assembly/messagebox-assembly"
+    ],
+    "codeExampleIds": [
+      "08-assembly/funcoes-e-pilha.md::code-01",
+      "08-assembly/funcoes-e-pilha.md::code-02",
+      "08-assembly/funcoes-e-pilha.md::code-03",
+      "08-assembly/funcoes-e-pilha.md::code-04",
+      "08-assembly/funcoes-e-pilha.md::code-05",
+      "08-assembly/funcoes-e-pilha.md::code-06",
+      "08-assembly/funcoes-e-pilha.md::code-07",
+      "08-assembly/funcoes-e-pilha.md::code-08",
+      "08-assembly/funcoes-e-pilha.md::code-09",
+      "08-assembly/funcoes-e-pilha.md::code-10",
+      "08-assembly/funcoes-e-pilha.md::code-11",
+      "08-assembly/funcoes-e-pilha.md::code-12",
+      "08-assembly/funcoes-e-pilha.md::code-13",
+      "08-assembly/funcoes-e-pilha.md::code-14"
+    ],
+    "learningOutcome": "Recuperar os quatro argumentos de MessageBoxW a partir das instruções.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "debugger",
+    "title": "Step into e step over",
+    "moduleNumber": "09",
+    "engine": "debugger-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "09-depuracao/disassembly.md",
+        "startLine": 1,
+        "endLine": 41,
+        "fileSha256": "5276417d4ba871e787dd935cc31fa488314c27b4ae921f7e951d70311a1dfa51"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/09-depuracao/disassembly"
+    ],
+    "codeExampleIds": [],
+    "learningOutcome": "Diferenciar F7/F8 e explicar o estado antes e depois de uma CALL.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "breakpoints",
+    "title": "Parar por endereço",
+    "moduleNumber": "09",
+    "engine": "debugger-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "09-depuracao/breakpoints.md",
+        "startLine": 1,
+        "endLine": 35,
+        "fileSha256": "42c9face844fcaf8e83428c443c5e6d5801d9d4b1b64f4a925c6fc801d1b5b6c"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/09-depuracao/breakpoints"
+    ],
+    "codeExampleIds": [],
+    "learningOutcome": "Inserir 0xCC, parar, restaurar o opcode e avançar sem perder a instrução original.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "manipulation",
+    "title": "Alterar o argumento em memória",
+    "moduleNumber": "09",
+    "engine": "debugger-model",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "09-depuracao/manipulacao.md",
+        "startLine": 1,
+        "endLine": 41,
+        "fileSha256": "dd4af64ac22f4ed81801057c56020f92bb313b3adc75d06d43786b7e1d8c7348"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/09-depuracao/manipulacao"
+    ],
+    "codeExampleIds": [],
+    "learningOutcome": "Editar cmd.exe para calc.exe em um alvo virtual e acompanhar DeleteFileA, EAX e LastError.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "patches",
+    "title": "Um patch com antes e depois",
+    "moduleNumber": "09",
+    "engine": "patch",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "09-depuracao/patches.md",
+        "startLine": 1,
+        "endLine": 17,
+        "fileSha256": "2ab049e256b26440b515fc9644ecc0d01fff86ec0bbbefe839004fd826dda56c"
+      }
+    ],
+    "relatedLessonIds": [
+      "fundamentos-engenharia-reversa/09-depuracao/patches"
+    ],
+    "codeExampleIds": [],
+    "learningOutcome": "Separar alteração temporária em memória de patch em arquivo e exportar um diff reproduzível.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  },
+  {
+    "id": "assembly-patterns",
+    "title": "Reconhecer padrões de Assembly",
+    "moduleNumber": "08",
+    "engine": "assembly",
+    "sourceRefs": [
+      {
+        "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+        "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "startLine": 1,
+        "endLine": 59,
+        "fileSha256": "44721697a7414b689b37a47718ffb2769eaf190708059f39ba1393fe2226cfcb"
+      }
+    ],
+    "relatedLessonIds": [],
+    "codeExampleIds": [
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-01",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-02",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-03",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-04",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-05",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-06",
+      "apendices/c-exemplos-de-codigo-em-assembly.md::code-07"
+    ],
+    "learningOutcome": "Verificar loops, teste de zero, NOP e XCHG com modo e opcodes explícitos.",
+    "origin": "pedagogical-adaptation-based-on-book",
+    "estimatedMinutes": 15,
+    "implementationStatus": "planned-not-implemented",
+    "completionPolicy": "server-validates-answers-or-replays-deterministic-model; do-not-trust-client-result",
+    "limitations": "Modelled Windows behavior must be labelled; no arbitrary native PE execution."
+  }
+]

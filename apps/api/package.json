@@ -1,0 +1,22 @@
+{
+  "name": "@nucleo/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=../../.env --import tsx --watch src/main.ts",
+    "start": "node --env-file=../../.env --import tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nucleo/core": "*",
+    "@nucleo/models": "*",
+    "@nucleo/content": "*",
+    "hono": "4.13.13",
+    "@hono/node-server": "2.1.3",
+    "better-auth": "1.7.7",
+    "@better-auth/drizzle-adapter": "1.7.7",
+    "drizzle-orm": "0.45.3",
+    "pg": "8.23.1",
+    "zod": "4.6.5"
+  }
+}

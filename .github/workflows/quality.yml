@@ -1,0 +1,76 @@
+name: Quality
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["docs/**", "**/*.md"]
+  pull_request:
+    paths-ignore: ["docs/**", "**/*.md"]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          {
+            POSTGRES_USER: nucleo,
+            POSTGRES_DB: nucleo,
+            POSTGRES_PASSWORD: ci-only-password,
+          }
+        ports: ["5549:5432"]
+        options: >-
+          --health-cmd "pg_isready -U nucleo -d nucleo"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://nucleo_app:ci-app-password@127.0.0.1:5549/nucleo
+      RUNNER_DATABASE_URL: postgresql://nucleo_runner:ci-runner-password@127.0.0.1:5549/nucleo
+      MIGRATION_DATABASE_URL: postgresql://nucleo:ci-only-password@127.0.0.1:5549/nucleo
+      BETTER_AUTH_SECRET: ephemeral-ci-auth-secret-at-least-32-characters
+      PUBLIC_ORIGIN: http://localhost:3050
+      NATIVE_CLIENTS_ENABLED: "true"
+      RUNNER_ENABLED: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "24", cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: npm ci
+      - name: Prepare audited study content
+        run: |
+          python -m pip install -r scripts/requirements-analysis.txt
+          git clone https://github.com/mentebinaria/fundamentos-engenharia-reversa.git references/fundamentos-engenharia-reversa
+          git -C references/fundamentos-engenharia-reversa checkout 3d24fc9313560d734d7a27c56c53d695f01163e1
+          npm run content:import
+          npm run assets:prepare
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run check:content
+      - run: npm run build:web
+      - run: node scripts/build-native.mjs desktop --development
+      - run: node scripts/build-native.mjs mobile --development
+      - name: Database and API
+        run: |
+          node --import tsx apps/api/src/db/migrate.ts
+          node --import tsx apps/api/src/db/seed.ts
+          node --import tsx apps/api/src/main.ts > .runtime-api.log 2>&1 &
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:shells
+      - run: npm run test:web-ui
+      - run: npx vitest run --config tests/integration/vitest.config.ts tests/integration/native-auth.test.ts
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: quality-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+            .runtime-api.log
+          retention-days: 7

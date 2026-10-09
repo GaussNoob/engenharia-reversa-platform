@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "observar-sem-executar",
+    "labId": "python-inicial",
+    "title": "Uma hipótese antes da execução",
+    "objective": "Distinguir evidências presentes no arquivo de comportamentos observados durante a execução.",
+    "question": "Você recebeu um programa desconhecido e quer identificar funções importadas sem executá-lo. Qual é a primeira abordagem adequada?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Importações podem ser estruturas presentes no arquivo.",
+      "Separe observar o arquivo de observar uma execução."
+    ],
+    "concepts": ["análise estática", "análise dinâmica"],
+    "origin": "complement",
+    "explanation": "A inspeção estática de imports observa a estrutura do arquivo sem iniciar seu código. A análise dinâmica pode complementar a hipótese depois, em ambiente isolado.",
+    "lessonSlugs": ["visao-geral"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "Executar diretamente com privilégios de administrador."
+      },
+      {
+        "id": "2",
+        "text": "Inspecionar o formato e a tabela de importação do arquivo."
+      },
+      {
+        "id": "3",
+        "text": "Renomear a extensão e concluir que o conteúdo mudou."
+      }
+    ]
+  },
+  {
+    "id": "python-tres-representacoes",
+    "labId": "python-inicial",
+    "title": "O mesmo valor, três representações",
+    "objective": "Converter a entrada entre bases sem alterar a quantidade representada.",
+    "question": "Complete o programa para imprimir exatamente decimal=42, hexadecimal=0x2a e binario=0b101010, uma informação por linha.",
+    "kind": "code",
+    "difficulty": "fundamentos",
+    "minutes": 10,
+    "instructions": [
+      "Converta a string de entrada para um inteiro.",
+      "Complete os três prints, mantendo os rótulos solicitados.",
+      "Execute e valide o resultado produzido pelo runner."
+    ],
+    "hints": [
+      "int aceita a base como segundo argumento.",
+      "Use f-strings com os especificadores #x e #b."
+    ],
+    "concepts": ["Python", "bases numéricas"],
+    "origin": "complement",
+    "explanation": "As representações mudam; a quantidade permanece 42. int(\"101010\", 2) interpreta os dígitos na base indicada. Os formatos #x e #b incluem o prefixo da base.",
+    "lessonSlugs": ["antes-de-comecar"],
+    "language": "python",
+    "mode": "x86-64",
+    "starterCode": "entrada = \"101010\"\n# TODO: interprete entrada em base 2\nvalor = 0\nprint(f\"decimal={valor}\")\n# TODO: imprima hexadecimal e binario\n",
+    "solutionCode": "entrada = \"101010\"\nvalor = int(entrada, 2)\nprint(f\"decimal={valor}\")\nprint(f\"hexadecimal={valor:#x}\")\nprint(f\"binario={valor:#b}\")\n",
+    "criteria": {
+      "stdout": "decimal=42\nhexadecimal=0x2a\nbinario=0b101010\n"
+    }
+  },
+  {
+    "id": "c-observar-um-inteiro",
+    "labId": "c-inicial",
+    "title": "Quatro bytes de um inteiro",
+    "objective": "Conectar um inteiro à sua representação em memória por meio de um ponteiro em C.",
+    "question": "O alvo C desta bancada é little-endian. Use um ponteiro para ler os quatro bytes de 0x12345678 e imprima 78 56 34 12.",
+    "kind": "code",
+    "difficulty": "intermediário",
+    "minutes": 12,
+    "instructions": [
+      "Inclua um ponteiro que observe a representação de valor.",
+      "Imprima dois dígitos hexadecimais maiúsculos por byte, separados por um espaço.",
+      "Finalize com uma quebra de linha e valide a execução."
+    ],
+    "hints": [
+      "Converta o endereço de valor para unsigned char *.",
+      "Use um loop de zero até sizeof(valor) e o formato %02X."
+    ],
+    "concepts": ["C", "ponteiros", "little-endian"],
+    "origin": "complement",
+    "explanation": "unsigned char permite observar a representação de um objeto em C. No alvo little-endian, o byte menos significativo aparece primeiro no menor endereço.",
+    "language": "c",
+    "mode": "x86-64",
+    "starterCode": "#include <stdint.h>\n#include <stdio.h>\n\nint main(void) {\n    uint32_t valor = 0x12345678;\n    /* TODO: observe os bytes pelo endereco de valor */\n    return 0;\n}\n",
+    "solutionCode": "#include <stdint.h>\n#include <stdio.h>\n\nint main(void) {\n    uint32_t valor = 0x12345678;\n    unsigned char *bytes = (unsigned char *)&valor;\n    for (size_t i = 0; i < sizeof(valor); i++)\n        printf(\"%02X%s\", (unsigned int)bytes[i], i + 1 == sizeof(valor) ? \"\\n\" : \" \");\n    return 0;\n}\n",
+    "criteria": {
+      "stdout": "78 56 34 12\n"
+    }
+  },
+  {
+    "id": "limite-de-um-byte",
+    "labId": "signed-byte",
+    "title": "O limite de um byte",
+    "objective": "Derivar o intervalo de valores a partir da largura de um inteiro.",
+    "question": "Qual é o maior inteiro sem sinal representável em oito bits?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Conte as combinações, incluindo o zero.",
+      "Use 2 elevado à largura menos um."
+    ],
+    "concepts": ["byte", "inteiros sem sinal"],
+    "origin": "complement",
+    "explanation": "Oito bits representam 2^8 combinações. Como a contagem começa em zero, o maior valor é 2^8 − 1 = 255.",
+    "lessonSlugs": ["o-byte"],
+    "answer": "255"
+  },
+  {
+    "id": "hexadecimal-para-decimal",
+    "labId": "conversao-bases",
+    "title": "Ler um valor hexadecimal",
+    "objective": "Interpretar os pesos dos dígitos em um byte hexadecimal.",
+    "question": "Um dump contém o byte 2A. Qual é seu valor decimal?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": ["A vale dez na base 16.", "O dígito da esquerda tem peso 16."],
+    "concepts": ["hexadecimal", "conversão"],
+    "origin": "complement",
+    "explanation": "Em hexadecimal, A representa dez. Assim, 0x2A = 2 × 16 + 10 = 42.",
+    "lessonSlugs": ["hexadecimal"],
+    "answer": "42"
+  },
+  {
+    "id": "octal-para-decimal",
+    "labId": "conversao-bases",
+    "title": "Reconhecer outra base",
+    "objective": "Reconhecer a base indicada pelo prefixo de um literal e calcular seu valor.",
+    "question": "O literal 0o157 está em octal. Qual é sua quantidade decimal?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Os pesos são potências de oito.",
+      "Separe o prefixo 0o dos dígitos 157."
+    ],
+    "concepts": ["octal", "notação posicional"],
+    "origin": "complement",
+    "explanation": "Os pesos são 8², 8¹ e 8⁰: 1 × 64 + 5 × 8 + 7 = 111. O prefixo 0o informa a base e não participa dos dígitos.",
+    "lessonSlugs": ["bases"],
+    "answer": "111"
+  },
+  {
+    "id": "complemento-de-dois-16",
+    "labId": "signed-byte",
+    "title": "Um negativo em dezesseis bits",
+    "objective": "Interpretar um padrão de bits com sinal, respeitando a largura de dezesseis bits.",
+    "question": "Interprete 0xFF80 como inteiro com sinal em complemento de dois, com largura de 16 bits.",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "O bit mais alto está ligado.",
+      "Subtraia 65536 da interpretação sem sinal."
+    ],
+    "concepts": ["complemento de dois", "largura"],
+    "origin": "complement",
+    "explanation": "O bit 15 está ligado. Subtraia 2^16 da leitura sem sinal: 65408 − 65536 = −128. A largura de dezesseis bits é essencial para essa interpretação.",
+    "lessonSlugs": ["numeros-negativos"],
+    "answer": "-128"
+  },
+  {
+    "id": "wraparound-byte",
+    "labId": "signed-byte",
+    "title": "Quando o resultado não cabe",
+    "objective": "Distinguir a soma completa do resultado limitado à largura de um byte.",
+    "question": "Some 0xF0 e 0x30, mantendo somente os oito bits baixos. Qual valor sem sinal sobra?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "O resultado completo tem mais de oito bits.",
+      "Use uma máscara 0xFF sobre a soma."
+    ],
+    "concepts": ["overflow", "aritmética modular"],
+    "origin": "complement",
+    "explanation": "0xF0 + 0x30 = 0x120. Manter oito bits equivale a calcular módulo 256: 0x20, ou 32. Isso não descreve overflow de inteiros com sinal em C.",
+    "lessonSlugs": ["o-byte", "numeros-negativos"],
+    "answer": "32"
+  },
+  {
+    "id": "mascara-de-permissoes",
+    "labId": "and-or",
+    "title": "Testar um conjunto de flags",
+    "objective": "Usar uma máscara para selecionar somente as flags de interesse.",
+    "question": "As flags são 0xB5. A máscara de interesse é 0x0C. Qual é o resultado de flags AND máscara?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "AND mantém um bit somente se ambos tiverem 1.",
+      "Observe apenas os bits 2 e 3."
+    ],
+    "concepts": ["AND", "máscaras", "flags"],
+    "origin": "complement",
+    "explanation": "0xB5 = 10110101 e 0x0C = 00001100. O AND mantém somente o bit presente em ambos: 00000100, ou 4.",
+    "lessonSlugs": ["and-or"],
+    "answer": "4"
+  },
+  {
+    "id": "extrair-nibble-alto",
+    "labId": "shift-rotate",
+    "title": "Separar um byte em duas partes",
+    "objective": "Combinar deslocamento e máscara para isolar uma parte de um byte.",
+    "question": "Extraia o nibble alto de 0xD7: faça deslocamento lógico à direita de quatro bits e mantenha quatro bits. Qual é o resultado?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Um nibble contém quatro bits.",
+      "Desloque os bits altos para a posição dos bits baixos."
+    ],
+    "concepts": ["SHR", "nibble", "máscaras"],
+    "origin": "complement",
+    "explanation": "0xD7 >> 4 resulta em 0x0D. A máscara 0x0F mantém o nibble, cujo valor decimal é 13.",
+    "lessonSlugs": ["shift-rotate"],
+    "answer": "13"
+  },
+  {
+    "id": "rotacao-direita-byte",
+    "labId": "shift-rotate",
+    "title": "Deslocar ou rotacionar?",
+    "objective": "Prever os bits que retornam ao outro lado em uma rotação de largura fixa.",
+    "question": "Em oito bits, calcule ROR de 0x96 por dois bits. Qual é o resultado sem sinal?",
+    "kind": "number",
+    "difficulty": "desafio",
+    "minutes": 8,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Na rotação, os bits descartados retornam no outro lado.",
+      "Combine (valor >> 2) com (valor << 6), mantendo oito bits."
+    ],
+    "concepts": ["ROR", "rotação", "largura"],
+    "origin": "complement",
+    "explanation": "0x96 = 10010110. Os dois bits baixos 10 retornam às posições altas: 10100101 = 0xA5 = 165. Um deslocamento lógico descartaria esses bits.",
+    "lessonSlugs": ["shift-rotate"],
+    "answer": "165"
+  },
+  {
+    "id": "utf8-com-acento",
+    "labId": "encodings",
+    "title": "Caracteres não são bytes",
+    "objective": "Diferenciar quantidade de caracteres e quantidade de bytes em UTF-8.",
+    "question": "Quantos bytes a string café ocupa em UTF-8, sem BOM e sem terminador?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Observe a codificação de é.",
+      "Cada caractere ASCII desta string ocupa um byte."
+    ],
+    "concepts": ["UTF-8", "Unicode", "tamanho"],
+    "origin": "complement",
+    "explanation": "c, a e f ocupam um byte cada. O caractere é ocupa os bytes C3 A9 em UTF-8. Portanto são quatro caracteres e cinco bytes.",
+    "lessonSlugs": ["utf-8"],
+    "answer": "5"
+  },
+  {
+    "id": "utf16-little-endian",
+    "labId": "encodings",
+    "title": "Escrever uma string em UTF-16",
+    "objective": "Construir a sequência de bytes de unidades de código UTF-16 em little-endian.",
+    "question": "Represente a string aé em UTF-16-LE, sem BOM e sem terminador. Informe os bytes em ordem.",
+    "kind": "bytes",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Os pontos de código são U+0061 e U+00E9.",
+      "Cada unidade deste exemplo ocupa dois bytes; o menor vem primeiro."
+    ],
+    "concepts": ["UTF-16-LE", "endianness"],
+    "origin": "complement",
+    "explanation": "a é U+0061 e é é U+00E9. Cada um usa uma unidade de código de dezesseis bits; little-endian coloca o byte baixo primeiro: 61 00 E9 00.",
+    "lessonSlugs": ["utf-16"],
+    "answer": "61 00 E9 00"
+  },
+  {
+    "id": "ascii-reconstruir-string",
+    "labId": "null-strings",
+    "title": "Reconstruir uma string no dump",
+    "objective": "Reconstruir um texto ASCII respeitando o primeiro terminador nulo.",
+    "question": "Decodifique os bytes ASCII 4E 55 43 4C 45 4F 00. Informe somente o texto anterior ao primeiro terminador.",
+    "kind": "text",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": ["O byte 4E é N na tabela ASCII.", "Pare no byte nulo."],
+    "concepts": ["ASCII", "C strings"],
+    "origin": "complement",
+    "explanation": "Os seis bytes imprimíveis representam N U C L E O. O byte 00 encerra a C string e não faz parte do texto mostrado.",
+    "lessonSlugs": ["ascii", "c-strings"],
+    "answer": "NUCLEO"
+  },
+  {
+    "id": "capacidade-c-string",
+    "labId": "null-strings",
+    "title": "Reservar espaço para o terminador",
+    "objective": "Calcular a capacidade de um buffer sem esquecer o terminador da C string.",
+    "question": "Qual é a capacidade mínima, em bytes, de um buffer para guardar a C string ASCII reversa, incluindo o terminador?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Conte os caracteres antes de adicionar o terminador.",
+      "Uma C string exige um byte extra para o zero."
+    ],
+    "concepts": ["capacidade", "terminador nulo"],
+    "origin": "complement",
+    "explanation": "reversa tem sete caracteres ASCII. Acrescente um byte 00: a capacidade mínima é oito. Comprimento do texto e capacidade do buffer não são a mesma medida.",
+    "lessonSlugs": ["c-strings"],
+    "answer": "8"
+  },
+  {
+    "id": "python-extrair-c-string",
+    "labId": "null-strings",
+    "title": "Ler até o primeiro zero",
+    "objective": "Extrair uma C string de um buffer sem incorporar os bytes que vêm depois dela.",
+    "question": "Extraia o texto da sequência b\"analise\\x00resto\". O programa deve imprimir apenas analise, seguido de uma quebra de linha.",
+    "kind": "code",
+    "difficulty": "intermediário",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Separe os bytes antes de decodificá-los.",
+      "bytes.split aceita um limite de separações."
+    ],
+    "concepts": ["Python", "bytes", "C strings"],
+    "origin": "complement",
+    "explanation": "split(b\"\\x00\", 1) separa no primeiro byte zero. Decodifique apenas a primeira parte como ASCII; os bytes restantes pertencem a outro conteúdo do buffer.",
+    "lessonSlugs": ["c-strings"],
+    "language": "python",
+    "mode": "x86-64",
+    "starterCode": "dados = b\"analise\\x00resto\"\n# TODO: leia apenas a primeira C string\nprint(dados.decode(\"ascii\"))\n",
+    "solutionCode": "dados = b\"analise\\x00resto\"\ntexto = dados.split(b\"\\x00\", 1)[0].decode(\"ascii\")\nprint(texto)\n",
+    "criteria": {
+      "stdout": "analise\n"
+    }
+  },
+  {
+    "id": "assinatura-ou-extensao",
+    "labId": "gif",
+    "title": "A assinatura conta uma história",
+    "objective": "Formular uma hipótese de formato usando a assinatura, sem confundi-la com uma validação completa.",
+    "question": "Um arquivo se chama imagem.txt, mas seus seis primeiros bytes ASCII são GIF89a. Qual conclusão é sustentada pelos dados?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "A extensão pode ser renomeada sem alterar os bytes.",
+      "Uma assinatura reconhecida é uma evidência, não a validação completa."
+    ],
+    "concepts": ["assinatura", "formato de arquivo"],
+    "origin": "complement",
+    "explanation": "O prefixo é compatível com a assinatura GIF89a. A extensão não define o conteúdo; ainda é necessário conferir a estrutura restante para validar o arquivo.",
+    "lessonSlugs": ["formatos"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "A extensão prova que o arquivo só contém texto."
+      },
+      {
+        "id": "2",
+        "text": "A assinatura sugere GIF; a estrutura ainda precisa ser validada."
+      },
+      {
+        "id": "3",
+        "text": "A assinatura demonstra que o arquivo é necessariamente seguro."
+      }
+    ]
+  },
+  {
+    "id": "gif-largura-16bits",
+    "labId": "gif",
+    "title": "Ler a largura de uma imagem",
+    "objective": "Interpretar um campo de dezesseis bits com a ordem de bytes declarada.",
+    "question": "No cabeçalho GIF, os dois bytes da largura são 80 02, em little-endian. Quantos pixels de largura eles representam?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Não leia a sequência como 0x8002.",
+      "Use o segundo byte como a parte alta do inteiro."
+    ],
+    "concepts": ["GIF", "little-endian", "campo de 16 bits"],
+    "origin": "complement",
+    "explanation": "O primeiro byte tem peso 1 e o segundo peso 256: 0x80 + 0x02 × 256 = 128 + 512 = 640.",
+    "lessonSlugs": ["formatos"],
+    "answer": "640"
+  },
+  {
+    "id": "offsets-comprimento",
+    "labId": "arquivo-conteudo",
+    "title": "Contar uma região do arquivo",
+    "objective": "Determinar o tamanho de uma região descrita por offsets inclusivos.",
+    "question": "Uma região começa no offset 0x20 e termina no offset 0x2F, ambos inclusos. Quantos bytes ela contém?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Converta os offsets ou subtraia em hexadecimal.",
+      "Os dois limites fazem parte da região."
+    ],
+    "concepts": ["offset", "limites inclusivos"],
+    "origin": "complement",
+    "explanation": "Para limites inclusivos, tamanho = fim − início + 1. Aqui, 47 − 32 + 1 = 16. O offset 0x30 já está fora da região.",
+    "lessonSlugs": ["visao-geral"],
+    "answer": "16"
+  },
+  {
+    "id": "python-ler-cabecalho",
+    "labId": "gif",
+    "title": "Interpretar um campo binário",
+    "objective": "Ler campos binários por suas posições e converter seus bytes em valores utilizáveis.",
+    "question": "Leia a largura e a altura do cabeçalho sintético GIF fornecido. Imprima largura=640 e altura=480 em linhas separadas.",
+    "kind": "code",
+    "difficulty": "desafio",
+    "minutes": 12,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "A assinatura GIF89a tem seis bytes.",
+      "Use fatias de dois bytes com int.from_bytes e \"little\"."
+    ],
+    "concepts": ["Python", "parsing", "GIF"],
+    "origin": "complement",
+    "explanation": "A assinatura ocupa os offsets 0 a 5. A largura está em [6:8] e a altura em [8:10], ambas little-endian. int.from_bytes interpreta cada campo sem depender do endianness do computador.",
+    "lessonSlugs": ["formatos"],
+    "language": "python",
+    "mode": "x86-64",
+    "starterCode": "dados = bytes.fromhex(\"47 49 46 38 39 61 80 02 E0 01\")\n# Este e um prefixo sintetico, nao uma imagem GIF completa.\n# TODO: leia os dois campos de 16 bits\nlargura = 0\naltura = 0\nprint(f\"largura={largura}\")\nprint(f\"altura={altura}\")\n",
+    "solutionCode": "dados = bytes.fromhex(\"47 49 46 38 39 61 80 02 E0 01\")\nlargura = int.from_bytes(dados[6:8], \"little\")\naltura = int.from_bytes(dados[8:10], \"little\")\nprint(f\"largura={largura}\")\nprint(f\"altura={altura}\")\n",
+    "criteria": {
+      "stdout": "largura=640\naltura=480\n"
+    }
+  },
+  {
+    "id": "pe-seguir-e-lfanew",
+    "labId": "dos",
+    "title": "Encontrar o próximo cabeçalho",
+    "objective": "Seguir o ponteiro e_lfanew sem confundir o valor do campo com sua posição.",
+    "question": "No offset 0x3C, e_lfanew contém os bytes 80 00 00 00. Em qual offset decimal começa a assinatura PE?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Diferencie a posição do campo do valor guardado nele.",
+      "Reconstrua o DWORD little-endian."
+    ],
+    "concepts": ["e_lfanew", "DOS header", "offset"],
+    "origin": "complement",
+    "explanation": "O DWORD little-endian vale 0x80, ou 128. O campo aponta para a assinatura PE; 0x3C é a posição do próprio campo.",
+    "lessonSlugs": ["dos"],
+    "answer": "128"
+  },
+  {
+    "id": "pe-identificar-x86",
+    "labId": "coff",
+    "title": "Identificar o alvo pelo COFF",
+    "objective": "Relacionar o identificador Machine à arquitetura de destino do executável.",
+    "question": "Machine contém 0x014C. Qual arquitetura esse identificador representa?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Compare Machine com os identificadores estudados no COFF.",
+      "0x8664 seria outro alvo."
+    ],
+    "concepts": ["COFF", "Machine", "x86"],
+    "origin": "complement",
+    "explanation": "IMAGE_FILE_MACHINE_I386 (0x014C) identifica x86 de 32 bits. O campo Machine identifica o alvo; a largura do sistema que abre o arquivo não muda esse valor.",
+    "lessonSlugs": ["coff"],
+    "answer": "1",
+    "choices": [
+      {
+        "id": "1",
+        "text": "x86 de 32 bits."
+      },
+      {
+        "id": "2",
+        "text": "x86-64."
+      },
+      {
+        "id": "3",
+        "text": "ARM64."
+      }
+    ]
+  },
+  {
+    "id": "pe-magic32",
+    "labId": "optional",
+    "title": "Reconhecer PE32",
+    "objective": "Usar o campo Magic para distinguir as variantes PE32 e PE32+.",
+    "question": "O Magic do Optional Header é 0x010B. Qual variante do formato foi identificada?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "O campo Magic distingue as variantes do cabeçalho.",
+      "Compare 0x10B com 0x20B."
+    ],
+    "concepts": ["PE32", "Optional Header"],
+    "origin": "complement",
+    "explanation": "0x010B identifica PE32; 0x020B identifica PE32+. O nome Optional Header não dispensa esse cabeçalho em uma imagem executável.",
+    "lessonSlugs": ["opcional"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "PE32+."
+      },
+      {
+        "id": "2",
+        "text": "PE32."
+      },
+      {
+        "id": "3",
+        "text": "COFF sem imagem executável."
+      }
+    ]
+  },
+  {
+    "id": "pe-calcular-va",
+    "labId": "addressing",
+    "title": "Do RVA ao endereço virtual",
+    "objective": "Calcular o endereço virtual usando a base efetiva de carregamento.",
+    "question": "A base de carregamento é 0x140000000 e o RVA é 0x3120. Qual é o VA correspondente?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Some o RVA à base fornecida.",
+      "RVA não é automaticamente o offset no arquivo."
+    ],
+    "concepts": ["RVA", "VA", "ImageBase"],
+    "origin": "complement",
+    "explanation": "VA = base de carregamento + RVA. A base efetiva pode mudar; neste exercício ela foi explicitamente fornecida.",
+    "lessonSlugs": ["enderecamento"],
+    "answer": "0x140003120"
+  },
+  {
+    "id": "pe-rva-para-offset",
+    "labId": "addressing",
+    "title": "Do endereço virtual ao arquivo",
+    "objective": "Converter um RVA em offset verificando sua posição dentro dos dados brutos da seção.",
+    "question": "Uma seção tem VirtualAddress=0x2000, PointerToRawData=0x400 e SizeOfRawData=0x200. Qual offset corresponde ao RVA 0x2070?",
+    "kind": "number",
+    "difficulty": "desafio",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Primeiro encontre o deslocamento dentro da seção.",
+      "Depois some esse deslocamento a PointerToRawData."
+    ],
+    "concepts": ["RVA", "offset", "seções"],
+    "origin": "complement",
+    "explanation": "O deslocamento dentro da seção é 0x2070 − 0x2000 = 0x70. Some ao início dos bytes no arquivo: 0x400 + 0x70 = 0x470. O deslocamento está dentro do tamanho bruto informado.",
+    "lessonSlugs": ["enderecamento"],
+    "answer": "0x470"
+  },
+  {
+    "id": "pe-regiao-sem-bytes",
+    "labId": "sections",
+    "title": "Memória que não veio do arquivo",
+    "objective": "Reconhecer uma região que existe na imagem virtual sem bytes correspondentes no arquivo.",
+    "question": "Uma seção tem VirtualSize=0x600 e SizeOfRawData=0x200. Uma posição fica a 0x350 do início da seção. Sob mapeamento normal, como interpretar essa posição?",
+    "kind": "choice",
+    "difficulty": "desafio",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Compare o deslocamento com os dois tamanhos.",
+      "O espaço virtual pode ser maior que os bytes armazenados."
+    ],
+    "concepts": ["VirtualSize", "SizeOfRawData", "imagem em memória"],
+    "origin": "complement",
+    "explanation": "0x350 está dentro do tamanho virtual, mas além dos dados brutos. A região pode existir na imagem inicializada com zeros, sem um byte correspondente no arquivo.",
+    "lessonSlugs": ["secoes"],
+    "answer": "3",
+    "choices": [
+      {
+        "id": "1",
+        "text": "Some 0x350 a PointerToRawData e leia sem verificar limites."
+      },
+      {
+        "id": "2",
+        "text": "Todo endereço virtual precisa ter um byte gravado em disco."
+      },
+      {
+        "id": "3",
+        "text": "A posição está na extensão virtual e não tem byte bruto correspondente."
+      }
+    ]
+  },
+  {
+    "id": "loader-iat-ou-ilt",
+    "labId": "loader",
+    "title": "Resolver uma dependência",
+    "objective": "Explicar por que identificar uma importação ainda não resolve o endereço da função.",
+    "question": "No modelo do loader, as importações foram identificadas, mas a IAT ainda não foi preenchida. O que precisa acontecer antes de chamar uma função importada pela IAT?",
+    "kind": "choice",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "A IAT contém os destinos usados pelas chamadas indiretas.",
+      "Um nome de símbolo ainda precisa ser associado a um endereço."
+    ],
+    "concepts": ["loader", "IAT", "imports"],
+    "origin": "complement",
+    "explanation": "O loader resolve os símbolos importados nos módulos apropriados e preenche a IAT com os endereços de destino. Identificar o nome de uma função não equivale a resolver seu endereço.",
+    "lessonSlugs": ["loader", "dependencias"],
+    "answer": "1",
+    "choices": [
+      {
+        "id": "1",
+        "text": "Resolver as importações e preencher os endereços de destino."
+      },
+      {
+        "id": "2",
+        "text": "Trocar a extensão .exe por .dll."
+      },
+      {
+        "id": "3",
+        "text": "Apagar os nomes das funções importadas."
+      }
+    ]
+  },
+  {
+    "id": "loader-delta-de-base",
+    "labId": "loader",
+    "title": "Uma imagem carregada em outra base",
+    "objective": "Aplicar o delta de carregamento a um ponteiro explicitamente marcado para relocação.",
+    "question": "Uma imagem foi realocada de 0x400000 para 0x500000. Para um ponteiro absoluto marcado para relocação, cujo valor original era 0x401020, qual é o valor ajustado?",
+    "kind": "number",
+    "difficulty": "desafio",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Calcule a diferença entre a nova base e a original.",
+      "Aplique o delta somente ao ponteiro indicado no enunciado."
+    ],
+    "concepts": ["relocação", "base de carregamento"],
+    "origin": "complement",
+    "explanation": "O delta é 0x500000 − 0x400000 = 0x100000. Some esse delta ao ponteiro marcado: 0x401020 + 0x100000 = 0x501020. Isso não significa ajustar indiscriminadamente todos os valores do arquivo.",
+    "lessonSlugs": ["loader"],
+    "answer": "0x501020"
+  },
+  {
+    "id": "processos-mesmo-va",
+    "labId": "processos",
+    "title": "O mesmo endereço em dois processos",
+    "objective": "Interpretar endereços virtuais no contexto de cada processo.",
+    "question": "Dois processos exibem a variável em VA 0x401000. Isso garante que compartilham a mesma região física?",
+    "kind": "choice",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Endereço virtual é interpretado no contexto do processo.",
+      "Compare identidade numérica com identidade do mapeamento."
+    ],
+    "concepts": ["processos", "memória virtual"],
+    "origin": "complement",
+    "explanation": "Não. Cada processo possui um contexto de endereçamento virtual. O mesmo número de VA pode se referir a mapeamentos diferentes; compartilhamento depende do mapeamento, não apenas do número.",
+    "lessonSlugs": ["processos"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "Sim, endereços numericamente iguais sempre são compartilhados."
+      },
+      {
+        "id": "2",
+        "text": "Não; é necessário conhecer os mapeamentos dos processos."
+      },
+      {
+        "id": "3",
+        "text": "Sim, desde que ambos os executáveis tenham o mesmo nome."
+      }
+    ]
+  },
+  {
+    "id": "dll-importar-ou-exportar",
+    "labId": "dll",
+    "title": "Quem oferece e quem solicita?",
+    "objective": "Distinguir importação e exportação conforme a perspectiva do módulo.",
+    "question": "A.dll disponibiliza a função calcular; B.exe solicita calcular de A.dll. Qual relação descreve os dois módulos?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Considere a perspectiva de cada módulo.",
+      "Disponibilizar e depender são papéis distintos."
+    ],
+    "concepts": ["DLL", "imports", "exports"],
+    "origin": "complement",
+    "explanation": "A função é uma exportação de A.dll e uma importação de B.exe. Uma mesma função possui papéis diferentes conforme o módulo observado.",
+    "lessonSlugs": ["bibliotecas"],
+    "answer": "3",
+    "choices": [
+      {
+        "id": "1",
+        "text": "B.exe exporta calcular para A.dll."
+      },
+      {
+        "id": "2",
+        "text": "Ambos obrigatoriamente contêm o código-fonte de calcular."
+      },
+      {
+        "id": "3",
+        "text": "A.dll exporta calcular; B.exe importa calcular."
+      }
+    ]
+  },
+  {
+    "id": "messagebox-combinar-flags",
+    "labId": "messagebox",
+    "title": "Combinar opções da API",
+    "objective": "Combinar opções de uma API preservando os bits das máscaras fornecidas.",
+    "question": "Neste exercício, MB_YESNO=0x04 e MB_ICONQUESTION=0x20. Qual valor resulta de combinar as opções com OR?",
+    "kind": "number",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Combine os bits; não concatene os dígitos.",
+      "Observe os dois valores na bancada de bits."
+    ],
+    "concepts": ["Windows API", "OR", "flags"],
+    "origin": "complement",
+    "explanation": "As máscaras ocupam bits diferentes. 0x04 OR 0x20 = 0x24. OR expressa a combinação de flags e continua correto mesmo quando há bits em comum.",
+    "lessonSlugs": ["messagebox"],
+    "answer": "0x24"
+  },
+  {
+    "id": "messagebox-falha-retorno",
+    "labId": "messagebox",
+    "title": "Um retorno que não é um botão",
+    "objective": "Separar uma falha da API de uma resposta válida do usuário.",
+    "question": "MessageBoxW retornou zero. Como esse retorno deve ser interpretado?",
+    "kind": "choice",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Separe códigos de botão de indicação de falha.",
+      "O retorno zero precisa ser tratado antes de comparar IDYES."
+    ],
+    "concepts": ["retorno de API", "MessageBoxW"],
+    "origin": "complement",
+    "explanation": "Zero indica falha da chamada. Códigos de botões são valores definidos pela API; não se deve tratar qualquer retorno como uma escolha do usuário.",
+    "lessonSlugs": ["retorno-messagebox"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "O usuário escolheu Sim."
+      },
+      {
+        "id": "2",
+        "text": "A chamada falhou."
+      },
+      {
+        "id": "3",
+        "text": "O usuário obrigatoriamente clicou em Cancelar."
+      }
+    ]
+  },
+  {
+    "id": "writefile-quantidade-real",
+    "labId": "windows-files",
+    "title": "Conferir o que foi escrito",
+    "objective": "Distinguir a quantidade de bytes solicitada da quantidade efetivamente escrita.",
+    "question": "Uma escrita síncrona solicita 100 bytes. Além do retorno de WriteFile, qual informação deve ser conferida para saber quantos bytes foram efetivamente escritos?",
+    "kind": "choice",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Diferencie o tamanho solicitado da quantidade efetiva.",
+      "Há um parâmetro de saída dedicado à quantidade de bytes."
+    ],
+    "concepts": ["WriteFile", "parâmetros de saída"],
+    "origin": "complement",
+    "explanation": "lpNumberOfBytesWritten informa a quantidade escrita na operação síncrona. O tamanho solicitado expressa a intenção; ele não substitui a conferência do resultado.",
+    "lessonSlugs": ["writefile"],
+    "answer": "1",
+    "choices": [
+      {
+        "id": "1",
+        "text": "O valor recebido em lpNumberOfBytesWritten."
+      },
+      {
+        "id": "2",
+        "text": "O comprimento do nome do arquivo."
+      },
+      {
+        "id": "3",
+        "text": "A soma do handle com o tamanho solicitado."
+      }
+    ]
+  },
+  {
+    "id": "registry-dword-bytes",
+    "labId": "registry",
+    "title": "O valor do Registro como bytes",
+    "objective": "Interpretar o tipo e a ordem dos bytes de um valor DWORD do Registro.",
+    "question": "Um REG_DWORD contém 0x12345678. Represente os quatro bytes little-endian desse valor.",
+    "kind": "bytes",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Separe o valor em quatro pares hexadecimais.",
+      "O byte 78 possui o menor peso."
+    ],
+    "concepts": ["REG_DWORD", "little-endian", "Registro"],
+    "origin": "complement",
+    "explanation": "Um DWORD ocupa quatro bytes. A ordem little-endian coloca o byte de menor peso primeiro: 78 56 34 12. O tipo e a largura orientam a interpretação.",
+    "lessonSlugs": ["acesso-ao-registro"],
+    "answer": "78 56 34 12"
+  },
+  {
+    "id": "assembly-alias-16",
+    "labId": "register-aliases",
+    "title": "Alterar somente dezesseis bits",
+    "objective": "Prever quais bits são preservados ao escrever em um subregistrador de dezesseis bits.",
+    "question": "RAX começa em 0x1122334455667788. Depois de MOV AX, 0xABCD, qual é o novo RAX?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "AX cobre apenas os dezesseis bits baixos.",
+      "Preserve a parte alta do valor original."
+    ],
+    "concepts": ["RAX", "AX", "subregistradores"],
+    "origin": "complement",
+    "explanation": "AX nomeia os dezesseis bits baixos de RAX. Escrever em AX preserva os 48 bits superiores e troca somente 7788 por ABCD.",
+    "lessonSlugs": ["registradores"],
+    "answer": "0x112233445566ABCD"
+  },
+  {
+    "id": "assembly-escrita-eax",
+    "labId": "register-aliases",
+    "title": "A particularidade de EAX",
+    "objective": "Reconhecer o efeito de uma escrita em EAX sobre os bits superiores de RAX.",
+    "question": "Em x86-64, RAX começa em 0xFFFFFFFFFFFFFFFF. Qual é o valor de RAX após MOV EAX, 5?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "O modo explicitamente informado é x86-64.",
+      "Uma escrita de 32 bits possui efeito sobre a metade superior."
+    ],
+    "concepts": ["EAX", "zero-extension", "x86-64"],
+    "origin": "complement",
+    "explanation": "Uma escrita em EAX em modo de 64 bits zera os 32 bits superiores de RAX. Esse comportamento difere de escrever somente em AX ou AL.",
+    "lessonSlugs": ["registradores"],
+    "answer": "5"
+  },
+  {
+    "id": "assembly-cmp-preserva",
+    "labId": "flags-branches",
+    "title": "O que CMP realmente altera?",
+    "objective": "Distinguir uma comparação que atualiza flags de uma subtração que armazena o resultado.",
+    "question": "EAX e EBX contêm 7. Após CMP EAX, EBX, qual descrição corresponde ao estado?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "CMP compara; SUB também armazena a diferença.",
+      "Considere o resultado de 7 − 7."
+    ],
+    "concepts": ["CMP", "ZF", "flags"],
+    "origin": "complement",
+    "explanation": "CMP atualiza flags como se subtraísse os operandos, sem guardar o resultado em EAX. Com operandos iguais, o resultado comparado é zero e ZF fica ligada.",
+    "lessonSlugs": ["cmp-test"],
+    "answer": "1",
+    "choices": [
+      {
+        "id": "1",
+        "text": "EAX continua em 7 e ZF fica ligada."
+      },
+      {
+        "id": "2",
+        "text": "EAX se torna zero e ZF fica desligada."
+      },
+      {
+        "id": "3",
+        "text": "EBX recebe a diferença e RIP se torna zero."
+      }
+    ]
+  },
+  {
+    "id": "assembly-salto-com-sinal",
+    "labId": "flags-branches",
+    "title": "Escolher a comparação correta",
+    "objective": "Escolher o salto condicional que corresponde à interpretação com sinal dos operandos.",
+    "question": "Em oito bits, AL=0xFF e BL=0x01. Depois de CMP AL, BL, qual salto testa AL menor que BL na interpretação com sinal?",
+    "kind": "choice",
+    "difficulty": "desafio",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Interprete 0xFF em complemento de dois de oito bits.",
+      "JL e JB pertencem a famílias diferentes de comparação."
+    ],
+    "concepts": ["JL", "JB", "signed/unsigned"],
+    "origin": "complement",
+    "explanation": "Com sinal, 0xFF em oito bits representa −1 e 0x01 representa 1. JL usa a relação SF ≠ OF para a comparação com sinal; JB verifica a relação sem sinal.",
+    "lessonSlugs": ["saltos"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "JB, pois basta o valor hexadecimal parecer maior."
+      },
+      {
+        "id": "2",
+        "text": "JL, pois −1 é menor que 1 na comparação com sinal."
+      },
+      {
+        "id": "3",
+        "text": "JE, pois os operandos têm a mesma largura."
+      }
+    ]
+  },
+  {
+    "id": "assembly-call-rsp",
+    "labId": "call-stack",
+    "title": "O endereço de retorno na stack",
+    "objective": "Calcular a alteração de RSP ao empilhar um endereço de retorno de 64 bits.",
+    "question": "Em uma chamada near CALL de 64 bits deste modelo, RSP está em 0x2000 antes da instrução. Qual é o RSP logo após empilhar o endereço de retorno?",
+    "kind": "number",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Considere a largura do endereço de retorno.",
+      "Empilhar reduz RSP neste modelo."
+    ],
+    "concepts": ["CALL", "RSP", "stack"],
+    "origin": "complement",
+    "explanation": "CALL empilha um endereço de retorno de oito bytes em modo de 64 bits. A stack cresce em direção a endereços menores: 0x2000 − 8 = 0x1FF8.",
+    "lessonSlugs": ["call-ret", "pilha"],
+    "answer": "0x1FF8"
+  },
+  {
+    "id": "assembly-produzir-42",
+    "labId": "flags-branches",
+    "title": "Construir um resultado no registrador",
+    "objective": "Construir e conferir um resultado aritmético no estado final da CPU.",
+    "question": "Complete a sequência de instruções para terminar com RAX igual a 42. Execute ao menos três instruções.",
+    "kind": "code",
+    "difficulty": "fundamentos",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "MOV define o valor inicial; ADD modifica o acumulador.",
+      "12 + 30 é 42. A última instrução pode preservar esse resultado em outro registrador."
+    ],
+    "concepts": ["MOV", "ADD", "registradores"],
+    "origin": "complement",
+    "explanation": "Uma possibilidade é carregar 12, somar 30 e copiar o resultado para RBX. A validação confere o estado de RAX produzido pelo modelo isolado, não o texto de uma mensagem.",
+    "lessonSlugs": ["mov", "aritmetica"],
+    "language": "assembly",
+    "mode": "x86-64",
+    "starterCode": "mov rax, 12\n; TODO: some a quantidade que falta\nmov rbx, rax\n",
+    "solutionCode": "mov rax, 12\nadd rax, 30\nmov rbx, rax\n",
+    "criteria": {
+      "registers": {
+        "RAX": "42"
+      },
+      "minSteps": 3
+    }
+  },
+  {
+    "id": "assembly-acumulador-loop",
+    "labId": "assembly-patterns",
+    "title": "Reconstruir um acumulador",
+    "objective": "Reconstruir o papel do contador, do acumulador e da condição de saída de um loop.",
+    "question": "Some os inteiros de 1 até 5 com um loop. Ao terminar, RAX deve conter 15 e RCX deve conter zero. Execute ao menos quinze instruções.",
+    "kind": "code",
+    "difficulty": "desafio",
+    "minutes": 15,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Zere o acumulador antes de entrar no loop.",
+      "DEC atualiza ZF; JNZ usa essa condição para decidir a repetição."
+    ],
+    "concepts": ["loops", "acumulador", "JNZ"],
+    "origin": "complement",
+    "explanation": "RCX começa em cinco. Cada iteração adiciona RCX ao acumulador e decrementa o contador. JNZ repete enquanto o contador não é zero: 5 + 4 + 3 + 2 + 1 = 15.",
+    "lessonSlugs": ["saltos", "aritmetica"],
+    "language": "assembly",
+    "mode": "x86-64",
+    "starterCode": "xor rax, rax\nmov rcx, 5\nsoma:\n; TODO: acumule rcx em rax\n; TODO: diminua o contador e repita enquanto nao for zero\n",
+    "solutionCode": "xor rax, rax\nmov rcx, 5\nsoma:\nadd rax, rcx\ndec rcx\njnz soma\n",
+    "criteria": {
+      "registers": {
+        "RAX": "15",
+        "RCX": "0"
+      },
+      "minSteps": 15
+    }
+  },
+  {
+    "id": "assembly-funcao-dobro",
+    "labId": "call-stack",
+    "title": "Uma rotina com retorno",
+    "objective": "Implementar uma rotina com entrada, resultado e retorno ao fluxo chamador.",
+    "question": "Implemente dobro: ela recebe 18 em ECX e devolve 36 em EAX. Preserve o caminho de CALL e RET; execute ao menos seis instruções.",
+    "kind": "code",
+    "difficulty": "intermediário",
+    "minutes": 12,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "A saída do exercício é EAX; mantenha ECX como entrada.",
+      "O corpo pode usar MOV EAX, ECX e ADD EAX, ECX."
+    ],
+    "concepts": ["funções", "CALL", "RET"],
+    "origin": "complement",
+    "explanation": "A rotina copia ECX para EAX e soma ECX outra vez. RET retoma o endereço empilhado por CALL. O JMP evita executar o corpo da função novamente após o retorno.",
+    "lessonSlugs": ["funcoes", "call-ret"],
+    "language": "assembly",
+    "mode": "x86-64",
+    "starterCode": "mov ecx, 18\ncall dobro\njmp fim\ndobro:\n; TODO: retorne o dobro em eax\nret\nfim:\nnop\n",
+    "solutionCode": "mov ecx, 18\ncall dobro\njmp fim\ndobro:\nmov eax, ecx\nadd eax, ecx\nret\nfim:\nnop\n",
+    "criteria": {
+      "registers": {
+        "RAX": "36"
+      },
+      "minSteps": 6
+    }
+  },
+  {
+    "id": "debugger-step-over-call",
+    "labId": "debugger",
+    "title": "Entrar ou passar pela função?",
+    "objective": "Escolher a operação do debugger de acordo com o nível de observação desejado.",
+    "question": "O debugger está parado em CALL soma. Você quer observar o estado após o retorno, sem acompanhar cada instrução de soma. Qual operação corresponde a essa intenção?",
+    "kind": "choice",
+    "difficulty": "fundamentos",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "A diferença aparece quando a instrução atual é CALL.",
+      "Você quer permanecer no nível da função chamadora."
+    ],
+    "concepts": ["Step over", "Step into", "CALL"],
+    "origin": "complement",
+    "explanation": "Step over acompanha a chamada até o retorno e para no fluxo seguinte. Step into entra na função. No modelo, breakpoints internos ainda podem interromper o percurso.",
+    "lessonSlugs": ["debugger", "disassembly"],
+    "answer": "2",
+    "choices": [
+      {
+        "id": "1",
+        "text": "Step into."
+      },
+      {
+        "id": "2",
+        "text": "Step over."
+      },
+      {
+        "id": "3",
+        "text": "Apagar o endereço de retorno."
+      }
+    ]
+  },
+  {
+    "id": "patch-inverter-condicao",
+    "labId": "patches",
+    "title": "Prever o efeito de um patch",
+    "objective": "Prever como a troca de um opcode de salto muda o fluxo sem mudar o deslocamento.",
+    "question": "Em um alvo didático, um salto curto JE usa opcode 0x74. Ele é trocado por JNE, opcode 0x75, mantendo o deslocamento. O que acontece quando ZF está ligada?",
+    "kind": "choice",
+    "difficulty": "intermediário",
+    "minutes": 6,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Compare as condições de JE e JNE.",
+      "O deslocamento foi preservado; a condição é que mudou."
+    ],
+    "concepts": ["patch", "JE", "JNE", "ZF"],
+    "origin": "complement",
+    "explanation": "JE desvia quando ZF=1; JNE desvia quando ZF=0. Após a troca, ZF ligada faz o fluxo continuar para a instrução seguinte. O alvo relativo permanece o mesmo quando o salto é tomado.",
+    "lessonSlugs": ["patches"],
+    "answer": "3",
+    "choices": [
+      {
+        "id": "1",
+        "text": "JNE toma o mesmo salto porque ZF está ligada."
+      },
+      {
+        "id": "2",
+        "text": "A troca por si só apaga todas as flags."
+      },
+      {
+        "id": "3",
+        "text": "JNE não toma o salto; o fluxo segue para a próxima instrução."
+      }
+    ]
+  },
+  {
+    "id": "debugger-registrador-errado",
+    "labId": "manipulation",
+    "title": "Encontrar o registrador errado",
+    "objective": "Localizar um erro de destino da instrução comparando intenção e estado dos registradores.",
+    "question": "O programa pretende calcular 5 + 7 em RAX, mas soma no registrador errado. Corrija o código: RAX deve terminar em 12 e RBX em 7, após ao menos três instruções.",
+    "kind": "code",
+    "difficulty": "intermediário",
+    "minutes": 10,
+    "instructions": [
+      "Faça uma previsão antes de consultar a bancada.",
+      "Registre sua resposta e confira a explicação após validar."
+    ],
+    "hints": [
+      "Na sintaxe Intel usada, o primeiro operando recebe o resultado.",
+      "Confira os dois registradores antes e depois do ADD."
+    ],
+    "concepts": ["debugging", "ADD", "operandos"],
+    "origin": "complement",
+    "explanation": "ADD RBX, RAX altera RBX, que contém a segunda parcela. A intenção é acumular no primeiro operando: ADD RAX, RBX. Prever o destino evita confundir sintaxe com intenção.",
+    "lessonSlugs": ["manipulacao"],
+    "language": "assembly",
+    "mode": "x86-64",
+    "starterCode": "mov rax, 5\nmov rbx, 7\nadd rbx, rax\n",
+    "solutionCode": "mov rax, 5\nmov rbx, 7\nadd rax, rbx\n",
+    "criteria": {
+      "registers": {
+        "RAX": "12",
+        "RBX": "7"
+      },
+      "minSteps": 3
+    }
+  }
+]

@@ -1,0 +1,4302 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/mentebinaria/fundamentos-engenharia-reversa",
+    "commit": "3d24fc9313560d734d7a27c56c53d695f01163e1",
+    "commitDate": "2026-05-27T10:56:14-03:00",
+    "auditDate": "2026-10-06",
+    "license": "not-declared-in-working-tree-or-github-api",
+    "parser": "mistune 3.3.4"
+  },
+  "counts": {
+    "trackedFilesExcludingGit": 81,
+    "markdownFiles": 51,
+    "pngAssets": 28,
+    "summaryEntries": 49,
+    "learningSourcePages": 41,
+    "headingNodes": 251,
+    "codeBlocks": 141,
+    "codeStyles": {
+      "fenced": 130,
+      "indent": 11
+    },
+    "languageLabels": {
+      "python": 33,
+      "c": 47,
+      "unlabelled": 48,
+      "text": 1,
+      "cpp": 5,
+      "asm": 5,
+      "x86": 2
+    },
+    "exampleKinds": {
+      "python-repl": 32,
+      "portable-c-program": 6,
+      "data-or-output": 10,
+      "python-program": 3,
+      "c-fragment": 1,
+      "type-definition": 7,
+      "command-transcript": 5,
+      "expected-output": 4,
+      "windows-program": 6,
+      "api-prototype": 20,
+      "windows-fragment": 7,
+      "constant-definitions": 5,
+      "machine-bytes": 3,
+      "assembly-fragment": 25,
+      "syntax-template": 1,
+      "register-diagram": 3,
+      "assembly-program": 1,
+      "character-table": 2
+    },
+    "executionCandidates": {
+      "isolated-python": 35,
+      "isolated-c": 6,
+      "visualizer-or-reference": 10,
+      "isolated-c-with-harness": 1,
+      "visualizer": 17,
+      "guided-tool": 5,
+      "none": 25,
+      "windows-model-or-vm": 13,
+      "disassembler": 3,
+      "assembly-model-or-isolated-emulator": 26
+    },
+    "tables": 43,
+    "exerciseHeadings": 5,
+    "imageOccurrences": 28,
+    "brokenLocalImageOccurrences": 0,
+    "linkOccurrences": 185,
+    "toolEntries": 97,
+    "wordsWhitespaceIncludingCodeAndTables": 34565
+  },
+  "summary": [
+    {
+      "order": 0,
+      "title": "Apresentação",
+      "path": "README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 1,
+      "title": "Introdução",
+      "path": "01-introducao/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 2,
+      "title": "Antes de começar",
+      "path": "01-introducao/antes-de-comecar.md",
+      "depth": 1,
+      "parentPath": "01-introducao/README.md"
+    },
+    {
+      "order": 3,
+      "title": "Números",
+      "path": "02-numeros/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 4,
+      "title": "Sistemas de Numeração",
+      "path": "02-numeros/sistemas-de-numeracao.md",
+      "depth": 1,
+      "parentPath": "02-numeros/README.md"
+    },
+    {
+      "order": 5,
+      "title": "O Byte",
+      "path": "02-numeros/o-byte.md",
+      "depth": 1,
+      "parentPath": "02-numeros/README.md"
+    },
+    {
+      "order": 6,
+      "title": "Números Negativos",
+      "path": "02-numeros/numeros-negativos.md",
+      "depth": 1,
+      "parentPath": "02-numeros/README.md"
+    },
+    {
+      "order": 7,
+      "title": "Cálculos com Binários",
+      "path": "02-numeros/calculos-com-binarios.md",
+      "depth": 1,
+      "parentPath": "02-numeros/README.md"
+    },
+    {
+      "order": 8,
+      "title": "Cadeias de Texto",
+      "path": "03-cadeias-de-texto/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 9,
+      "title": "ASCII",
+      "path": "03-cadeias-de-texto/ascii.md",
+      "depth": 1,
+      "parentPath": "03-cadeias-de-texto/README.md"
+    },
+    {
+      "order": 10,
+      "title": "Unicode",
+      "path": "03-cadeias-de-texto/unicode.md",
+      "depth": 1,
+      "parentPath": "03-cadeias-de-texto/README.md"
+    },
+    {
+      "order": 11,
+      "title": "C Strings",
+      "path": "03-cadeias-de-texto/c-strings.md",
+      "depth": 1,
+      "parentPath": "03-cadeias-de-texto/README.md"
+    },
+    {
+      "order": 12,
+      "title": "Arquivos",
+      "path": "04-arquivos/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 13,
+      "title": "Formatos",
+      "path": "04-arquivos/formatos.md",
+      "depth": 1,
+      "parentPath": "04-arquivos/README.md"
+    },
+    {
+      "order": 14,
+      "title": "O formato PE",
+      "path": "05-o-formato-pe/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 15,
+      "title": "Cabeçalhos",
+      "path": "05-o-formato-pe/cabecalhos/README.md",
+      "depth": 1,
+      "parentPath": "05-o-formato-pe/README.md"
+    },
+    {
+      "order": 16,
+      "title": "MS-DOS",
+      "path": "05-o-formato-pe/cabecalhos/dos.md",
+      "depth": 2,
+      "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+    },
+    {
+      "order": 17,
+      "title": "COFF",
+      "path": "05-o-formato-pe/cabecalhos/coff.md",
+      "depth": 2,
+      "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+    },
+    {
+      "order": 18,
+      "title": "Opcional",
+      "path": "05-o-formato-pe/cabecalhos/opcional.md",
+      "depth": 2,
+      "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+    },
+    {
+      "order": 19,
+      "title": "Diretórios de Dados",
+      "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+      "depth": 2,
+      "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+    },
+    {
+      "order": 20,
+      "title": "Cabeçalhos das Seções",
+      "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+      "depth": 2,
+      "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+    },
+    {
+      "order": 21,
+      "title": "Seções",
+      "path": "05-o-formato-pe/secoes.md",
+      "depth": 1,
+      "parentPath": "05-o-formato-pe/README.md"
+    },
+    {
+      "order": 22,
+      "title": "Import Table",
+      "path": "05-o-formato-pe/import-table.md",
+      "depth": 1,
+      "parentPath": "05-o-formato-pe/README.md"
+    },
+    {
+      "order": 23,
+      "title": "Endereçamento",
+      "path": "05-o-formato-pe/enderecamento.md",
+      "depth": 1,
+      "parentPath": "05-o-formato-pe/README.md"
+    },
+    {
+      "order": 24,
+      "title": "Execução de Programas",
+      "path": "06-execucao-de-programas/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 25,
+      "title": "Executáveis",
+      "path": "06-execucao-de-programas/executaveis.md",
+      "depth": 1,
+      "parentPath": "06-execucao-de-programas/README.md"
+    },
+    {
+      "order": 26,
+      "title": "Bibliotecas",
+      "path": "06-execucao-de-programas/bibliotecas.md",
+      "depth": 1,
+      "parentPath": "06-execucao-de-programas/README.md"
+    },
+    {
+      "order": 27,
+      "title": "Processos",
+      "path": "06-execucao-de-programas/processos.md",
+      "depth": 1,
+      "parentPath": "06-execucao-de-programas/README.md"
+    },
+    {
+      "order": 28,
+      "title": "Windows API",
+      "path": "07-windows-api/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 29,
+      "title": "Caixas de Mensagens",
+      "path": "07-windows-api/caixas-de-mensagens.md",
+      "depth": 1,
+      "parentPath": "07-windows-api/README.md"
+    },
+    {
+      "order": 30,
+      "title": "Manipulação de Arquivos",
+      "path": "07-windows-api/manipulacao-de-arquivos.md",
+      "depth": 1,
+      "parentPath": "07-windows-api/README.md"
+    },
+    {
+      "order": 31,
+      "title": "Acesso ao Registro",
+      "path": "07-windows-api/acesso-ao-registro.md",
+      "depth": 1,
+      "parentPath": "07-windows-api/README.md"
+    },
+    {
+      "order": 32,
+      "title": "Assembly",
+      "path": "08-assembly/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 33,
+      "title": "Registradores",
+      "path": "08-assembly/registradores.md",
+      "depth": 1,
+      "parentPath": "08-assembly/README.md"
+    },
+    {
+      "order": 34,
+      "title": "Instruções Básicas",
+      "path": "08-assembly/instrucoes-basicas.md",
+      "depth": 1,
+      "parentPath": "08-assembly/README.md"
+    },
+    {
+      "order": 35,
+      "title": "Funções e Pilha",
+      "path": "08-assembly/funcoes-e-pilha.md",
+      "depth": 1,
+      "parentPath": "08-assembly/README.md"
+    },
+    {
+      "order": 36,
+      "title": "Depuração",
+      "path": "09-depuracao/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 37,
+      "title": "O Debugger",
+      "path": "09-depuracao/debugger.md",
+      "depth": 1,
+      "parentPath": "09-depuracao/README.md"
+    },
+    {
+      "order": 38,
+      "title": "Disassembly",
+      "path": "09-depuracao/disassembly.md",
+      "depth": 1,
+      "parentPath": "09-depuracao/README.md"
+    },
+    {
+      "order": 39,
+      "title": "Breakpoints",
+      "path": "09-depuracao/breakpoints.md",
+      "depth": 1,
+      "parentPath": "09-depuracao/README.md"
+    },
+    {
+      "order": 40,
+      "title": "Manipulação do Fluxo",
+      "path": "09-depuracao/manipulacao.md",
+      "depth": 1,
+      "parentPath": "09-depuracao/README.md"
+    },
+    {
+      "order": 41,
+      "title": "Patches",
+      "path": "09-depuracao/patches.md",
+      "depth": 1,
+      "parentPath": "09-depuracao/README.md"
+    },
+    {
+      "order": 42,
+      "title": "Apêndices",
+      "path": "apendices/README.md",
+      "depth": 0,
+      "parentPath": null
+    },
+    {
+      "order": 43,
+      "title": "Tabela ASCII",
+      "path": "apendices/a-tabela-ascii.md",
+      "depth": 1,
+      "parentPath": "apendices/README.md"
+    },
+    {
+      "order": 44,
+      "title": "Tabela ISO-8859-1/Latin-1",
+      "path": "apendices/b-tabela-iso-8859-1.md",
+      "depth": 1,
+      "parentPath": "apendices/README.md"
+    },
+    {
+      "order": 45,
+      "title": "Exemplos de Código em Assembly",
+      "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+      "depth": 1,
+      "parentPath": "apendices/README.md"
+    },
+    {
+      "order": 46,
+      "title": "Funções da API do Windows",
+      "path": "apendices/d-funcoes-api-win.md",
+      "depth": 1,
+      "parentPath": "apendices/README.md"
+    },
+    {
+      "order": 47,
+      "title": "Ferramentas",
+      "path": "apendices/e-ferramentas.md",
+      "depth": 1,
+      "parentPath": "apendices/README.md"
+    },
+    {
+      "order": 48,
+      "title": "Referências",
+      "path": "referencias.md",
+      "depth": 0,
+      "parentPath": null
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitbook/assets/04_die_arquivo.png",
+      "bytes": 39453,
+      "sha256": "8d2c697c4b445848c6ffcf464f42ad7e181fe4ec9cf5a8981202d52c81384dc1",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1020,
+        "height": 502
+      }
+    },
+    {
+      "path": ".gitbook/assets/04_hxd_arquivo.png",
+      "bytes": 74663,
+      "sha256": "e0243f2d68093fb9b499c72d771f8fabdf743a711146c1594a8f4900b2fc88a2",
+      "extension": ".png",
+      "dimensions": {
+        "width": 933,
+        "height": 294
+      }
+    },
+    {
+      "path": ".gitbook/assets/04_hxdgif.png",
+      "bytes": 316447,
+      "sha256": "c35f001c33078fb938ee27a84e5bacde6bde650d58a87deb2f2301e782f96c64",
+      "extension": ".png",
+      "dimensions": {
+        "width": 966,
+        "height": 584
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_alinhamento.png",
+      "bytes": 4806,
+      "sha256": "714b709841b74f1ccec4a3b384d825a1326d3f9f02c50f5e539aec247c2e3269",
+      "extension": ".png",
+      "dimensions": {
+        "width": 214,
+        "height": 156
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_die_calc_coff.png",
+      "bytes": 104940,
+      "sha256": "a4562b793222f07a7c99ba3b23f045a887f372c836736c4a4b022ad18ed553b0",
+      "extension": ".png",
+      "dimensions": {
+        "width": 2375,
+        "height": 1095
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_die_calc_it.png",
+      "bytes": 98145,
+      "sha256": "a3fc893e2bc7f25e439c0295821313f9ac9c6f573e89f0786f5bce256ea936df",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1792,
+        "height": 849
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_die_calc_pe_advanced.png",
+      "bytes": 119065,
+      "sha256": "1c7db7d72b3d029608af7e3ecb249374af0de69dcd7fad52a5e3f24514c208f7",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1458,
+        "height": 1047
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_hxd_calc_dos.png",
+      "bytes": 355519,
+      "sha256": "5e64da5d6e3882bf71a2d1119b1ea640770211dae49f597d56f8835fe2d7f25c",
+      "extension": ".png",
+      "dimensions": {
+        "width": 937,
+        "height": 657
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_hxd_tables.png",
+      "bytes": 557976,
+      "sha256": "07c68859ad03d2e74e8bdd65699b637978358d84cd4120f1414cbb7940d3785d",
+      "extension": ".png",
+      "dimensions": {
+        "width": 935,
+        "height": 1089
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_memoria_virtual.png",
+      "bytes": 11911,
+      "sha256": "28089019f1c280e0e12e64dcad8f55b813c2a3b6fb625cc3e71060200dd02a34",
+      "extension": ".png",
+      "dimensions": {
+        "width": 466,
+        "height": 333
+      }
+    },
+    {
+      "path": ".gitbook/assets/05_pe.png",
+      "bytes": 2614,
+      "sha256": "6fa0d0f9164fa627768ecacf83bc45e27fca501f90ab006490f6051c738c1dac",
+      "extension": ".png",
+      "dimensions": {
+        "width": 133,
+        "height": 299
+      }
+    },
+    {
+      "path": ".gitbook/assets/06_execucao_programas.png",
+      "bytes": 7224,
+      "sha256": "cf1cd55fe3b4fb273183ca8ba395ff279b9deb19c910ec0b6f662af7d6d74582",
+      "extension": ".png",
+      "dimensions": {
+        "width": 397,
+        "height": 225
+      }
+    },
+    {
+      "path": ".gitbook/assets/06_shellabouta.png",
+      "bytes": 44757,
+      "sha256": "1e534fbe4f8becda779e83b3a9a7427056ec96ddc7b3ba2e8e93f07603a5c05b",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1004,
+        "height": 809
+      }
+    },
+    {
+      "path": ".gitbook/assets/07_msgboxw.png",
+      "bytes": 4568,
+      "sha256": "135e3ccca65ca9525414d982e4420fb20ab35314b9c50ceee10417b62a5b2ea5",
+      "extension": ".png",
+      "dimensions": {
+        "width": 261,
+        "height": 157
+      }
+    },
+    {
+      "path": ".gitbook/assets/07_visual_studio_project.png",
+      "bytes": 77397,
+      "sha256": "6f485f9660696a3422c8fa74f96ab911145da8da68ec3428fc0c859e68f61f63",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1336,
+        "height": 862
+      }
+    },
+    {
+      "path": ".gitbook/assets/08_7400.png",
+      "bytes": 14785,
+      "sha256": "2f295622612fa21b397fcc91592139011ab1121c0b349d85c3fc0eaf40ea1d67",
+      "extension": ".png",
+      "dimensions": {
+        "width": 399,
+        "height": 240
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_deletefilea.png",
+      "bytes": 25952,
+      "sha256": "a25fbf80b7ffc0520d046017449f366fb01d3569645be4ae9a7725026fb20415",
+      "extension": ".png",
+      "dimensions": {
+        "width": 841,
+        "height": 36
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_dump_alterado.png",
+      "bytes": 15921,
+      "sha256": "a5fa723790a3a9b667cd24b1ff302372f6d13096f7b4eac93fc01001c1f61c71",
+      "extension": ".png",
+      "dimensions": {
+        "width": 527,
+        "height": 28
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_edit_string.png",
+      "bytes": 257161,
+      "sha256": "a02d1bceee372023d9b7ca022f2d916d6a57967defa53c2821d6e43eb6baaab2",
+      "extension": ".png",
+      "dimensions": {
+        "width": 908,
+        "height": 414
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_follow_in_dump.png",
+      "bytes": 108710,
+      "sha256": "203112379e2fcdf71cb05f3982ab48b58f15b32df4df143e14d0b52995480d8a",
+      "extension": ".png",
+      "dimensions": {
+        "width": 745,
+        "height": 196
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_intermodular_calls.png",
+      "bytes": 171848,
+      "sha256": "b3075ad91a19548dfffe8029828b42dec50854ead5c0009f664c76f304c4dc73",
+      "extension": ".png",
+      "dimensions": {
+        "width": 843,
+        "height": 476
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_manipulacao_lasterror.png",
+      "bytes": 37411,
+      "sha256": "ff4bbd2c7bb6d2959b501b38feab9bc9f9dbe7630367ad9e1fe946e086bac5c7",
+      "extension": ".png",
+      "dimensions": {
+        "width": 319,
+        "height": 258
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_patches.png",
+      "bytes": 36022,
+      "sha256": "1bd174e235c03759c72fd55c8b08248bb888bb51f0a1bb89f194a2787986f8c4",
+      "extension": ".png",
+      "dimensions": {
+        "width": 511,
+        "height": 475
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_x64dbg_analyseme00_disassembly.png",
+      "bytes": 149529,
+      "sha256": "80654272098a0a664bc14bdeebffddf913eff8a48d0462f2a3734707ced60e93",
+      "extension": ".png",
+      "dimensions": {
+        "width": 2128,
+        "height": 286
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_x64dbg_analyseme00_inicial.png",
+      "bytes": 1249348,
+      "sha256": "6068755a4b4cad3ccad8b07ecbfde75d0801ccb45c369885b448d07ede3b8b39",
+      "extension": ".png",
+      "dimensions": {
+        "width": 3584,
+        "height": 2158
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_x64dbg_breakpoint.png",
+      "bytes": 84390,
+      "sha256": "12ca6d7dc402332aaf8ff41ebddd2b250a66c22b1ad5bc6e258edb28fc108a11",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1390,
+        "height": 234
+      }
+    },
+    {
+      "path": ".gitbook/assets/09_x64dbg_breakpoints.png",
+      "bytes": 73207,
+      "sha256": "9a8fee283c8451d5bf9a3a8add970f4d333181de15f1eb747b6d503e4fc4e0ec",
+      "extension": ".png",
+      "dimensions": {
+        "width": 1806,
+        "height": 218
+      }
+    },
+    {
+      "path": ".gitbook/assets/hxd_ou_exe.png",
+      "bytes": 30699,
+      "sha256": "3e52ada6b96a2aa0ddfa0022c0b10f90528fd661a7139893440d8e2d7464fd11",
+      "extension": ".png",
+      "dimensions": {
+        "width": 746,
+        "height": 424
+      }
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 36,
+      "sha256": "78978c9dfbdab5cf8519fd12836fca040282c53c875d71eb5c59d30de8eee2eb",
+      "extension": ".yml"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 24,
+      "sha256": "12acdb297b595bdc06e2cc7acb0bd2a223594dd229b4cff60c6c03c49cb9848c",
+      "extension": "none"
+    },
+    {
+      "path": "01-introducao/README.md",
+      "bytes": 6660,
+      "sha256": "a472e97b726f4f093802388b8764253b88e20a09941e4d5b7bbdc712d20010e8",
+      "extension": ".md"
+    },
+    {
+      "path": "01-introducao/antes-de-comecar.md",
+      "bytes": 2678,
+      "sha256": "4a2f778af2ec3a58bde10aa81bfa10b8efe9bd69bd731295b7b67a3fbdd96a1f",
+      "extension": ".md"
+    },
+    {
+      "path": "01-introducao/registro-de-alteracoes.md",
+      "bytes": 1035,
+      "sha256": "b82574542bed55cd5a2f37e1cf71bf3efef74e8194f5a274c0794b3fccec0562",
+      "extension": ".md"
+    },
+    {
+      "path": "02-numeros/README.md",
+      "bytes": 2154,
+      "sha256": "5f3d5d1f00081f0de1a055fcb1635618cef72422881e845abddcddacc57e4621",
+      "extension": ".md"
+    },
+    {
+      "path": "02-numeros/calculos-com-binarios.md",
+      "bytes": 9752,
+      "sha256": "865541b465c68348fc5919a2b04361315611c3a5c90b1ea0a6f2cd6a977ff559",
+      "extension": ".md"
+    },
+    {
+      "path": "02-numeros/numeros-negativos.md",
+      "bytes": 3248,
+      "sha256": "9f61794b8905976653710fc617412f0844a7287998fcb7358fa091bd66047096",
+      "extension": ".md"
+    },
+    {
+      "path": "02-numeros/o-byte.md",
+      "bytes": 2141,
+      "sha256": "7a387a39f3cc2237cd712df962822b02e19a9508cf71bb20f63b6eb940c73e32",
+      "extension": ".md"
+    },
+    {
+      "path": "02-numeros/sistemas-de-numeracao.md",
+      "bytes": 8044,
+      "sha256": "a31140fe82922d5e02aa7a91a26ce0e95d4a3941b4085a071b58ddfb3e3191db",
+      "extension": ".md"
+    },
+    {
+      "path": "03-cadeias-de-texto/README.md",
+      "bytes": 1317,
+      "sha256": "27f89a641e10b3778b29439d7aecf92ee171b7cbe8880a8ec032dc5380bd54da",
+      "extension": ".md"
+    },
+    {
+      "path": "03-cadeias-de-texto/ascii.md",
+      "bytes": 5695,
+      "sha256": "febc0845644095bc1f84d2e7eda754e86cac8aabec75b89e7225f86cf6c2dff6",
+      "extension": ".md"
+    },
+    {
+      "path": "03-cadeias-de-texto/c-strings.md",
+      "bytes": 2324,
+      "sha256": "9d64065a228cb18c3a901eaf37dd41eddc7d637410187063d27400a840993495",
+      "extension": ".md"
+    },
+    {
+      "path": "03-cadeias-de-texto/unicode.md",
+      "bytes": 8330,
+      "sha256": "4f2e1bb7c9e6e7c3c281e8c9f4101509f16777eca15a9584b95e6a70e46f1c8a",
+      "extension": ".md"
+    },
+    {
+      "path": "04-arquivos/README.md",
+      "bytes": 2655,
+      "sha256": "50b5084c4493eb81780527fd2a01c65f979f717b2166bc6ce96cda7b92b5ffe9",
+      "extension": ".md"
+    },
+    {
+      "path": "04-arquivos/formatos.md",
+      "bytes": 6278,
+      "sha256": "7adfcac02ea6816c93f0ba20d0905fe37f8017e17be3b666d9be1b23ec921f55",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/README.md",
+      "bytes": 1440,
+      "sha256": "37176ac779b26a4d049ff0dbe5073c57ac502654aabb2ca38f3403047c6aeeee",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/README.md",
+      "bytes": 1227,
+      "sha256": "fda9a817495535ab6f4b4257ff286214cc8e789f9256e1e8ff21421b8b049fb3",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+      "bytes": 4055,
+      "sha256": "286ea6931af6b7215692ac0abfa3c51f9790a7e1e918798d5bece38075a0fdff",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/coff.md",
+      "bytes": 6236,
+      "sha256": "4ec8da14d945440528ef4d3bbd98bff2da3950a22f0ea9d922b78d1cdca1d5df",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+      "bytes": 2178,
+      "sha256": "168347c803521c4fc5fd6784fb6c2248e117dee2ad956da04821902c58ce42d9",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/dos.md",
+      "bytes": 5294,
+      "sha256": "9572d9e18454a86152e29badabe94c43faf1b1c9414008735ad4f9d27159a5f5",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/cabecalhos/opcional.md",
+      "bytes": 4289,
+      "sha256": "12e33a4f2976fc1679011fbe30b17ce55aa00db8cd6a3329403f4e5203f5a2e2",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/enderecamento.md",
+      "bytes": 4081,
+      "sha256": "cc95ee04e251947061a2a6c59536da2359a6b94e994ee5a5695db49391e12282",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/import-table.md",
+      "bytes": 5023,
+      "sha256": "1f62a8fd6c497d44e82c26a0dfd55abfa6ee485321dec635d678224314210b50",
+      "extension": ".md"
+    },
+    {
+      "path": "05-o-formato-pe/secoes.md",
+      "bytes": 5271,
+      "sha256": "994a161d0a8ac717ecaf26e9838a0201aa091fef52b3beba3a0b86b9205b3ab2",
+      "extension": ".md"
+    },
+    {
+      "path": "06-execucao-de-programas/README.md",
+      "bytes": 4586,
+      "sha256": "5f4a6e14a6863668b3011646fae15ba7d6ec81d607ea82435af6a637212b9fb2",
+      "extension": ".md"
+    },
+    {
+      "path": "06-execucao-de-programas/bibliotecas.md",
+      "bytes": 1938,
+      "sha256": "2da00a56cc43ecd118b53a06397e129383a23b1a557c05981142a1b85fdbf9dd",
+      "extension": ".md"
+    },
+    {
+      "path": "06-execucao-de-programas/executaveis.md",
+      "bytes": 1883,
+      "sha256": "bb721f1a9f2f7122bd2a5ed721f63a7a3872d109de943a60e46ac1949eef61c1",
+      "extension": ".md"
+    },
+    {
+      "path": "06-execucao-de-programas/processos.md",
+      "bytes": 2722,
+      "sha256": "9fd29b9366e8bab68357d4c59e20264505b7c47dce68309e31cf98e5d43c972e",
+      "extension": ".md"
+    },
+    {
+      "path": "07-windows-api/README.md",
+      "bytes": 4730,
+      "sha256": "d4adbad0884a81255ce44715220badf13c2f7e2bec98c09fd1ad5ad43fede3e3",
+      "extension": ".md"
+    },
+    {
+      "path": "07-windows-api/acesso-ao-registro.md",
+      "bytes": 6741,
+      "sha256": "8ac4789ff757300f5ecedf6cf5540a873c3cf51d2fe3b68c9cd7f3fc00a0e7de",
+      "extension": ".md"
+    },
+    {
+      "path": "07-windows-api/caixas-de-mensagens.md",
+      "bytes": 4636,
+      "sha256": "e8d3c724fd11d3e2cfcc2a08a0398ceb5ed35f79d7996632335b1e823d7036af",
+      "extension": ".md"
+    },
+    {
+      "path": "07-windows-api/manipulacao-de-arquivos.md",
+      "bytes": 5549,
+      "sha256": "2e6bdaac75283710c835134a8eb422c4431c3aea0603ac2284fa8eed7d1a188e",
+      "extension": ".md"
+    },
+    {
+      "path": "08-assembly/README.md",
+      "bytes": 5824,
+      "sha256": "7bc3d3448443dcc66c5f079655370ceb256ad1b49389556f1c04efde2cd58bd3",
+      "extension": ".md"
+    },
+    {
+      "path": "08-assembly/funcoes-e-pilha.md",
+      "bytes": 12746,
+      "sha256": "7ed5f436eac4a304d5f654a245d8fbd153816c27a24378be5850084738441efd",
+      "extension": ".md"
+    },
+    {
+      "path": "08-assembly/instrucoes-basicas.md",
+      "bytes": 12110,
+      "sha256": "160de985b3e3c671859c30d3f73fe668c417167ecd9587ec604a701515c2c69c",
+      "extension": ".md"
+    },
+    {
+      "path": "08-assembly/registradores.md",
+      "bytes": 12308,
+      "sha256": "93a5eca707bc5fe7fb546c53b41be1bac69ed12effd85542c7cd5fb9d66bcea8",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/README.md",
+      "bytes": 820,
+      "sha256": "5199b1e56e2e31e67133e05ed548a71cbad010ad5cef92707cba270d54494c6d",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/breakpoints.md",
+      "bytes": 2988,
+      "sha256": "42c9face844fcaf8e83428c443c5e6d5801d9d4b1b64f4a925c6fc801d1b5b6c",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/debugger.md",
+      "bytes": 4522,
+      "sha256": "22a124c7d8bf309415a63a3b660f6829747f092702991e984ae404b3874e0da6",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/disassembly.md",
+      "bytes": 4128,
+      "sha256": "5276417d4ba871e787dd935cc31fa488314c27b4ae921f7e951d70311a1dfa51",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/manipulacao.md",
+      "bytes": 3812,
+      "sha256": "dd4af64ac22f4ed81801057c56020f92bb313b3adc75d06d43786b7e1d8c7348",
+      "extension": ".md"
+    },
+    {
+      "path": "09-depuracao/patches.md",
+      "bytes": 1765,
+      "sha256": "2ab049e256b26440b515fc9644ecc0d01fff86ec0bbbefe839004fd826dda56c",
+      "extension": ".md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3065,
+      "sha256": "84a76a564227fdcc12fb0447620403a219c9319fca2f374fcefd5af78408d56a",
+      "extension": ".md"
+    },
+    {
+      "path": "SUMMARY.md",
+      "bytes": 2642,
+      "sha256": "2b001b572ac854830c1fb246c15fd357ee2d86bad9319fe0550ac14c950e67f6",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/README.md",
+      "bytes": 750,
+      "sha256": "1ab85b26bedec506820c0dd9f77b791a5b60a12410c7ed7670308005c9a5bfd9",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/a-tabela-ascii.md",
+      "bytes": 1063,
+      "sha256": "50d93aaae3d80326d258abc819eb67bd7976537168c17a28bab9496f54801394",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/b-tabela-iso-8859-1.md",
+      "bytes": 1035,
+      "sha256": "c28a591aaeb96921667c3023d16a45630d3b2d5099d7ddf98416d148055eecbd",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+      "bytes": 1116,
+      "sha256": "44721697a7414b689b37a47718ffb2769eaf190708059f39ba1393fe2226cfcb",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/d-funcoes-api-win.md",
+      "bytes": 6276,
+      "sha256": "e6632453a2f0b2743bf2634d62787f34d1359521a8499c2ecf7b2fdd8e1e3bc2",
+      "extension": ".md"
+    },
+    {
+      "path": "apendices/e-ferramentas.md",
+      "bytes": 39255,
+      "sha256": "873837616e6116ae266d1c599d274f289ca7602e7cbda621be398fe68837c52d",
+      "extension": ".md"
+    },
+    {
+      "path": "referencias.md",
+      "bytes": 1449,
+      "sha256": "a6d0fe3c0c891ed39e74d556cc5135623579a0dfd4b26075e69abf4566c1d6c3",
+      "extension": ".md"
+    }
+  ],
+  "pages": [
+    {
+      "id": "01-introducao/README.md",
+      "title": "Introdução",
+      "sha256": "a472e97b726f4f093802388b8764253b88e20a09941e4d5b7bbdc712d20010e8",
+      "lines": 58,
+      "wordsWhitespace": 995,
+      "summaryEntry": {
+        "order": 1,
+        "title": "Introdução",
+        "path": "01-introducao/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Introdução",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "O que é Engenharia Reversa",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Engenharia Reversa de Software",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Por que a Engenharia Reversa de Software é possível",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Áreas de aplicação da Engenharia Reversa de Software",
+          "line": 25
+        },
+        {
+          "level": 3,
+          "title": "Análise de Malware",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "Análise de Vulnerabilidade",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "Correção de Bugs",
+          "line": 35
+        },
+        {
+          "level": 3,
+          "title": "Mudança e Adição de Recursos",
+          "line": 39
+        },
+        {
+          "level": 3,
+          "title": "(Anti-)pirataria",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "Reimplementação de Software e Protocolos",
+          "line": 49
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 26,
+        "block_quote": 1,
+        "block_text": 4,
+        "emphasis": 12,
+        "heading": 11,
+        "list": 1,
+        "list_item": 4,
+        "paragraph": 16,
+        "strong": 8,
+        "text": 65
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "01-introducao/antes-de-comecar.md",
+      "title": "Antes de Começar",
+      "sha256": "4a2f778af2ec3a58bde10aa81bfa10b8efe9bd69bd731295b7b67a3fbdd96a1f",
+      "lines": 58,
+      "wordsWhitespace": 405,
+      "summaryEntry": {
+        "order": 2,
+        "title": "Antes de começar",
+        "path": "01-introducao/antes-de-comecar.md",
+        "depth": 1,
+        "parentPath": "01-introducao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Antes de Começar",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Terminologia",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Arquitetura",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Preparação do Ambiente",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 34
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "01-introducao/antes-de-comecar.md::code-01",
+        "01-introducao/antes-de-comecar.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 20,
+        "block_code": 2,
+        "block_text": 7,
+        "emphasis": 4,
+        "heading": 5,
+        "link": 6,
+        "list": 2,
+        "list_item": 7,
+        "paragraph": 14,
+        "strong": 3,
+        "text": 46
+      },
+      "exerciseHeadings": [
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 34
+        }
+      ],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "01-introducao/registro-de-alteracoes.md",
+      "title": "Registro de alterações",
+      "sha256": "b82574542bed55cd5a2f37e1cf71bf3efef74e8194f5a274c0794b3fccec0562",
+      "lines": 16,
+      "wordsWhitespace": 157,
+      "summaryEntry": null,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Registro de alterações",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Primeira Edição - Um dia 🤞",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Edição Beta - Maio de 2017",
+          "line": 14
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 5,
+        "block_text": 4,
+        "heading": 3,
+        "list": 1,
+        "list_item": 4,
+        "paragraph": 3,
+        "text": 10
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "02-numeros/README.md",
+      "title": "Números",
+      "sha256": "5f3d5d1f00081f0de1a055fcb1635618cef72422881e845abddcddacc57e4621",
+      "lines": 13,
+      "wordsWhitespace": 344,
+      "summaryEntry": {
+        "order": 3,
+        "title": "Números",
+        "path": "02-numeros/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Números",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 6,
+        "block_quote": 2,
+        "emphasis": 1,
+        "heading": 1,
+        "paragraph": 6,
+        "strong": 2,
+        "text": 16
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "02-numeros/calculos-com-binarios.md",
+      "title": "Cálculos com Binários",
+      "sha256": "865541b465c68348fc5919a2b04361315611c3a5c90b1ea0a6f2cd6a977ff559",
+      "lines": 270,
+      "wordsWhitespace": 1756,
+      "summaryEntry": {
+        "order": 7,
+        "title": "Cálculos com Binários",
+        "path": "02-numeros/calculos-com-binarios.md",
+        "depth": 1,
+        "parentPath": "02-numeros/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Cálculos com Binários",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Conjunção (AND)",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Disjunção (OR)",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "Disjunção Exclusiva (XOR)",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "Detecção de Diferenças",
+          "line": 106
+        },
+        {
+          "level": 3,
+          "title": "Zerar Variáveis",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "Troca de Valores Entre Duas Variáveis",
+          "line": 128
+        },
+        {
+          "level": 3,
+          "title": "Cifragem",
+          "line": 160
+        },
+        {
+          "level": 2,
+          "title": "Deslocamento (SHL e SHR)",
+          "line": 178
+        },
+        {
+          "level": 2,
+          "title": "Rotação (ROL e ROR)",
+          "line": 220
+        },
+        {
+          "level": 2,
+          "title": "Negação (NOT)",
+          "line": 246
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "02-numeros/calculos-com-binarios.md::code-01",
+        "02-numeros/calculos-com-binarios.md::code-02",
+        "02-numeros/calculos-com-binarios.md::code-03",
+        "02-numeros/calculos-com-binarios.md::code-04",
+        "02-numeros/calculos-com-binarios.md::code-05",
+        "02-numeros/calculos-com-binarios.md::code-06",
+        "02-numeros/calculos-com-binarios.md::code-07",
+        "02-numeros/calculos-com-binarios.md::code-08",
+        "02-numeros/calculos-com-binarios.md::code-09",
+        "02-numeros/calculos-com-binarios.md::code-10",
+        "02-numeros/calculos-com-binarios.md::code-11",
+        "02-numeros/calculos-com-binarios.md::code-12",
+        "02-numeros/calculos-com-binarios.md::code-13",
+        "02-numeros/calculos-com-binarios.md::code-14",
+        "02-numeros/calculos-com-binarios.md::code-15",
+        "02-numeros/calculos-com-binarios.md::code-16"
+      ],
+      "astCounts": {
+        "blank_line": 73,
+        "block_code": 16,
+        "block_quote": 6,
+        "block_text": 6,
+        "emphasis": 21,
+        "heading": 11,
+        "list": 2,
+        "list_item": 6,
+        "paragraph": 42,
+        "strong": 9,
+        "table": 5,
+        "table_body": 5,
+        "table_cell": 63,
+        "table_head": 5,
+        "table_row": 17,
+        "text": 185
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "02-numeros/numeros-negativos.md",
+      "title": "Números Negativos",
+      "sha256": "9f61794b8905976653710fc617412f0844a7287998fcb7358fa091bd66047096",
+      "lines": 47,
+      "wordsWhitespace": 502,
+      "summaryEntry": {
+        "order": 6,
+        "title": "Números Negativos",
+        "path": "02-numeros/numeros-negativos.md",
+        "depth": 1,
+        "parentPath": "02-numeros/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Números Negativos",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "02-numeros/numeros-negativos.md::code-01",
+        "02-numeros/numeros-negativos.md::code-02",
+        "02-numeros/numeros-negativos.md::code-03"
+      ],
+      "astCounts": {
+        "blank_line": 13,
+        "block_code": 3,
+        "block_text": 4,
+        "emphasis": 16,
+        "heading": 1,
+        "list": 1,
+        "list_item": 4,
+        "paragraph": 9,
+        "strong": 2,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 20,
+        "table_head": 1,
+        "table_row": 4,
+        "text": 70
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "02-numeros/o-byte.md",
+      "title": "O Byte",
+      "sha256": "7a387a39f3cc2237cd712df962822b02e19a9508cf71bb20f63b6eb940c73e32",
+      "lines": 17,
+      "wordsWhitespace": 359,
+      "summaryEntry": {
+        "order": 5,
+        "title": "O Byte",
+        "path": "02-numeros/o-byte.md",
+        "depth": 1,
+        "parentPath": "02-numeros/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "O Byte",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 5,
+        "block_quote": 1,
+        "emphasis": 19,
+        "heading": 1,
+        "paragraph": 4,
+        "strong": 2,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 18,
+        "table_head": 1,
+        "table_row": 5,
+        "text": 55
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "02-numeros/sistemas-de-numeracao.md",
+      "title": "Sistemas de Numeração",
+      "sha256": "a31140fe82922d5e02aa7a91a26ce0e95d4a3941b4085a071b58ddfb3e3191db",
+      "lines": 125,
+      "wordsWhitespace": 1354,
+      "summaryEntry": {
+        "order": 4,
+        "title": "Sistemas de Numeração",
+        "path": "02-numeros/sistemas-de-numeracao.md",
+        "depth": 1,
+        "parentPath": "02-numeros/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Sistemas de Numeração",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Binário",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Octal",
+          "line": 31
+        },
+        {
+          "level": 2,
+          "title": "Hexadecimal",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "Curiosidades",
+          "line": 73
+        },
+        {
+          "level": 2,
+          "title": "Criando seu próprio Sistema de Numeração",
+          "line": 106
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "02-numeros/sistemas-de-numeracao.md::code-01",
+        "02-numeros/sistemas-de-numeracao.md::code-02",
+        "02-numeros/sistemas-de-numeracao.md::code-03",
+        "02-numeros/sistemas-de-numeracao.md::code-04",
+        "02-numeros/sistemas-de-numeracao.md::code-05"
+      ],
+      "astCounts": {
+        "blank_line": 33,
+        "block_code": 5,
+        "block_quote": 2,
+        "block_text": 7,
+        "codespan": 1,
+        "emphasis": 3,
+        "heading": 6,
+        "link": 1,
+        "list": 2,
+        "list_item": 7,
+        "paragraph": 21,
+        "strong": 50,
+        "table": 2,
+        "table_body": 2,
+        "table_cell": 94,
+        "table_head": 2,
+        "table_row": 28,
+        "text": 176
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "03-cadeias-de-texto/README.md",
+      "title": "Cadeias de Texto",
+      "sha256": "27f89a641e10b3778b29439d7aecf92ee171b7cbe8880a8ec032dc5380bd54da",
+      "lines": 9,
+      "wordsWhitespace": 225,
+      "summaryEntry": {
+        "order": 8,
+        "title": "Cadeias de Texto",
+        "path": "03-cadeias-de-texto/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Cadeias de Texto",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Code points",
+          "line": 7
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 4,
+        "emphasis": 7,
+        "heading": 2,
+        "paragraph": 3,
+        "strong": 2,
+        "text": 23
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "03-cadeias-de-texto/ascii.md",
+      "title": "ASCII",
+      "sha256": "febc0845644095bc1f84d2e7eda754e86cac8aabec75b89e7225f86cf6c2dff6",
+      "lines": 69,
+      "wordsWhitespace": 930,
+      "summaryEntry": {
+        "order": 9,
+        "title": "ASCII",
+        "path": "03-cadeias-de-texto/ascii.md",
+        "depth": 1,
+        "parentPath": "03-cadeias-de-texto/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "ASCII",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "ASCII 7-bits",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "ASCII Estendida",
+          "line": 54
+        }
+      ],
+      "frontMatter": {
+        "description": "American Standard Code for Information Interchange"
+      },
+      "analysisRepairs": [],
+      "codeIds": [
+        "03-cadeias-de-texto/ascii.md::code-01",
+        "03-cadeias-de-texto/ascii.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 23,
+        "block_code": 2,
+        "block_quote": 2,
+        "block_text": 9,
+        "codespan": 6,
+        "emphasis": 27,
+        "heading": 3,
+        "link": 1,
+        "list": 2,
+        "list_item": 9,
+        "paragraph": 17,
+        "strong": 14,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 9,
+        "table_head": 1,
+        "table_row": 2,
+        "text": 127
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [
+        {
+          "line": 52,
+          "directive": "{% embed url=\"https://www.youtube.com/watch?v=IN9ElO90uLc\" %}"
+        }
+      ],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "03-cadeias-de-texto/c-strings.md",
+      "title": "C Strings",
+      "sha256": "9d64065a228cb18c3a901eaf37dd41eddc7d637410187063d27400a840993495",
+      "lines": 34,
+      "wordsWhitespace": 397,
+      "summaryEntry": {
+        "order": 11,
+        "title": "C Strings",
+        "path": "03-cadeias-de-texto/c-strings.md",
+        "depth": 1,
+        "parentPath": "03-cadeias-de-texto/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "C Strings",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "03-cadeias-de-texto/c-strings.md::code-01",
+        "03-cadeias-de-texto/c-strings.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 12,
+        "block_code": 2,
+        "block_quote": 1,
+        "block_text": 2,
+        "emphasis": 25,
+        "heading": 1,
+        "list": 2,
+        "list_item": 2,
+        "paragraph": 10,
+        "strong": 3,
+        "text": 69
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "03-cadeias-de-texto/unicode.md",
+      "title": "Unicode",
+      "sha256": "4f2e1bb7c9e6e7c3c281e8c9f4101509f16777eca15a9584b95e6a70e46f1c8a",
+      "lines": 133,
+      "wordsWhitespace": 1331,
+      "summaryEntry": {
+        "order": 10,
+        "title": "Unicode",
+        "path": "03-cadeias-de-texto/unicode.md",
+        "depth": 1,
+        "parentPath": "03-cadeias-de-texto/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Unicode",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "UTF-8",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "UTF-16",
+          "line": 37
+        },
+        {
+          "level": 3,
+          "title": "Code points da ISO-8859-1 na UTF-16",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "UTF-32",
+          "line": 104
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "03-cadeias-de-texto/unicode.md::code-01",
+        "03-cadeias-de-texto/unicode.md::code-02",
+        "03-cadeias-de-texto/unicode.md::code-03",
+        "03-cadeias-de-texto/unicode.md::code-04",
+        "03-cadeias-de-texto/unicode.md::code-05",
+        "03-cadeias-de-texto/unicode.md::code-06",
+        "03-cadeias-de-texto/unicode.md::code-07",
+        "03-cadeias-de-texto/unicode.md::code-08",
+        "03-cadeias-de-texto/unicode.md::code-09",
+        "03-cadeias-de-texto/unicode.md::code-10",
+        "03-cadeias-de-texto/unicode.md::code-11",
+        "03-cadeias-de-texto/unicode.md::code-12"
+      ],
+      "astCounts": {
+        "blank_line": 48,
+        "block_code": 12,
+        "block_quote": 1,
+        "codespan": 8,
+        "emphasis": 57,
+        "heading": 5,
+        "paragraph": 32,
+        "strong": 14,
+        "text": 186
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "04-arquivos/README.md",
+      "title": "Arquivos",
+      "sha256": "50b5084c4493eb81780527fd2a01c65f979f717b2166bc6ce96cda7b92b5ffe9",
+      "lines": 28,
+      "wordsWhitespace": 415,
+      "summaryEntry": {
+        "order": 12,
+        "title": "Arquivos",
+        "path": "04-arquivos/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Arquivos",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "04-arquivos/README.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 12,
+        "block_code": 1,
+        "codespan": 5,
+        "emphasis": 12,
+        "heading": 1,
+        "image": 2,
+        "paragraph": 11,
+        "strong": 3,
+        "text": 47
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "04-arquivos/formatos.md",
+      "title": "Formatos",
+      "sha256": "7adfcac02ea6816c93f0ba20d0905fe37f8017e17be3b666d9be1b23ec921f55",
+      "lines": 55,
+      "wordsWhitespace": 976,
+      "summaryEntry": {
+        "order": 13,
+        "title": "Formatos",
+        "path": "04-arquivos/formatos.md",
+        "depth": 1,
+        "parentPath": "04-arquivos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Formatos",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Offset",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Conteúdo",
+          "line": 21
+        },
+        {
+          "level": 2,
+          "title": "Representação Textual",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "Exemplo do Formato GIF",
+          "line": 33
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 23,
+        "block_quote": 1,
+        "block_text": 3,
+        "emphasis": 33,
+        "heading": 5,
+        "image": 1,
+        "link": 1,
+        "list": 1,
+        "list_item": 3,
+        "paragraph": 18,
+        "strong": 15,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 16,
+        "table_head": 1,
+        "table_row": 3,
+        "text": 134
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/README.md",
+      "title": "O formato PE",
+      "sha256": "37176ac779b26a4d049ff0dbe5073c57ac502654aabb2ca38f3403047c6aeeee",
+      "lines": 13,
+      "wordsWhitespace": 203,
+      "summaryEntry": {
+        "order": 14,
+        "title": "O formato PE",
+        "path": "05-o-formato-pe/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "O formato PE",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 6,
+        "block_quote": 1,
+        "emphasis": 3,
+        "heading": 1,
+        "link": 1,
+        "paragraph": 6,
+        "text": 15
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/README.md",
+      "title": "Cabeçalhos",
+      "sha256": "fda9a817495535ab6f4b4257ff286214cc8e789f9256e1e8ff21421b8b049fb3",
+      "lines": 14,
+      "wordsWhitespace": 162,
+      "summaryEntry": {
+        "order": 15,
+        "title": "Cabeçalhos",
+        "path": "05-o-formato-pe/cabecalhos/README.md",
+        "depth": 1,
+        "parentPath": "05-o-formato-pe/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Cabeçalhos",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 4,
+        "emphasis": 4,
+        "heading": 1,
+        "paragraph": 3,
+        "strong": 1,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 15,
+        "table_head": 1,
+        "table_row": 4,
+        "text": 29
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+      "title": "Cabeçalhos das Seções",
+      "sha256": "286ea6931af6b7215692ac0abfa3c51f9790a7e1e918798d5bece38075a0fdff",
+      "lines": 59,
+      "wordsWhitespace": 560,
+      "summaryEntry": {
+        "order": 20,
+        "title": "Cabeçalhos das Seções",
+        "path": "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md",
+        "depth": 2,
+        "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Cabeçalhos das Seções",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Name",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "VirtualSize",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "VirtualAddress",
+          "line": 32
+        },
+        {
+          "level": 2,
+          "title": "SizeOfRawData",
+          "line": 36
+        },
+        {
+          "level": 2,
+          "title": "PointerToRawData",
+          "line": 40
+        },
+        {
+          "level": 2,
+          "title": "Characteristics",
+          "line": 44
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/cabecalhos/cabecalhos-das-secoes.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 18,
+        "block_code": 1,
+        "block_quote": 1,
+        "emphasis": 19,
+        "heading": 7,
+        "paragraph": 10,
+        "strong": 15,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 21,
+        "table_head": 1,
+        "table_row": 6,
+        "text": 136
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/coff.md",
+      "title": "COFF",
+      "sha256": "4ec8da14d945440528ef4d3bbd98bff2da3950a22f0ea9d922b78d1cdca1d5df",
+      "lines": 101,
+      "wordsWhitespace": 913,
+      "summaryEntry": {
+        "order": 17,
+        "title": "COFF",
+        "path": "05-o-formato-pe/cabecalhos/coff.md",
+        "depth": 2,
+        "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "COFF",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Machine",
+          "line": 25
+        },
+        {
+          "level": 2,
+          "title": "NumberOfSections",
+          "line": 29
+        },
+        {
+          "level": 2,
+          "title": "TimeDateStamp",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "SizeOfOptionalHeader",
+          "line": 39
+        },
+        {
+          "level": 2,
+          "title": "Characteristics",
+          "line": 43
+        },
+        {
+          "level": 2,
+          "title": "Exercício",
+          "line": 65
+        }
+      ],
+      "frontMatter": {
+        "description": "Common Object File Format Specification"
+      },
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/cabecalhos/coff.md::code-01",
+        "05-o-formato-pe/cabecalhos/coff.md::code-02",
+        "05-o-formato-pe/cabecalhos/coff.md::code-03"
+      ],
+      "astCounts": {
+        "blank_line": 28,
+        "block_code": 3,
+        "block_quote": 1,
+        "emphasis": 21,
+        "heading": 7,
+        "image": 1,
+        "list": 1,
+        "list_item": 5,
+        "paragraph": 22,
+        "strong": 15,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 15,
+        "table_head": 1,
+        "table_row": 4,
+        "text": 144
+      },
+      "exerciseHeadings": [
+        {
+          "level": 2,
+          "title": "Exercício",
+          "line": 65
+        }
+      ],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/diretorios.md",
+      "title": "Diretórios de Dados",
+      "sha256": "168347c803521c4fc5fd6784fb6c2248e117dee2ad956da04821902c58ce42d9",
+      "lines": 40,
+      "wordsWhitespace": 314,
+      "summaryEntry": {
+        "order": 19,
+        "title": "Diretórios de Dados",
+        "path": "05-o-formato-pe/cabecalhos/diretorios.md",
+        "depth": 2,
+        "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Diretórios de Dados",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Export Table",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "Import Table",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "Resource Table",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "Certificate Table",
+          "line": 28
+        },
+        {
+          "level": 2,
+          "title": "IAT",
+          "line": 32
+        },
+        {
+          "level": 2,
+          "title": "CLR Runtime Header",
+          "line": 36
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/cabecalhos/diretorios.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 17,
+        "block_code": 1,
+        "emphasis": 14,
+        "heading": 7,
+        "paragraph": 10,
+        "strong": 3,
+        "text": 51
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/dos.md",
+      "title": "MS-DOS",
+      "sha256": "9572d9e18454a86152e29badabe94c43faf1b1c9414008735ad4f9d27159a5f5",
+      "lines": 82,
+      "wordsWhitespace": 839,
+      "summaryEntry": {
+        "order": 16,
+        "title": "MS-DOS",
+        "path": "05-o-formato-pe/cabecalhos/dos.md",
+        "depth": 2,
+        "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "MS-DOS",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "e_magic",
+          "line": 41
+        },
+        {
+          "level": 2,
+          "title": "e_lfanew",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "Exercício",
+          "line": 73
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/cabecalhos/dos.md::code-01",
+        "05-o-formato-pe/cabecalhos/dos.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 25,
+        "block_code": 2,
+        "block_quote": 2,
+        "block_text": 7,
+        "emphasis": 37,
+        "heading": 4,
+        "image": 1,
+        "list": 2,
+        "list_item": 7,
+        "paragraph": 19,
+        "strong": 15,
+        "text": 148
+      },
+      "exerciseHeadings": [
+        {
+          "level": 2,
+          "title": "Exercício",
+          "line": 73
+        }
+      ],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/cabecalhos/opcional.md",
+      "title": "Opcional",
+      "sha256": "12e33a4f2976fc1679011fbe30b17ce55aa00db8cd6a3329403f4e5203f5a2e2",
+      "lines": 76,
+      "wordsWhitespace": 580,
+      "summaryEntry": {
+        "order": 18,
+        "title": "Opcional",
+        "path": "05-o-formato-pe/cabecalhos/opcional.md",
+        "depth": 2,
+        "parentPath": "05-o-formato-pe/cabecalhos/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Opcional",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Magic",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "AddressOfEntryPoint",
+          "line": 50
+        },
+        {
+          "level": 2,
+          "title": "ImageBase",
+          "line": 54
+        },
+        {
+          "level": 2,
+          "title": "SubSystem",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "DllCharacteristics",
+          "line": 65
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/cabecalhos/opcional.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 17,
+        "block_code": 1,
+        "block_quote": 1,
+        "block_text": 2,
+        "emphasis": 12,
+        "heading": 6,
+        "list": 1,
+        "list_item": 2,
+        "paragraph": 10,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 6,
+        "table_head": 1,
+        "table_row": 2,
+        "text": 48
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/enderecamento.md",
+      "title": "Endereçamento",
+      "sha256": "cc95ee04e251947061a2a6c59536da2359a6b94e994ee5a5695db49391e12282",
+      "lines": 63,
+      "wordsWhitespace": 595,
+      "summaryEntry": {
+        "order": 23,
+        "title": "Endereçamento",
+        "path": "05-o-formato-pe/enderecamento.md",
+        "depth": 1,
+        "parentPath": "05-o-formato-pe/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Endereçamento",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Memória virtual",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Endereço Virtual",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Endereço Virtual Relativo",
+          "line": 17
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/enderecamento.md::code-01",
+        "05-o-formato-pe/enderecamento.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 14,
+        "block_code": 2,
+        "block_quote": 1,
+        "emphasis": 13,
+        "heading": 4,
+        "image": 1,
+        "paragraph": 9,
+        "strong": 3,
+        "text": 45
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/import-table.md",
+      "title": "Import Table",
+      "sha256": "1f62a8fd6c497d44e82c26a0dfd55abfa6ee485321dec635d678224314210b50",
+      "lines": 75,
+      "wordsWhitespace": 747,
+      "summaryEntry": {
+        "order": 22,
+        "title": "Import Table",
+        "path": "05-o-formato-pe/import-table.md",
+        "depth": 1,
+        "parentPath": "05-o-formato-pe/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Import Table",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Import Directory Table",
+          "line": 5
+        },
+        {
+          "level": 3,
+          "title": "RvaImportLookupTable",
+          "line": 23
+        },
+        {
+          "level": 4,
+          "title": "Import Lookup Table (ILT)",
+          "line": 27
+        },
+        {
+          "level": 5,
+          "title": "Hint/Name Table",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "Name",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "RvaImportAddressTable",
+          "line": 50
+        },
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 57
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/import-table.md::code-01",
+        "05-o-formato-pe/import-table.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 30,
+        "block_code": 2,
+        "block_quote": 2,
+        "emphasis": 42,
+        "heading": 8,
+        "image": 3,
+        "paragraph": 21,
+        "strong": 6,
+        "text": 144
+      },
+      "exerciseHeadings": [
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 57
+        }
+      ],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "05-o-formato-pe/secoes.md",
+      "title": "Seções",
+      "sha256": "994a161d0a8ac717ecaf26e9838a0201aa091fef52b3beba3a0b86b9205b3ab2",
+      "lines": 83,
+      "wordsWhitespace": 794,
+      "summaryEntry": {
+        "order": 21,
+        "title": "Seções",
+        "path": "05-o-formato-pe/secoes.md",
+        "depth": 1,
+        "parentPath": "05-o-formato-pe/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Seções",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": ".text",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": ".data",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": ".rdata",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": ".idata",
+          "line": 48
+        },
+        {
+          "level": 2,
+          "title": "Alinhamento de Seções",
+          "line": 52
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "05-o-formato-pe/secoes.md::code-01",
+        "05-o-formato-pe/secoes.md::code-02",
+        "05-o-formato-pe/secoes.md::code-03"
+      ],
+      "astCounts": {
+        "blank_line": 27,
+        "block_code": 3,
+        "block_quote": 1,
+        "block_text": 4,
+        "codespan": 1,
+        "emphasis": 10,
+        "heading": 6,
+        "image": 2,
+        "list": 1,
+        "list_item": 4,
+        "paragraph": 19,
+        "strong": 12,
+        "text": 74
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "06-execucao-de-programas/README.md",
+      "title": "Execução de Programas",
+      "sha256": "5f4a6e14a6863668b3011646fae15ba7d6ec81d607ea82435af6a637212b9fb2",
+      "lines": 53,
+      "wordsWhitespace": 720,
+      "summaryEntry": {
+        "order": 24,
+        "title": "Execução de Programas",
+        "path": "06-execucao-de-programas/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Execução de Programas",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Privilégios de Execução",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Dependências",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Loader",
+          "line": 37
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "06-execucao-de-programas/README.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 20,
+        "block_code": 1,
+        "block_quote": 1,
+        "block_text": 7,
+        "emphasis": 34,
+        "heading": 4,
+        "image": 1,
+        "list": 2,
+        "list_item": 7,
+        "paragraph": 15,
+        "strong": 9,
+        "text": 110
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "06-execucao-de-programas/bibliotecas.md",
+      "title": "Bibliotecas",
+      "sha256": "2da00a56cc43ecd118b53a06397e129383a23b1a557c05981142a1b85fdbf9dd",
+      "lines": 27,
+      "wordsWhitespace": 283,
+      "summaryEntry": {
+        "order": 26,
+        "title": "Bibliotecas",
+        "path": "06-execucao-de-programas/bibliotecas.md",
+        "depth": 1,
+        "parentPath": "06-execucao-de-programas/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Bibliotecas",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "06-execucao-de-programas/bibliotecas.md::code-01",
+        "06-execucao-de-programas/bibliotecas.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 10,
+        "block_code": 2,
+        "block_quote": 1,
+        "codespan": 1,
+        "emphasis": 4,
+        "heading": 1,
+        "image": 1,
+        "paragraph": 8,
+        "strong": 6,
+        "text": 30
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "06-execucao-de-programas/executaveis.md",
+      "title": "Executáveis",
+      "sha256": "bb721f1a9f2f7122bd2a5ed721f63a7a3872d109de943a60e46ac1949eef61c1",
+      "lines": 46,
+      "wordsWhitespace": 250,
+      "summaryEntry": {
+        "order": 25,
+        "title": "Executáveis",
+        "path": "06-execucao-de-programas/executaveis.md",
+        "depth": 1,
+        "parentPath": "06-execucao-de-programas/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Executáveis",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Estáticos",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Dinâmicos",
+          "line": 21
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "06-execucao-de-programas/executaveis.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 13,
+        "block_code": 1,
+        "block_text": 3,
+        "codespan": 1,
+        "emphasis": 4,
+        "heading": 3,
+        "list": 1,
+        "list_item": 3,
+        "paragraph": 9,
+        "strong": 6,
+        "text": 36
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "06-execucao-de-programas/processos.md",
+      "title": "Processos",
+      "sha256": "9fd29b9366e8bab68357d4c59e20264505b7c47dce68309e31cf98e5d43c972e",
+      "lines": 38,
+      "wordsWhitespace": 296,
+      "summaryEntry": {
+        "order": 27,
+        "title": "Processos",
+        "path": "06-execucao-de-programas/processos.md",
+        "depth": 1,
+        "parentPath": "06-execucao-de-programas/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Processos",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "06-execucao-de-programas/processos.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 6,
+        "block_code": 1,
+        "codespan": 1,
+        "emphasis": 2,
+        "heading": 1,
+        "paragraph": 5,
+        "strong": 5,
+        "text": 21
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "07-windows-api/README.md",
+      "title": "Windows API",
+      "sha256": "d4adbad0884a81255ce44715220badf13c2f7e2bec98c09fd1ad5ad43fede3e3",
+      "lines": 72,
+      "wordsWhitespace": 712,
+      "summaryEntry": {
+        "order": 28,
+        "title": "Windows API",
+        "path": "07-windows-api/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Windows API",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "MessageBox",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "hWnd",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "lpText",
+          "line": 48
+        },
+        {
+          "level": 3,
+          "title": "lpCaption",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "uType",
+          "line": 56
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "07-windows-api/README.md::code-01",
+        "07-windows-api/README.md::code-02",
+        "07-windows-api/README.md::code-03",
+        "07-windows-api/README.md::code-04"
+      ],
+      "astCounts": {
+        "blank_line": 24,
+        "block_code": 4,
+        "block_quote": 2,
+        "codespan": 6,
+        "emphasis": 20,
+        "heading": 6,
+        "paragraph": 14,
+        "strong": 5,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 12,
+        "table_head": 1,
+        "table_row": 5,
+        "text": 92
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "07-windows-api/acesso-ao-registro.md",
+      "title": "Acesso ao Registro",
+      "sha256": "8ac4789ff757300f5ecedf6cf5540a873c3cf51d2fe3b68c9cd7f3fc00a0e7de",
+      "lines": 139,
+      "wordsWhitespace": 883,
+      "summaryEntry": {
+        "order": 31,
+        "title": "Acesso ao Registro",
+        "path": "07-windows-api/acesso-ao-registro.md",
+        "depth": 1,
+        "parentPath": "07-windows-api/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Acesso ao Registro",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "RegCreateKey",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "hKey",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "lpSubKey",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "phkResult",
+          "line": 50
+        },
+        {
+          "level": 2,
+          "title": "RegSetKeyValue",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "lpValueName",
+          "line": 81
+        },
+        {
+          "level": 3,
+          "title": "dwType",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "lpData",
+          "line": 107
+        },
+        {
+          "level": 3,
+          "title": "cbData",
+          "line": 111
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "07-windows-api/acesso-ao-registro.md::code-01",
+        "07-windows-api/acesso-ao-registro.md::code-02",
+        "07-windows-api/acesso-ao-registro.md::code-03",
+        "07-windows-api/acesso-ao-registro.md::code-04",
+        "07-windows-api/acesso-ao-registro.md::code-05",
+        "07-windows-api/acesso-ao-registro.md::code-06"
+      ],
+      "astCounts": {
+        "blank_line": 35,
+        "block_code": 6,
+        "block_quote": 1,
+        "codespan": 25,
+        "heading": 10,
+        "link": 1,
+        "paragraph": 20,
+        "text": 57
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "07-windows-api/caixas-de-mensagens.md",
+      "title": "Caixas de Mensagens",
+      "sha256": "e8d3c724fd11d3e2cfcc2a08a0398ceb5ed35f79d7996632335b1e823d7036af",
+      "lines": 78,
+      "wordsWhitespace": 689,
+      "summaryEntry": {
+        "order": 29,
+        "title": "Caixas de Mensagens",
+        "path": "07-windows-api/caixas-de-mensagens.md",
+        "depth": 1,
+        "parentPath": "07-windows-api/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Caixas de Mensagens",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Um \"Hello, World\" Conceituado",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Lendo o Retorno da Função",
+          "line": 36
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "07-windows-api/caixas-de-mensagens.md::code-01",
+        "07-windows-api/caixas-de-mensagens.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 17,
+        "block_code": 2,
+        "block_quote": 1,
+        "block_text": 8,
+        "codespan": 37,
+        "emphasis": 4,
+        "heading": 3,
+        "image": 2,
+        "list": 2,
+        "list_item": 8,
+        "paragraph": 12,
+        "strong": 10,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 14,
+        "table_head": 1,
+        "table_row": 6,
+        "text": 103
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "07-windows-api/manipulacao-de-arquivos.md",
+      "title": "Manipulação de Arquivos",
+      "sha256": "2e6bdaac75283710c835134a8eb422c4431c3aea0603ac2284fa8eed7d1a188e",
+      "lines": 151,
+      "wordsWhitespace": 739,
+      "summaryEntry": {
+        "order": 30,
+        "title": "Manipulação de Arquivos",
+        "path": "07-windows-api/manipulacao-de-arquivos.md",
+        "depth": 1,
+        "parentPath": "07-windows-api/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Manipulação de Arquivos",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "CreateFile",
+          "line": 5
+        },
+        {
+          "level": 3,
+          "title": "lpFileName",
+          "line": 23
+        },
+        {
+          "level": 3,
+          "title": "dwDesiredAccess",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "dwShareMode",
+          "line": 40
+        },
+        {
+          "level": 3,
+          "title": "lpSecurityAttributes",
+          "line": 52
+        },
+        {
+          "level": 3,
+          "title": "dwCreationDisposition",
+          "line": 56
+        },
+        {
+          "level": 3,
+          "title": "dwFlagsAndAttributes",
+          "line": 68
+        },
+        {
+          "level": 3,
+          "title": "hTemplateFile",
+          "line": 72
+        },
+        {
+          "level": 2,
+          "title": "WriteFile",
+          "line": 104
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "07-windows-api/manipulacao-de-arquivos.md::code-01",
+        "07-windows-api/manipulacao-de-arquivos.md::code-02",
+        "07-windows-api/manipulacao-de-arquivos.md::code-03",
+        "07-windows-api/manipulacao-de-arquivos.md::code-04",
+        "07-windows-api/manipulacao-de-arquivos.md::code-05",
+        "07-windows-api/manipulacao-de-arquivos.md::code-06",
+        "07-windows-api/manipulacao-de-arquivos.md::code-07",
+        "07-windows-api/manipulacao-de-arquivos.md::code-08",
+        "07-windows-api/manipulacao-de-arquivos.md::code-09"
+      ],
+      "astCounts": {
+        "blank_line": 39,
+        "block_code": 9,
+        "codespan": 24,
+        "emphasis": 8,
+        "heading": 10,
+        "paragraph": 21,
+        "text": 70
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "08-assembly/README.md",
+      "title": "Assembly",
+      "sha256": "7bc3d3448443dcc66c5f079655370ceb256ad1b49389556f1c04efde2cd58bd3",
+      "lines": 60,
+      "wordsWhitespace": 930,
+      "summaryEntry": {
+        "order": 32,
+        "title": "Assembly",
+        "path": "08-assembly/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Assembly",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "08-assembly/README.md::code-01",
+        "08-assembly/README.md::code-02"
+      ],
+      "astCounts": {
+        "blank_line": 21,
+        "block_code": 2,
+        "block_quote": 1,
+        "emphasis": 32,
+        "heading": 1,
+        "image": 1,
+        "list": 1,
+        "list_item": 3,
+        "paragraph": 21,
+        "strong": 14,
+        "table": 1,
+        "table_body": 1,
+        "table_cell": 20,
+        "table_head": 1,
+        "table_row": 4,
+        "text": 134
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "08-assembly/funcoes-e-pilha.md",
+      "title": "Funções e Pilha",
+      "sha256": "7ed5f436eac4a304d5f654a245d8fbd153816c27a24378be5850084738441efd",
+      "lines": 266,
+      "wordsWhitespace": 2109,
+      "summaryEntry": {
+        "order": 35,
+        "title": "Funções e Pilha",
+        "path": "08-assembly/funcoes-e-pilha.md",
+        "depth": 1,
+        "parentPath": "08-assembly/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Funções e Pilha",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "O que é uma Função",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Funções em Assembly",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "Passagem de parâmetros",
+          "line": 97
+        },
+        {
+          "level": 2,
+          "title": "A Pilha de Memória",
+          "line": 133
+        },
+        {
+          "level": 2,
+          "title": "Passagem de parâmetros pela pilha",
+          "line": 179
+        },
+        {
+          "level": 2,
+          "title": "Análise da MessageBox",
+          "line": 240
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "08-assembly/funcoes-e-pilha.md::code-01",
+        "08-assembly/funcoes-e-pilha.md::code-02",
+        "08-assembly/funcoes-e-pilha.md::code-03",
+        "08-assembly/funcoes-e-pilha.md::code-04",
+        "08-assembly/funcoes-e-pilha.md::code-05",
+        "08-assembly/funcoes-e-pilha.md::code-06",
+        "08-assembly/funcoes-e-pilha.md::code-07",
+        "08-assembly/funcoes-e-pilha.md::code-08",
+        "08-assembly/funcoes-e-pilha.md::code-09",
+        "08-assembly/funcoes-e-pilha.md::code-10",
+        "08-assembly/funcoes-e-pilha.md::code-11",
+        "08-assembly/funcoes-e-pilha.md::code-12",
+        "08-assembly/funcoes-e-pilha.md::code-13",
+        "08-assembly/funcoes-e-pilha.md::code-14"
+      ],
+      "astCounts": {
+        "blank_line": 66,
+        "block_code": 14,
+        "block_quote": 1,
+        "block_text": 14,
+        "codespan": 4,
+        "emphasis": 13,
+        "heading": 7,
+        "linebreak": 2,
+        "list": 6,
+        "list_item": 14,
+        "paragraph": 46,
+        "strong": 10,
+        "text": 115
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "08-assembly/instrucoes-basicas.md",
+      "title": "Instruções Básicas",
+      "sha256": "160de985b3e3c671859c30d3f73fe668c417167ecd9587ec604a701515c2c69c",
+      "lines": 148,
+      "wordsWhitespace": 1889,
+      "summaryEntry": {
+        "order": 34,
+        "title": "Instruções Básicas",
+        "path": "08-assembly/instrucoes-basicas.md",
+        "depth": 1,
+        "parentPath": "08-assembly/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Instruções Básicas",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Copiando Valores",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Aritmética",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "Operações Bit-a-bit",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "Comparando Valores",
+          "line": 70
+        },
+        {
+          "level": 2,
+          "title": "Alterando o Fluxo do Programa",
+          "line": 87
+        },
+        {
+          "level": 3,
+          "title": "Salto Incondicional",
+          "line": 91
+        },
+        {
+          "level": 3,
+          "title": "Saltos Condicionais Sem Sinal",
+          "line": 106
+        },
+        {
+          "level": 3,
+          "title": "Saltos Condicionais Com Sinal",
+          "line": 133
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "08-assembly/instrucoes-basicas.md::code-01",
+        "08-assembly/instrucoes-basicas.md::code-02",
+        "08-assembly/instrucoes-basicas.md::code-03",
+        "08-assembly/instrucoes-basicas.md::code-04",
+        "08-assembly/instrucoes-basicas.md::code-05",
+        "08-assembly/instrucoes-basicas.md::code-06",
+        "08-assembly/instrucoes-basicas.md::code-07",
+        "08-assembly/instrucoes-basicas.md::code-08",
+        "08-assembly/instrucoes-basicas.md::code-09",
+        "08-assembly/instrucoes-basicas.md::code-10",
+        "08-assembly/instrucoes-basicas.md::code-11"
+      ],
+      "astCounts": {
+        "blank_line": 44,
+        "block_code": 11,
+        "block_quote": 2,
+        "block_text": 3,
+        "codespan": 5,
+        "emphasis": 37,
+        "heading": 9,
+        "list": 1,
+        "list_item": 3,
+        "paragraph": 34,
+        "strong": 21,
+        "table": 2,
+        "table_body": 2,
+        "table_cell": 60,
+        "table_head": 2,
+        "table_row": 18,
+        "text": 223
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "08-assembly/registradores.md",
+      "title": "Registradores",
+      "sha256": "93a5eca707bc5fe7fb546c53b41be1bac69ed12effd85542c7cd5fb9d66bcea8",
+      "lines": 165,
+      "wordsWhitespace": 1601,
+      "summaryEntry": {
+        "order": 33,
+        "title": "Registradores",
+        "path": "08-assembly/registradores.md",
+        "depth": 1,
+        "parentPath": "08-assembly/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Registradores",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Registradores de Uso Geral",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Subregistradores",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "Subregistradores de RAX, RBX, RCX e RDX",
+          "line": 31
+        },
+        {
+          "level": 3,
+          "title": "Sub-registradores de RSI, RDI, RBP e RSP",
+          "line": 67
+        },
+        {
+          "level": 3,
+          "title": "Sub-registradores de R8-R15",
+          "line": 86
+        },
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 105
+        },
+        {
+          "level": 2,
+          "title": "Ponteiro de Instrução",
+          "line": 136
+        },
+        {
+          "level": 2,
+          "title": "Registrador de Flags",
+          "line": 148
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "08-assembly/registradores.md::code-01",
+        "08-assembly/registradores.md::code-02",
+        "08-assembly/registradores.md::code-03",
+        "08-assembly/registradores.md::code-04",
+        "08-assembly/registradores.md::code-05"
+      ],
+      "astCounts": {
+        "blank_line": 45,
+        "block_code": 5,
+        "block_quote": 1,
+        "block_text": 9,
+        "codespan": 7,
+        "emphasis": 30,
+        "heading": 9,
+        "image": 1,
+        "linebreak": 1,
+        "list": 2,
+        "list_item": 9,
+        "paragraph": 29,
+        "strong": 12,
+        "table": 3,
+        "table_body": 3,
+        "table_cell": 59,
+        "table_head": 3,
+        "table_row": 15,
+        "text": 196
+      },
+      "exerciseHeadings": [
+        {
+          "level": 2,
+          "title": "Exercícios",
+          "line": 105
+        }
+      ],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/README.md",
+      "title": "Depuração",
+      "sha256": "5199b1e56e2e31e67133e05ed548a71cbad010ad5cef92707cba270d54494c6d",
+      "lines": 7,
+      "wordsWhitespace": 124,
+      "summaryEntry": {
+        "order": 36,
+        "title": "Depuração",
+        "path": "09-depuracao/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Depuração",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 3,
+        "emphasis": 4,
+        "heading": 1,
+        "link": 1,
+        "paragraph": 3,
+        "text": 14
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/breakpoints.md",
+      "title": "Breakpoints",
+      "sha256": "42c9face844fcaf8e83428c443c5e6d5801d9d4b1b64f4a925c6fc801d1b5b6c",
+      "lines": 35,
+      "wordsWhitespace": 437,
+      "summaryEntry": {
+        "order": 39,
+        "title": "Breakpoints",
+        "path": "09-depuracao/breakpoints.md",
+        "depth": 1,
+        "parentPath": "09-depuracao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Breakpoints",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Seu Primeiro Breakpoint",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Como Breakpoints são Implementados",
+          "line": 15
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 15,
+        "block_quote": 1,
+        "block_text": 3,
+        "emphasis": 26,
+        "heading": 3,
+        "image": 2,
+        "link": 1,
+        "list": 1,
+        "list_item": 3,
+        "paragraph": 13,
+        "strong": 6,
+        "text": 84
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/debugger.md",
+      "title": "O Debugger",
+      "sha256": "22a124c7d8bf309415a63a3b660f6829747f092702991e984ae404b3874e0da6",
+      "lines": 54,
+      "wordsWhitespace": 720,
+      "summaryEntry": {
+        "order": 37,
+        "title": "O Debugger",
+        "path": "09-depuracao/debugger.md",
+        "depth": 1,
+        "parentPath": "09-depuracao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "O Debugger",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Instalação",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Configuração",
+          "line": 10
+        },
+        {
+          "level": 2,
+          "title": "Tela Inicial",
+          "line": 20
+        },
+        {
+          "level": 3,
+          "title": "Disassembly",
+          "line": 28
+        },
+        {
+          "level": 3,
+          "title": "Helper",
+          "line": 32
+        },
+        {
+          "level": 3,
+          "title": "Dump",
+          "line": 36
+        },
+        {
+          "level": 3,
+          "title": "Registradores",
+          "line": 42
+        },
+        {
+          "level": 3,
+          "title": "Convenção de Chamada",
+          "line": 46
+        },
+        {
+          "level": 3,
+          "title": "Pilha",
+          "line": 50
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 22,
+        "block_text": 7,
+        "codespan": 4,
+        "emphasis": 20,
+        "heading": 10,
+        "image": 1,
+        "list": 2,
+        "list_item": 7,
+        "paragraph": 13,
+        "strong": 16,
+        "text": 112
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/disassembly.md",
+      "title": "Disassembly",
+      "sha256": "5276417d4ba871e787dd935cc31fa488314c27b4ae921f7e951d70311a1dfa51",
+      "lines": 41,
+      "wordsWhitespace": 651,
+      "summaryEntry": {
+        "order": 38,
+        "title": "Disassembly",
+        "path": "09-depuracao/disassembly.md",
+        "depth": 1,
+        "parentPath": "09-depuracao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Disassembly",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Realce de Instruções",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Executando Uma Instrução",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Rodando o Programa",
+          "line": 37
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 16,
+        "block_text": 6,
+        "codespan": 4,
+        "emphasis": 22,
+        "heading": 4,
+        "image": 1,
+        "list": 2,
+        "list_item": 6,
+        "paragraph": 13,
+        "strong": 9,
+        "text": 89
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/manipulacao.md",
+      "title": "Manipulação do fluxo",
+      "sha256": "dd4af64ac22f4ed81801057c56020f92bb313b3adc75d06d43786b7e1d8c7348",
+      "lines": 41,
+      "wordsWhitespace": 551,
+      "summaryEntry": {
+        "order": 40,
+        "title": "Manipulação do Fluxo",
+        "path": "09-depuracao/manipulacao.md",
+        "depth": 1,
+        "parentPath": "09-depuracao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Manipulação do fluxo",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Encontrando o local para manipulação",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Alterando a string",
+          "line": 27
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 20,
+        "codespan": 10,
+        "emphasis": 3,
+        "heading": 3,
+        "image": 6,
+        "paragraph": 18,
+        "text": 54
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "09-depuracao/patches.md",
+      "title": "Patches",
+      "sha256": "2ab049e256b26440b515fc9644ecc0d01fff86ec0bbbefe839004fd826dda56c",
+      "lines": 17,
+      "wordsWhitespace": 268,
+      "summaryEntry": {
+        "order": 41,
+        "title": "Patches",
+        "path": "09-depuracao/patches.md",
+        "depth": 1,
+        "parentPath": "09-depuracao/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Patches",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 8,
+        "emphasis": 1,
+        "heading": 1,
+        "image": 1,
+        "link": 1,
+        "paragraph": 8,
+        "strong": 1,
+        "text": 23
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "README.md",
+      "title": "Apresentação",
+      "sha256": "84a76a564227fdcc12fb0447620403a219c9319fca2f374fcefd5af78408d56a",
+      "lines": 29,
+      "wordsWhitespace": 437,
+      "summaryEntry": {
+        "order": 0,
+        "title": "Apresentação",
+        "path": "README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Apresentação",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Sobre este Livro",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Público Alvo",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "Erros, Comentários e Sugestões",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Sobre o Autor",
+          "line": 15
+        },
+        {
+          "level": 2,
+          "title": "Sobre a Mente Binária",
+          "line": 19
+        },
+        {
+          "level": 2,
+          "title": "Apoie este Livro",
+          "line": 23
+        },
+        {
+          "level": 2,
+          "title": "Agradecimentos",
+          "line": 27
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 14,
+        "emphasis": 1,
+        "heading": 8,
+        "link": 5,
+        "paragraph": 7,
+        "strong": 1,
+        "text": 28
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "SUMMARY.md",
+      "title": "Table of contents",
+      "sha256": "2b001b572ac854830c1fb246c15fd357ee2d86bad9319fe0550ac14c950e67f6",
+      "lines": 51,
+      "wordsWhitespace": 155,
+      "summaryEntry": null,
+      "headings": [
+        {
+          "level": 1,
+          "title": "Table of contents",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 1,
+        "block_text": 49,
+        "heading": 1,
+        "link": 49,
+        "list": 12,
+        "list_item": 49,
+        "text": 50
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/README.md",
+      "title": "Apêndices",
+      "sha256": "1ab85b26bedec506820c0dd9f77b791a5b60a12410c7ed7670308005c9a5bfd9",
+      "lines": 23,
+      "wordsWhitespace": 64,
+      "summaryEntry": {
+        "order": 42,
+        "title": "Apêndices",
+        "path": "apendices/README.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Apêndices",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 6,
+        "heading": 1,
+        "link": 5,
+        "paragraph": 6,
+        "softbreak": 10,
+        "text": 17
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [
+        {
+          "line": 5,
+          "directive": "{% content-ref url=\"a-tabela-ascii.md\" %}"
+        },
+        {
+          "line": 7,
+          "directive": "{% endcontent-ref %}"
+        },
+        {
+          "line": 9,
+          "directive": "{% content-ref url=\"b-tabela-iso-8859-1.md\" %}"
+        },
+        {
+          "line": 11,
+          "directive": "{% endcontent-ref %}"
+        },
+        {
+          "line": 13,
+          "directive": "{% content-ref url=\"c-exemplos-de-codigo-em-assembly.md\" %}"
+        },
+        {
+          "line": 15,
+          "directive": "{% endcontent-ref %}"
+        },
+        {
+          "line": 17,
+          "directive": "{% content-ref url=\"d-funcoes-api-win.md\" %}"
+        },
+        {
+          "line": 19,
+          "directive": "{% endcontent-ref %}"
+        },
+        {
+          "line": 21,
+          "directive": "{% content-ref url=\"e-ferramentas.md\" %}"
+        },
+        {
+          "line": 23,
+          "directive": "{% endcontent-ref %}"
+        }
+      ],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/a-tabela-ascii.md",
+      "title": "Tabela ASCII",
+      "sha256": "50d93aaae3d80326d258abc819eb67bd7976537168c17a28bab9496f54801394",
+      "lines": 21,
+      "wordsWhitespace": 157,
+      "summaryEntry": {
+        "order": 43,
+        "title": "Tabela ASCII",
+        "path": "apendices/a-tabela-ascii.md",
+        "depth": 1,
+        "parentPath": "apendices/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Tabela ASCII",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "apendices/a-tabela-ascii.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 1,
+        "block_code": 1,
+        "heading": 1,
+        "text": 1
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/b-tabela-iso-8859-1.md",
+      "title": "Tabela ISO-8859-1/Latin-1",
+      "sha256": "c28a591aaeb96921667c3023d16a45630d3b2d5099d7ddf98416d148055eecbd",
+      "lines": 23,
+      "wordsWhitespace": 240,
+      "summaryEntry": {
+        "order": 44,
+        "title": "Tabela ISO-8859-1/Latin-1",
+        "path": "apendices/b-tabela-iso-8859-1.md",
+        "depth": 1,
+        "parentPath": "apendices/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Tabela ISO-8859-1/Latin-1",
+          "line": 1
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "apendices/b-tabela-iso-8859-1.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 2,
+        "block_code": 1,
+        "heading": 1,
+        "paragraph": 1,
+        "text": 2
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/c-exemplos-de-codigo-em-assembly.md",
+      "title": "Exemplos de Código em Assembly",
+      "sha256": "44721697a7414b689b37a47718ffb2769eaf190708059f39ba1393fe2226cfcb",
+      "lines": 59,
+      "wordsWhitespace": 193,
+      "summaryEntry": {
+        "order": 45,
+        "title": "Exemplos de Código em Assembly",
+        "path": "apendices/c-exemplos-de-codigo-em-assembly.md",
+        "depth": 1,
+        "parentPath": "apendices/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Exemplos de Código em Assembly",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Zerar Variáveis",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Contar de Um a Dez",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "Testar Se É Zero",
+          "line": 31
+        },
+        {
+          "level": 2,
+          "title": "Fazer Nada",
+          "line": 45
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-01",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-02",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-03",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-04",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-05",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-06",
+        "apendices/c-exemplos-de-codigo-em-assembly.md::code-07"
+      ],
+      "astCounts": {
+        "blank_line": 17,
+        "block_code": 7,
+        "emphasis": 2,
+        "heading": 5,
+        "paragraph": 6,
+        "text": 15
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/d-funcoes-api-win.md",
+      "title": "Funções da API do Windows",
+      "sha256": "e6632453a2f0b2743bf2634d62787f34d1359521a8499c2ecf7b2fdd8e1e3bc2",
+      "lines": 211,
+      "wordsWhitespace": 695,
+      "summaryEntry": {
+        "order": 46,
+        "title": "Funções da API do Windows",
+        "path": "apendices/d-funcoes-api-win.md",
+        "depth": 1,
+        "parentPath": "apendices/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Funções da API do Windows",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Anti-debugging",
+          "line": 9
+        },
+        {
+          "level": 2,
+          "title": "Caixas de Mensagens",
+          "line": 24
+        },
+        {
+          "level": 2,
+          "title": "Caixas de Texto",
+          "line": 39
+        },
+        {
+          "level": 2,
+          "title": "Criptografia",
+          "line": 52
+        },
+        {
+          "level": 2,
+          "title": "Data e Hora",
+          "line": 70
+        },
+        {
+          "level": 2,
+          "title": "Discos e Volumes",
+          "line": 82
+        },
+        {
+          "level": 2,
+          "title": "Entrada e Saída (I/O)",
+          "line": 92
+        },
+        {
+          "level": 2,
+          "title": "Internet",
+          "line": 112
+        },
+        {
+          "level": 2,
+          "title": "Janelas",
+          "line": 129
+        },
+        {
+          "level": 2,
+          "title": "Memória",
+          "line": 148
+        },
+        {
+          "level": 2,
+          "title": "Processos e Threads",
+          "line": 163
+        },
+        {
+          "level": 2,
+          "title": "Registro",
+          "line": 184
+        },
+        {
+          "level": 2,
+          "title": "Strings",
+          "line": 200
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [
+        "apendices/d-funcoes-api-win.md::code-01",
+        "apendices/d-funcoes-api-win.md::code-02",
+        "apendices/d-funcoes-api-win.md::code-03",
+        "apendices/d-funcoes-api-win.md::code-04",
+        "apendices/d-funcoes-api-win.md::code-05",
+        "apendices/d-funcoes-api-win.md::code-06",
+        "apendices/d-funcoes-api-win.md::code-07",
+        "apendices/d-funcoes-api-win.md::code-08",
+        "apendices/d-funcoes-api-win.md::code-09",
+        "apendices/d-funcoes-api-win.md::code-10",
+        "apendices/d-funcoes-api-win.md::code-11",
+        "apendices/d-funcoes-api-win.md::code-12",
+        "apendices/d-funcoes-api-win.md::code-13",
+        "apendices/d-funcoes-api-win.md::code-14",
+        "apendices/d-funcoes-api-win.md::code-15"
+      ],
+      "astCounts": {
+        "blank_line": 55,
+        "block_code": 15,
+        "codespan": 66,
+        "emphasis": 5,
+        "heading": 14,
+        "paragraph": 27,
+        "strong": 1,
+        "text": 128
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "apendices/e-ferramentas.md",
+      "title": "Ferramentas",
+      "sha256": "873837616e6116ae266d1c599d274f289ca7602e7cbda621be398fe68837c52d",
+      "lines": 245,
+      "wordsWhitespace": 2782,
+      "summaryEntry": {
+        "order": 47,
+        "title": "Ferramentas",
+        "path": "apendices/e-ferramentas.md",
+        "depth": 1,
+        "parentPath": "apendices/README.md"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Ferramentas",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Editores Hexadecimais",
+          "line": 5
+        },
+        {
+          "level": 2,
+          "title": "Analisadores Estáticos de Executáveis",
+          "line": 34
+        },
+        {
+          "level": 2,
+          "title": "Bibliotecas para parsear Executáveis",
+          "line": 55
+        },
+        {
+          "level": 2,
+          "title": "Assemblers",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "Disassemblers",
+          "line": 78
+        },
+        {
+          "level": 2,
+          "title": "Debuggers",
+          "line": 87
+        },
+        {
+          "level": 2,
+          "title": "Desofuscadores",
+          "line": 102
+        },
+        {
+          "level": 2,
+          "title": "Descompiladores",
+          "line": 109
+        },
+        {
+          "level": 3,
+          "title": ".NET",
+          "line": 111
+        },
+        {
+          "level": 3,
+          "title": "Delphi",
+          "line": 117
+        },
+        {
+          "level": 3,
+          "title": "Genéricos (C, C++, Delphi, etc)",
+          "line": 123
+        },
+        {
+          "level": 3,
+          "title": "Java",
+          "line": 131
+        },
+        {
+          "level": 3,
+          "title": "Visual Basic",
+          "line": 140
+        },
+        {
+          "level": 2,
+          "title": "Emuladores",
+          "line": 146
+        },
+        {
+          "level": 2,
+          "title": "Frameworks",
+          "line": 153
+        },
+        {
+          "level": 2,
+          "title": "Monitores de Processos",
+          "line": 162
+        },
+        {
+          "level": 2,
+          "title": "Sandboxes (Linux)",
+          "line": 170
+        },
+        {
+          "level": 2,
+          "title": "Sandboxes (Windows)",
+          "line": 178
+        },
+        {
+          "level": 2,
+          "title": "Sandboxes (Online)",
+          "line": 188
+        },
+        {
+          "level": 2,
+          "title": "Visualizadores Hexadecimais",
+          "line": 196
+        },
+        {
+          "level": 2,
+          "title": "Outras",
+          "line": 240
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [
+        {
+          "line": 76,
+          "kind": "malformed-empty-table-row",
+          "expectedColumns": 3,
+          "actualColumns": 1,
+          "action": "blank-row-for-analysis-only-source-unchanged"
+        }
+      ],
+      "codeIds": [
+        "apendices/e-ferramentas.md::code-01"
+      ],
+      "astCounts": {
+        "blank_line": 49,
+        "block_code": 1,
+        "block_quote": 1,
+        "codespan": 1,
+        "emphasis": 11,
+        "heading": 22,
+        "link": 104,
+        "paragraph": 7,
+        "strong": 18,
+        "table": 20,
+        "table_body": 20,
+        "table_cell": 351,
+        "table_head": 20,
+        "table_row": 97,
+        "text": 458
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    },
+    {
+      "id": "referencias.md",
+      "title": "Referências",
+      "sha256": "a6d0fe3c0c891ed39e74d556cc5135623579a0dfd4b26075e69abf4566c1d6c3",
+      "lines": 28,
+      "wordsWhitespace": 137,
+      "summaryEntry": {
+        "order": 48,
+        "title": "Referências",
+        "path": "referencias.md",
+        "depth": 0,
+        "parentPath": null
+      },
+      "headings": [
+        {
+          "level": 1,
+          "title": "Referências",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Artigos",
+          "line": 3
+        },
+        {
+          "level": 2,
+          "title": "Vídeos",
+          "line": 13
+        },
+        {
+          "level": 2,
+          "title": "Manuais",
+          "line": 17
+        },
+        {
+          "level": 2,
+          "title": "Livros",
+          "line": 22
+        }
+      ],
+      "frontMatter": {},
+      "analysisRepairs": [],
+      "codeIds": [],
+      "astCounts": {
+        "blank_line": 8,
+        "heading": 5,
+        "linebreak": 11,
+        "link": 8,
+        "paragraph": 4,
+        "text": 36
+      },
+      "exerciseHeadings": [],
+      "gitbookDirectives": [],
+      "editorialStatus": "audited-source-not-adapted"
+    }
+  ],
+  "unlistedMarkdown": [
+    "01-introducao/registro-de-alteracoes.md",
+    "SUMMARY.md"
+  ]
+}
