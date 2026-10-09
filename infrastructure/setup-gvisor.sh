@@ -10,7 +10,7 @@ mkdir -p -- "${bundle_dir}"
 cd -- "${bundle_dir}"
 # A new checkout has no ignored local archive. Fetch the complete official release.
 if [[ ! -s gvisor.tar.zstd || ! -s gvisor.tar.zstd.sha512 ]]; then
-  release="${GVISOR_RELEASE:-20261005.0}"
+  release="${GVISOR_RELEASE:-20260928.0}"
   [[ "$release" =~ ^[0-9]{8}\.[0-9]+$ ]] || { echo "Invalid gVisor release." >&2; exit 1; }
   architecture="$(uname -m)"
   [[ "$architecture" == x86_64 || "$architecture" == aarch64 ]] || { echo "Unsupported architecture." >&2; exit 1; }

@@ -47,7 +47,7 @@ jobs:
           npm run runner:build
           mkdir -p .runtime
       - name: Install verified gVisor in this ephemeral runner
-        run: sudo env GVISOR_RELEASE=20261005.0 bash infrastructure/setup-gvisor.sh
+        run: sudo env GVISOR_RELEASE=20260928.0 bash infrastructure/setup-gvisor.sh
       - name: Build isolated execution images
         run: |
           docker build -f infrastructure/runner-images/Dockerfile --target compiler -t nucleo-compiler:local .

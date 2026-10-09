@@ -96,17 +96,11 @@ export async function executeJob(
         { mode: 0o600 },
       );
       await onStage("running");
-      outcome = await run(
-        "model",
-        "nucleo-model:local",
-        [
-          "node",
-          "--v8-pool-size=1",
-          "/opt/model-runner.mjs",
-          "/workspace/model-input.json",
-        ],
-        256,
-      );
+      outcome = await run("model", "nucleo-model:local", [
+        "node",
+        "/opt/model-runner.mjs",
+        "/workspace/model-input.json",
+      ]);
     } else {
       await onStage("compiling");
       const entries = input.files
@@ -154,7 +148,7 @@ export async function executeJob(
         "compile",
         "nucleo-compiler:local",
         command,
-        1024,
+        512,
         15000,
         10,
       );
