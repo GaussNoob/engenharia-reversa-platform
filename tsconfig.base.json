@@ -25,6 +25,7 @@
       "@nucleo/api-client/*": ["./packages/api-client/src/*"],
       "@nucleo/features/*": ["./packages/features/src/*"],
       "@nucleo/design-tokens/*": ["./packages/design-tokens/*"]
-    }
+    },
+    "typeRoots": ["./node_modules/@types"]
   }
 }
