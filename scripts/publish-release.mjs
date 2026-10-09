@@ -1,4 +1,10 @@
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import {
+  readdir,
+  readFile,
+  writeFile,
+  mkdir,
+  copyFile,
+} from "node:fs/promises";
 import { basename, resolve } from "node:path";
 import { spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
@@ -26,9 +32,27 @@ await collect(directory);
 if (!files.length) throw new Error("Nenhum instalador encontrado.");
 if (new Set(files.map((file) => basename(file))).size !== files.length)
   throw new Error("Artefatos com nomes duplicados.");
-const checksum = resolve(directory, "SHA256SUMS-" + target);
+// GitHub normalizes accented asset names. Hash the exact ASCII names users download.
+const uploadDirectory = resolve(".runtime/release-upload-" + target);
+const uploadNames = files.map((file) =>
+  basename(file)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9._-]/g, "_"),
+);
+if (new Set(uploadNames).size !== uploadNames.length)
+  throw new Error("Nomes normalizados de artefatos duplicados.");
+await mkdir(uploadDirectory, { recursive: true });
+const uploadFiles = await Promise.all(
+  files.map(async (file, index) => {
+    const output = resolve(uploadDirectory, uploadNames[index]);
+    await copyFile(file, output);
+    return output;
+  }),
+);
+const checksum = resolve(uploadDirectory, "SHA256SUMS-" + target);
 const hashes = await Promise.all(
-  files.map(
+  uploadFiles.map(
     async (file) =>
       createHash("sha256")
         .update(await readFile(file))
@@ -72,4 +96,4 @@ if (gh(["release", "view", tag], true) !== 0) {
   )
     gh(["release", "view", tag]);
 }
-gh(["release", "upload", tag, ...files, checksum, "--clobber"]);
+gh(["release", "upload", tag, ...uploadFiles, checksum, "--clobber"]);
