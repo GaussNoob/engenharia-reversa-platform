@@ -3,12 +3,17 @@ on:
   push:
     tags: ["v*"]
   workflow_dispatch:
+    inputs:
+      api_origin:
+        description: "HTTPS API origin for this build; blank uses NUCLEO_API_URL"
+        type: string
+        required: false
 permissions:
   contents: read
 jobs:
   android:
     runs-on: ubuntu-latest
-    env: { NUCLEO_API_URL: "${{ vars.NUCLEO_API_URL }}" }
+    env: { NUCLEO_API_URL: "${{ inputs.api_origin || vars.NUCLEO_API_URL }}" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

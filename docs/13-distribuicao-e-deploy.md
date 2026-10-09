@@ -13,7 +13,7 @@ Node 24 é usado no frontend Vercel e nos testes locais; Node 26 permanece nos a
 ## Builds independentes
 
 - npm run build:web: assets e build Next, sem módulos nativos.
-- npm run build:desktop: instalador Tauri no sistema atual. Defina NUCLEO_API_URL como origem HTTPS real. Windows precisa de MSVC e WebView2; Linux precisa de WebKitGTK/GTK e Secret Service; macOS precisa das ferramentas Apple. Windows gera instalador NSIS .exe; os demais targets são definidos pelo sistema onde o build roda.
+- npm run build:desktop: instalador Tauri no sistema atual. Defina NUCLEO_API_URL como origem HTTPS real. Windows precisa de MSVC e WebView2; Linux precisa de WebKitGTK/GTK e Secret Service; macOS precisa das ferramentas Apple. Windows gera instalador NSIS .exe; Linux gera .deb/.AppImage; macOS gera .app/.dmg.
 - npm run build:desktop:ui: bundle local desktop, antes da etapa Rust.
 - npm run build:mobile: bundle local Android, com a mesma origem HTTPS da API.
 - npm run build:android: build da interface, cap sync android e Gradle assembleDebug. Gera APK de teste.
@@ -55,9 +55,9 @@ Rollback web: escolha o deployment anterior validado na Vercel e restaure/promov
 
 quality.yml faz npm ci, conteúdo auditado, typecheck, lint de dependências/formatação, unitários, Next e bundles nativos. Usa PostgreSQL efêmero para a integração de sessões nativas. Testes UI usam fixtures apenas no ambiente de testes e não simulam os serviços em produção.
 
-desktop.yml gera artefatos Windows/Linux/macOS por tag vX.Y.Z. mobile.yml gera APK de debug e AAB não assinado por tag. Nenhum desses workflows declara assinatura concluída. version-release.mjs aplica a tag aos manifests e ao versionCode Android. Não crie uma tag de release até os checks passarem e NUCLEO_API_URL estar configurada no repositório.
+desktop.yml gera artefatos Windows/Linux/macOS por tag vX.Y.Z. mobile.yml gera APK de debug e AAB não assinado por tag. Nenhum desses workflows declara assinatura concluída. version-release.mjs aplica a tag aos manifests e ao versionCode Android. Não crie uma tag de release até os checks passarem e NUCLEO_API_URL estar configurada no repositório. workflow_dispatch permite api_origin explícita para um build de teste, sem alterar a variável de produção. Artefatos compilados com uma API de teste não são releases publicáveis.
 
-Assinatura Android: crie um keystore de release fora do repositório, configure signingConfigs no Gradle por variáveis/arquivo externo e separe chave de upload da chave de distribuição Play App Signing. Não versione senhas ou keystores. Valide com apksigner e bundletool antes de submeter. Certificados/chaves não foram fornecidos nesta sessão.
+Assinatura Android: crie um keystore de release fora do repositório, defina NUCLEO_ANDROID_KEYSTORE (caminho absoluto), NUCLEO_ANDROID_STORE_PASSWORD, NUCLEO_ANDROID_KEY_ALIAS e NUCLEO_ANDROID_KEY_PASSWORD no ambiente de build. O Gradle já usa essas quatro variáveis somente quando todas estão presentes; sem elas o AAB fica não assinado. Separe esses secrets no CI e forneça o keystore por arquivo externo e use chave de upload separada da chave de distribuição Play App Signing. Não versione senhas ou keystores. Valide com apksigner e bundletool antes de submeter. Certificados/chaves não foram fornecidos nesta sessão.
 
 Assinatura desktop: Windows usa certificado/provider de code signing e timestamp; macOS usa Developer ID e notarização. Configure pelo ambiente de CI e overlays de Tauri, com secrets separados de URLs públicas. A assinatura de instalador é distinta da assinatura exigida pelo updater. Para habilitar updater futuro, será necessário manifest e downloads HTTPS, chave pública embarcada, chave privada protegida e validação de assinatura; nenhum fallback sem verificação deve ser introduzido.
 

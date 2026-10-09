@@ -58,6 +58,7 @@ async function start() {
       }
       if (location.hash && !["#/entrar", "#/dashboard"].includes(location.hash))
         history.back();
+      else void App.minimizeApp();
     });
   } else {
     // Development browser: same-origin cookies via the local proxy, never a localStorage fallback.

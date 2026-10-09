@@ -10,8 +10,8 @@ apps/web (Next.js), apps/desktop (Tauri 2), apps/mobile (Capacitor/Android), app
 
 - **Implementado e validado:** arquitetura React compartilhada; preservação do Next com páginas de servidor; landing exclusiva da web; navegação dos shells em login/dashboard; Monaco desktop e CodeMirror mobile; aliases e proteção das páginas privadas web; typecheck de todos os workspaces; lint; testes unitários e UI descritos abaixo; build Next e bundles JavaScript independentes.
 - **Implementado e validado parcialmente:** Tauri Windows tem compilação Rust e geração do instalador NSIS .exe concluídas. Os testes UI do shell rodam em Chromium, não em uma janela WebView2 instalada. Armazenamento no Credential Manager, diálogo de arquivos e sessão real no aplicativo exigem teste no SO com a API.
-- **Implementado mas não validado no ambiente atual:** projeto Android, integração Capacitor/plugins e comandos APK/AAB; distribuição Tauri Linux/macOS; configuração de autenticação Bearer assinada e cofre do SO; recuperação de senha por email; integração API/PostgreSQL; serviços Linux, nginx/TLS, permissões de artefatos, backups/restore e sandbox gVisor. Os testes existentes de execução real foram preservados, mas dependem desses serviços.
-- **Implementado mas não validado no ambiente atual:** workflows de qualidade, instaladores por tag, Android e deploy Vercel. A configuração não equivale à execução na infraestrutura de CI.
+- **Implementado mas não validado no ambiente atual:** projeto Android, integração Capacitor/plugins e comandos APK/AAB; distribuição Tauri Linux/macOS; cofre do SO; recuperação de senha por email; fluxos de execução real da API; serviços Linux, nginx/TLS, permissões de artefatos, backups/restore e sandbox gVisor. Os testes existentes de execução real foram preservados, mas dependem desses serviços.
+- **Implementado mas não validado no ambiente atual:** workflows de instaladores por tag, Android e deploy Vercel. O workflow de qualidade foi executado com sucesso no GitHub Actions, incluindo npm ci e autenticação real contra PostgreSQL.
 - **Pendente:** publicação real na Vercel e validação do domínio/HTTPS; provisionamento/validação da API e runner Linux; assinatura/notarização de instaladores; APK/AAB de release assinado e submissão Google Play. A Vercel não está conectada via MCP e não foram fornecidos projeto/equipe, domínio/acesso à API ou credenciais de assinatura.
 
 ## Testes e builds executados
@@ -25,9 +25,10 @@ apps/web (Next.js), apps/desktop (Tauri 2), apps/mobile (Capacitor/Android), app
 - npm run build:web: build Next de produção concluído, com páginas privadas dinâmicas e a rota de aula restaurada. Não usa output export.
 - node scripts/build-native.mjs desktop --development e mobile --development: bundles independentes concluídos. Os bundles otimizados também foram compilados usando https://localhost:3060 apenas como configuração de teste, sem API publicada. Compilação de interface não comprova um instalador ou APK.
 - npm run build:desktop: instalador Windows NSIS x64 .exe gerado (6,56 MiB), usando https://localhost:3060 como origem de teste. O instalador não está assinado e não aponta para uma API publicada. O MSI não foi gerado porque o processo WiX light.exe falhou neste ambiente; o target Windows adotado é NSIS, mantendo a distribuição .exe.
+- GitHub Actions Quality: [execução aprovada](https://github.com/GaussNoob/engenharia-reversa-platform/actions/runs/37873676967). npm ci, conteúdo, tipos, lint, testes, builds e um teste de autenticação nativa contra PostgreSQL real aprovados. Total: 35 unitários + 9 UI + 1 integração. O teste real cobre conta compartilhada, tokens sem assinatura, revogação, logout e CORS.
 - cargo check --locked: compilação Tauri/Rust Windows concluída com MSVC. cargo fmt --check: sucesso.
 
-Os testes UI usam dados controlados para verificar composição e navegação; não comprovam autenticação real, entrega de email ou execução isolada. tests/integration/native-auth.test.ts verifica tokens assinados, revogação e origens contra Better Auth/PostgreSQL reais, e está incluído na CI. A suíte completa original exige um runner Linux ativo e não foi executada neste Windows.
+Os testes UI usam dados controlados para verificar composição e navegação; não comprovam autenticação real, entrega de email ou execução isolada. tests/integration/native-auth.test.ts verifica tokens assinados, revogação e origens contra Better Auth/PostgreSQL reais, e está incluído na CI e foi aprovado no GitHub Actions. A suíte completa original exige um runner Linux ativo e não foi executada neste Windows.
 
 ## Arquivos principais criados e modificados
 
@@ -43,7 +44,7 @@ O diretório recebido não continha histórico Git. O primeiro commit registra o
 
 ## Limites e próximos passos externos
 
-Node 24.21.0, npm 11.19.0 e Rust/MSVC foram usados localmente. A cópia original de node_modules estava incompleta; as dependências foram recuperadas respeitando as versões dos manifests. A instalação normal de workspaces precisa ser confirmada por npm ci na CI, pois o filesystem local não permitiu criar os links usuais do npm. A recuperação do cache Rust utilizou fontes oficiais HTTPS e checksums do Cargo.lock; nenhum TLS foi desabilitado.
+Node 24.21.0, npm 11.19.0 e Rust/MSVC foram usados localmente. A cópia original de node_modules estava incompleta; as dependências foram recuperadas respeitando as versões dos manifests. A instalação normal de workspaces foi confirmada por npm ci no GitHub Actions; o filesystem local não permitiu criar os links usuais do npm. A recuperação do cache Rust utilizou fontes oficiais HTTPS e checksums do Cargo.lock; nenhum TLS foi desabilitado.
 
 Sem Java/JDK/Android SDK, não foi possível executar Gradle. macOS/Linux desktop precisam dos respectivos toolchains e stores seguros. Não existem IPA ou objetivo iOS nesta entrega.
 

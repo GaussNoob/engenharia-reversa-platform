@@ -1,5 +1,16 @@
 apply plugin: 'com.android.application'
 
+// Secrets remain in the build environment, never in the application or repository.
+def releaseStore = System.getenv('NUCLEO_ANDROID_KEYSTORE')
+def releaseStorePassword = System.getenv('NUCLEO_ANDROID_STORE_PASSWORD')
+def releaseAlias = System.getenv('NUCLEO_ANDROID_KEY_ALIAS')
+def releaseKeyPassword = System.getenv('NUCLEO_ANDROID_KEY_PASSWORD')
+def signingValues = [releaseStore, releaseStorePassword, releaseAlias, releaseKeyPassword]
+if (signingValues.any { it } && !signingValues.every { it }) {
+    throw new GradleException('Configure all four NUCLEO_ANDROID signing variables or leave them unset.')
+}
+
+
 android {
     namespace = "com.nucleo.estudo"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -16,8 +27,19 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        if (releaseStore) {
+            release {
+                storeFile file(releaseStore)
+                storePassword releaseStorePassword
+                keyAlias releaseAlias
+                keyPassword releaseKeyPassword
+            }
+        }
+    }
     buildTypes {
         release {
+            if (releaseStore) signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
