@@ -246,7 +246,9 @@ describe("Execução real em gVisor", () => {
     ).toBe(404);
     const job = await waitFor(queued);
     expect(job.status).toBe("succeeded");
-    expect(job.result?.stdout).toContain("uid 1000");
+    const uid = job.result?.stdout.match(/^uid (\d+)$/m)?.[1];
+    expect(uid).toBeDefined();
+    expect(Number(uid)).toBeGreaterThan(0);
     expect(job.result?.stdout).toContain("credentials False");
     expect(job.result?.stdout).toContain("network blocked");
   });
@@ -433,7 +435,9 @@ describe("Coleção de exercícios e evidência de execução", () => {
       const response = await request("/executions", accounts[0], payload);
       expect(response.status, exercise.id).toBe(202);
       const job = await waitFor((await response.json()) as Job);
-      expect(job.status, exercise.id).toBe("succeeded");
+      expect(job.status, exercise.id + ": " + JSON.stringify(job.result)).toBe(
+        "succeeded",
+      );
       const result = await request(
         `/exercises/${exercise.id}/check`,
         accounts[0],

@@ -58,3 +58,6 @@ Atualização automática não foi habilitada: sem endpoint de releases, chaves 
 - [Capacitor 8: requisitos](https://capacitorjs.com/docs/getting-started/environment-setup)
 - [Capacitor: SystemBars e safe areas](https://capacitorjs.com/docs/apis/system-bars)
 - [Vercel: versões Node suportadas](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions)
+
+- [Capacitor: Keyboard Android](https://capacitorjs.com/docs/apis/keyboard)
+- [gVisor: instalação e distribuição completa](https://gvisor.dev/docs/user_guide/install/)

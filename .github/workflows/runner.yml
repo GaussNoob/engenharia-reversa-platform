@@ -66,6 +66,7 @@ jobs:
         if: failure()
         with:
           name: runner-integration-diagnostics
+          include-hidden-files: true
           path: |
             .runtime-api.log
             .runtime-runner.log

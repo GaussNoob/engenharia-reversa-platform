@@ -69,6 +69,7 @@ jobs:
         if: failure()
         with:
           name: quality-diagnostics
+          include-hidden-files: true
           path: |
             test-results/
             playwright-report/

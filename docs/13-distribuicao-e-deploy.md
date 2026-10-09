@@ -53,6 +53,8 @@ Rollback web: escolha o deployment anterior validado na Vercel e restaure/promov
 
 ## CI e releases
 
+runner.yml executa a suíte completa de integração em um host Linux efêmero com PostgreSQL, Docker e gVisor verificado. É manual para evitar reconstruir as imagens em alterações de documentação/UI. Nunca substitui runsc por runc para fazer um teste passar.
+
 quality.yml faz npm ci, conteúdo auditado, typecheck, lint de dependências/formatação, unitários, Next e bundles nativos. Usa PostgreSQL efêmero para a integração de sessões nativas. Testes UI usam fixtures apenas no ambiente de testes e não simulam os serviços em produção.
 
 desktop.yml gera artefatos Windows/Linux/macOS por tag vX.Y.Z. mobile.yml gera APK de debug e AAB não assinado por tag. Nenhum desses workflows declara assinatura concluída. version-release.mjs aplica a tag aos manifests e ao versionCode Android. Não crie uma tag de release até os checks passarem e NUCLEO_API_URL estar configurada no repositório. workflow_dispatch permite api_origin explícita para um build de teste, sem alterar a variável de produção. Artefatos compilados com uma API de teste não são releases publicáveis.
